@@ -1,0 +1,97 @@
+{
+  "deepDive": {
+    "title": "Real AI Agents Are Now Doing Real Banking Jobs",
+    "html": "<p><strong>The \"AI in banking\" story just got a lot more concrete</strong> — AI agents aren't augmenting Bank of America employees anymore, they're replacing some of the roles entirely.</p>\n\n<h3>What Happened</h3>\n<p>Bank of America has deployed <strong>AI agents into active banking roles</strong>, moving beyond chatbots and co-pilots into autonomous systems that independently execute tasks within the bank's operations. This marks a significant shift from AI as a support tool to AI as a functional colleague. <a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFBic2plM1JQZzVXMmFNVWxXM3NRYUJENE5KQUFhd0Z6d0N0NUZVYnBLcE9SVmV6c3NXeUs2VS1INHVIUmVXNmEtNUc1YkJ2WkJPblBtRWZtMUFtUEkwcEMzTGx2d1M5cVhEcmJjcnRaMmYwREg1LWQ4d0YtRFlJUHFXTUNPY3Y2Zy1xMjRyc3RVT2lOTHMyNVFJa0w4Z0U\">Read the full story here.</a></p>\n\n<h3>Why It Matters</h3>\n<p>When the <strong>largest US retail bank by deposits</strong> moves AI agents into actual job functions — not pilots, not sandboxes — the rest of the industry takes notice fast. Every competitor is now asking the same uncomfortable question: are we six months behind, or two years? The pressure to deploy, not just experiment, just went up significantly.</p>\n\n<p>The operational implications cut across every function. <strong>Compliance, lending, customer service, back-office processing</strong> — these are all in scope. For insurers and asset managers watching from the sidelines, this is the clearest signal yet that agentic AI is a near-term workforce and operating model issue, not a long-term research topic.</p>\n\n<h3>Food For Thought 🍎</h3>\n<ul>\n  <li>If an AI agent can handle parts of your current role autonomously, <strong>what unique judgment or relationship skills</strong> would make you indispensable — and are you actively developing them?</li>\n  <li>When a customer interaction is handled by an AI agent, <strong>who is accountable</strong> when something goes wrong — and does your organisation have a clear answer right now?</li>\n  <li>If your team were given an AI agent tomorrow to take on routine tasks, <strong>what would you do with the freed-up time</strong> — and would your manager know how to measure your new value?</li>\n</ul>",
+    "selectedIndex": 11
+  },
+  "startups": {
+    "items": [
+      {
+        "company": "Granola",
+        "tagline": "AI meeting intelligence platform expanding into enterprise workflow automation",
+        "summary": "Granola raised $125M, pushing its valuation from $250M to $1.5B in a single round. The company is evolving beyond its origins as a meeting notetaker into a broader enterprise AI application. The new funding follows complaints from users, prompting Granola to add deeper AI agent support.",
+        "analysis": "**From passive notes to active enterprise workflows.** Granola's pivot to support AI agents means it is repositioning from a productivity tool into an orchestration layer that can act on meeting context — a meaningful shift for financial institutions where meeting intelligence tied to client records, compliance documentation, and deal pipelines has real operational value.",
+        "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/"
+      },
+      {
+        "company": "Dash0",
+        "tagline": "OpenTelemetry-native observability platform with an AI agent layer that acts on problems, not just surfaces them",
+        "summary": "Dash0 hit unicorn status with a $110M Series B led by Balderton Capital, with participation from Accel, Cherry, and Deutsche Telekom's T.Capital, valuing the company at $1B. Founded by the team behind Instana, the platform has grown to 600 customers in under two years. The new funding will fuel Agent0, an AI layer built on top of its observability stack.",
+        "analysis": "**Observability that closes the loop autonomously.** Most monitoring tools stop at alerting; Dash0's Agent0 layer is designed to diagnose and remediate issues without human intervention. For financial institutions running complex, high-availability infrastructure, an agent that can act on telemetry data — not just report it — directly reduces incident response time and operational risk.",
+        "url": "https://thenextweb.com/news/dash0-110m-series-b-observability-unicorn"
+      },
+      {
+        "company": "Dreamer",
+        "tagline": "Agentic AI startup whose founding team was acqui-hired by Meta",
+        "summary": "Meta acqui-hired the co-founders and personnel of Dreamer, an agentic AI startup, for an undisclosed price. The team includes Hugo Barra, a former Meta employee, who will return to the company as part of the deal.",
+        "analysis": "**Talent concentration at the frontier of agentic AI.** The acqui-hire signals that Meta views agentic AI capability as sufficiently scarce to pay for entire founding teams rather than hire individually. For enterprises and financial institutions evaluating which platforms to build on, the consolidation of agentic AI talent inside a handful of hyperscalers narrows the field of independent vendors — raising long-term dependency risk.",
+        "url": "https://siliconangle.com/2026/03/23/meta-acqui-hires-co-founders-agentic-ai-startup-dreamer/"
+      }
+    ]
+  },
+  "thingsToKnow": {
+    "items": [
+      {
+        "headline": "Starling Bank Launches UK's First Agentic AI Money Manager to Automate Personal Finance",
+        "source": "The Fintech Times",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUlhUbm5VYV8xMXVpcTZoeEQyRDZLSTdVTDAwdWxUX3NTVEZ2Qk1Fc0lXZ2ZHZ3BqRDhGZ3ZoZm1EbWpxU0ZVaWk2blVqNExtaVJpQ1Y4ejZBTzhGTjJfSjNkbm1NYVI2dFJRVkhWdkwtcjZGS3R6SU9HazY0eU5KM0hRNDFZM18xSkRzVkJYZ2hQZGlpNWptX253V0FUZmlIbUdtMlJla2V2bm9WWEQzUTZiUV9fdw?oc=5",
+        "summary": "Starling Bank has launched what it describes as the UK's first agentic AI banking assistant, designed to automate personal finance tasks for customers. The deployment marks a significant step in moving AI from advisory to autonomous action within retail banking. It positions Starling as a pioneer in agentic financial services in the UK market.",
+        "bullets": [
+          "**First mover in agentic retail banking (UK).** Starling's launch signals that agentic AI — capable of taking actions, not just answering questions — is crossing from pilot into production in consumer banking, raising the bar for incumbent high-street banks.",
+          "**Liability and oversight questions intensify.** When an AI autonomously manages money movement, banks face heightened questions around error accountability, customer consent frameworks, and FCA expectations for explainability and redress."
+        ]
+      },
+      {
+        "headline": "Mastercard Advances Agentic Payments in Latin America and the Caribbean With Live Transactions Completed Across the Region",
+        "source": "FF News | Fintech Finance",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSmxpSG1KVXNCYWZTVmlyQkNjamEzUjUxcV9yY0hmN29uenNnTHBpMGxXVmttcnprbDB2aGk2Umg0eTh3S3pqdzZWZTRVNnFPVmhUMHpocDlnNlJRTkpFMVFwN1RKU19QbHMxVWhjekJCakJwSGtJWFJPa2d1cGRZMW5rVVZYVFprVGQzZGd2QVJQZ1BhdTN4TklBc3dwTVcyR29QNHpNWkFfelA0YWhLUWpMVmJ3ME9jQjVUS1lEM2dldThFSGx6MEIyN0duLU8zTUYzZFZKWTZ6cFBKRjlVVnc3bENqeWtvckR3MlFLLXZEMUhL?oc=5",
+        "summary": "Mastercard has moved agentic payments beyond proof-of-concept in Latin America and the Caribbean, completing live transactions across the region. This represents a concrete production deployment of AI-driven autonomous payment execution at scale. The milestone extends Mastercard's agentic payments infrastructure into a major emerging-market geography.",
+        "bullets": [
+          "**Agentics being writt payments go live at network scale.** Mastercard completing real transactions — not demos — across an entire region shows that AI-initiated payment flows are now an operational reality, forcing acquirers, issuers, and fintechs in LatAm to prepare for a world where machines, not humans, authorise spend.",
+          "**Fraud and authentication models must adapt.** Autonomous payment agents generate transaction patterns that differ materially from human behaviour, meaning risk and fraud teams will need to retrain models and update decisioning rules to avoid both false positives and novel attack vectors."
+        ]
+      },
+      {
+        "headline": "UiPath Launches Agentic Solutions to Strengthen Fraud Prevention and Accelerate Lending",
+        "source": "Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOHc0Rk9rRG81M2YxWkFsYUxfNTlMUmtsN0pxYXRsTGN4NUF4aDZmVU13cExzQThoNjRtdVBHb3BhNGRBb3JFNWljZkNKelpzS3RQSkZCa0daUkQ0N3Zkd0tVRUgzaTdDejVtR2tVQmkwX1dYaC1GTDFMN2FMZEt2elhITUo0WlRGQ095N3NQQWwtajRpVGVMV3drSkNfc3l0WmJRNGNQYzdOM3ZwdjNHQUlXTXQ5cFVpMHBORjEtM0hsVXJONjMtc3hfeE1UWUNRQnNESmtqR2w2R3Z0?oc=5",
+        "summary": "UiPath has launched agentic AI solutions targeting two high-priority banking use cases: fraud prevention and lending acceleration. The tools are designed to move beyond robotic process automation into autonomous decision-support and action within compliance-sensitive workflows. The announcement extends UiPath's footprint deeper into core banking operations.",
+        "bullets": [
+          "**Automation vendors are climbing the decision stack.** UiPath's shift from RPA to agentic solutions in fraud and lending signals that the competitive threat to banks' internal automation teams — and to specialist fintech vendors in those niches — is intensifying.",
+          "**Compliance workflows are a critical test case.** Deploying autonomous agents in regulated processes like lending underwriting requires banks to embed auditability and model governance from day one, not as an afterthought, to satisfy fair-lending and explainability obligations."
+        ]
+      },
+      {
+        "headline": "Accenture and Anthropic Team to Help Organizations Secure, Scale AI-Driven Cybersecurity Operations",
+        "source": "Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQUVfekZPbUlCLUh5enF1a0tNTHdsdW56UE1xczZFQkVaQ2I2SUpLSEhteWVjMV8xdWZnWHo1cUMwRjMxaXBOQUhIeUNEVDBOcjA2WjRCRzd5WE1xTElESjBjczJiMmctNVZfMklPci1UUmVhODJzNV9va1lubGpZWWJyMEJueDkwNk1qUk0tZWRHM1hUV1pLTWlGZU5LQ3JIajRYbzZvRE9vZXVmT3RLWV95cjFZbjNJQ056ejNMYlJ2cVRZaHpPeUJBWmVYcG52VjdPQjNrOUNlT19sbTRPUFZyb0FvaFpJd3c4?oc=5",
+        "summary": "Accenture and Anthropic have formed a partnership aimed at helping enterprises secure and scale AI-driven cybersecurity operations. The collaboration combines Accenture's professional services reach with Anthropic's Claude models. Financial institutions, which are prime targets for AI-powered attacks, are an obvious target market for such an offering.",
+        "bullets": [
+          "**Enterprise AI security is becoming a professional services battleground.** The Accenture-Anthropic tie-up reflects growing demand from regulated industries — banks and insurers especially — for turnkey AI security stacks backed by credible partners, not just point tools.",
+          "**Model provider accountability enters the security chain.** By partnering directly with Anthropic, Accenture signals that who built the underlying model now matters for enterprise security posture — a consideration that will increasingly appear in vendor due diligence and third-party risk assessments."
+        ]
+      },
+      {
+        "headline": "AI agents are getting more capable, but reliability is lagging—and that's a problem",
+        "source": "Fortune",
+        "url": "https://fortune.com/2026/03/24/ai-agents-are-getting-more-capable-but-reliability-is-lagging-narayanan-kapoor/",
+        "summary": "Princeton researchers have developed a new battery of tests specifically benchmarking AI agent reliability, finding that capability gains are outpacing reliability improvements. The study highlights that most AI vendors do not benchmark for reliability at all. This gap has significant implications for any enterprise deploying agents in consequential workflows.",
+        "bullets": [
+          "**Capability without reliability is a risk management problem.** For financial institutions, where agent errors can mean mis-executed trades, incorrect credit decisions, or compliance breaches, the Princeton finding that reliability benchmarks barely exist should prompt CROs and model risk teams to demand vendor-supplied reliability data before production deployments.",
+          "**A new evaluation standard may be emerging.** If Princeton's battery gains traction, regulators and model risk frameworks (SR 11-7 and its equivalents) could begin referencing reliability benchmarks alongside accuracy metrics — changing procurement and validation requirements for AI vendors selling into financial services."
+        ]
+      },
+      {
+        "headline": "OpenAI finance team tests shift from AI tools to autonomous agents in internal hackathon",
+        "source": "EdTech Innovation Hub",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQlBWNWJGQy1DUDE3amFmZzZLeTZlNWIyZlpZY1BTRDhnbDliRWRCQURKSG14dVh1TGdyUDFKOUJjOENPSERFc2ZJU3U4SGFfRjJxNmo4OEZLVW1Nc0FvcG1ubEF5eExtWWo1ckZuclFTN3ZlaU5DcWVSajdnN082Q1NhLXR4NFQ0LVBueTg4U2dkbXJrRHFHME1YQzdtSUlQTU4tMmRfRXR0MGQwSER3dzBpNDh4TW80TmxMUURTcmtYdUZXVTVXcg?oc=5",
+        "summary": "OpenAI's own finance team ran an internal hackathon exploring the transition from AI-assisted tools to fully autonomous agents for financial workflows. The exercise represents a notable signal: one of the world's leading AI labs is itself working through the practical challenges of deploying autonomous agents in a finance function. The findings are likely to inform how OpenAI shapes products for enterprise finance customers.",
+        "bullets": [
+          "**Finance functions are live testing grounds for agentic AI.** The fact that OpenAI's internal finance team — not just its product org — is stress-testing autonomous agents suggests CFO-level adoption is accelerating, and that the workflow patterns discovered internally will shape the next generation of finance-facing AI products.",
+          "**The shift from tool to agent changes the human-in-the-loop calculus.** Moving from AI that assists to AI that acts autonomously requires finance teams to redesign approval workflows, reconciliation controls, and audit trails — operational changes that go well beyond software procurement."
+        ]
+      }
+    ]
+  },
+  "generatedAt": "2026-03-25T23:59:46.054Z"
+}

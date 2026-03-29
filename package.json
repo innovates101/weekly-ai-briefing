@@ -1,0 +1,25 @@
+{
+  "name": "ai-agents-weekly",
+  "version": "1.0.0",
+  "description": "Weekly AI briefing email system for financial institutions",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "run-now": "node src/index.js --run-now",
+    "test-email": "node src/index.js --test-email",
+    "test-fetch": "node src/index.js --test-fetch",
+    "test-generate": "node src/index.js --test-generate",
+    "test-email": "node src/index.js --test-email"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^8.0.4",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
