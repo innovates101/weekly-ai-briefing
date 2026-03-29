@@ -2,7 +2,7 @@
 
 ## What This Project Does
 
-Automated weekly email newsletter delivering AI news curated for financial institutions. Named after Simon Taylor's "Fintech Brainfood" style. The pipeline: fetch articles → Claude analyzes & editorializes → render HTML email → send via Gmail.
+Automated weekly email newsletter delivering AI news curated for financial institutions. The pipeline: fetch articles → Claude analyzes & editorializes → render HTML email → send via Gmail.
 
 ## Architecture
 
