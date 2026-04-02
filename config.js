@@ -48,14 +48,14 @@ const CATEGORIES = [
 const TRACKED_COMPANIES = [
   // Major banks
   'JPMorgan', 'Goldman Sachs', 'Morgan Stanley', 'Citigroup', 'Bank of America',
-  'HSBC', 'Barclays', 'Deutsche Bank', 'BNP Paribas', 'Wells Fargo',
+  'HSBC', 'Barclays', 'Deutsche Bank', 'BNP Paribas', 'Wells Fargo', 'Bank of China','China Construction Bank','Tencent', 'SoftBank','Ant Group','ICBC','China Merchants Bank','WeBank','China Merchants Bank','Ping An Bank',
   // Asset managers
   'BlackRock', 'Vanguard', 'Fidelity', 'State Street',
   // Fintechs
-  'Stripe', 'Plaid', 'Marqeta', 'Brex', 'Chime',
+  'Stripe', 'Plaid', 'Marqeta', 'Brex', 'Chime', 'Alibaba', 'Tencent', 'Ping An', 'WeBank', 'Nubank', 'Revolut', 'Wise', 'Adyen',
   // AI vendors relevant to finance
   'OpenAI', 'Anthropic', 'Google DeepMind', 'Microsoft', 'Palantir',
-  'Salesforce', 'ServiceNow', 'Bloomberg', 'Refinitiv', 'FactSet',
+  'Salesforce', 'ServiceNow', 'Bloomberg', 'Refinitiv', 'FactSet', 'amazon web services', 'huawei cloud', 'baidu cloud', 'mistral AI', 'Deepseek', 'Cohere', 'AI21 Labs', 'Hugging Face', 'qwen AI', 'xAI', 'liquid AI',
   // Regulators
   'FCA', 'SEC', 'OCC', 'Federal Reserve', 'Basel', 'EBA', 'CFPB',
 ];
@@ -66,8 +66,8 @@ const TRACKED_COMPANIES = [
 const KEYWORDS = {
   // High-priority: strongly relevant
   primary: [
-    'AI agent', 'agentic AI', 'LLM', 'large language model',
-    'generative AI', 'GenAI', 'foundation model',
+    'AI agent', 'agentic AI', 'LLM', 'large language model', 'swarm intelligence', 'emergent capabilities',
+    'generative AI', 'GenAI', 'foundation model', 'small language model', 'multimodal model', 'slm',
     'AI regulation', 'AI compliance', 'AI risk',
     'AI banking', 'AI finance', 'AI fintech',
     'autonomous agent', 'multi-agent',
@@ -77,7 +77,7 @@ const KEYWORDS = {
     'machine learning', 'automation', 'natural language processing',
     'digital transformation', 'RegTech', 'SupTech',
     'risk management', 'fraud detection', 'KYC', 'AML',
-    'chatbot', 'copilot', 'workflow automation',
+    'chatbot', 'copilot', 'workflow automation', 'openclaw',
   ],
 };
 
@@ -87,8 +87,17 @@ const RSS_FEEDS = [
   // AI-focused
   { url: 'https://feeds.feedburner.com/venturebeat/SZYF', label: 'VentureBeat AI', category: 'big_tech' },
   { url: 'https://techcrunch.com/category/artificial-intelligence/feed/', label: 'TechCrunch AI', category: 'agentic_startups' },
+  { url: 'https://a16z.com/ai/', label: 'a16z', category: 'big_tech' },
+  { url: 'https://www.sequoiacap.com/feed/', label: 'Sequoia', category: 'big_tech' },
+  { url: 'https://news.ycombinator.com/rss', label: 'Y Combinator', category: 'agentic_startups' },
+  { url: 'https://technode.com/feed/', label: 'TechNode', category: 'big_tech' },
+  { url: 'https://pandaily.com/feed', label: 'Pandaily', category: 'big_tech' },
+  { url: 'https://siliconangle.com/feed/', label: 'SiliconANGLE', category: 'big_tech' },
+  { url: 'https://www.pymnts.com/feed/', label: 'PYMNTS.com', category: 'banks_fintechs' },
+  { url: 'https://www.wired.com/feed/rss', label: 'WIRED', category: 'big_tech' },
   { url: 'https://www.technologyreview.com/feed/', label: 'MIT Technology Review', category: 'research' },
   { url: 'https://huggingface.co/blog/feed.xml', label: 'Hugging Face Blog', category: 'big_tech' },
+  { url: 'https://www.scmp.com/rss/36/feed', label: 'SCMP Tech', category: 'big_tech' },
 
   // Finance & fintech
   { url: 'https://feeds.feedburner.com/efinancialcareersnews', label: 'eFinancialCareers', category: 'banks_fintechs' },
@@ -116,7 +125,7 @@ const NEWSAPI_QUERIES = [
 
 const OUTPUT = {
   // Max articles to include per category in the final briefing
-  maxArticlesPerCategory: 4,
+  maxArticlesPerCategory: 10,
   // Min relevance score (0–1) for an article to be included
   minRelevanceScore: 0.3,
   // Archive directory (relative to project root)
@@ -129,7 +138,7 @@ const OUTPUT = {
 
 const CLAUDE = {
   // Full path to Claude CLI executable (Windows UWP install location)
-  command: 'C:\\Users\\celes\\AppData\\Local\\Packages\\Claude_pzs8sxrjxfjjc\\LocalCache\\Roaming\\Claude\\claude-code\\2.1.78\\claude.exe',
+  command: 'C:\\Users\\celes\\.local\\bin\\claude.exe',
   // Max tokens to allow in a single Claude call (approximate, for prompt budgeting)
   maxContextArticles: 20,
   // Timeout for a single Claude subprocess call (ms)
