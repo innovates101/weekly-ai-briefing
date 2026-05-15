@@ -1,0 +1,63 @@
+{
+  "deepDive": {
+    "title": "Anthropic Plants 10 AI Agents at JPMorgan, Goldman Sachs, and Citi",
+    "html": "<h3>Overview</h3><p>Anthropic just made its most aggressive push into financial services yet. At a New York event on May 5, CEO Dario Amodei shared the stage with JPMorgan Chase CEO Jamie Dimon to announce <strong>10 purpose-built AI agents</strong> for banks and insurers — already running in production at JPMorgan, Goldman Sachs, Citi, AIG, and Visa. <a href=\"https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/\">Fortune has the full story.</a></p><h3>The Details</h3><ul><li>10 specialized agents covering <strong>pitchbook building, earnings review, financial statement auditing, credit memo drafting, and KYC checks</strong></li><li>Already live in production at <strong>JPMorgan Chase, Goldman Sachs, Citi, AIG, and Visa</strong></li><li>Claude now integrates natively with <strong>Microsoft 365</strong> — the dominant productivity suite across major financial firms</li><li>New data partnerships with <strong>Moody's and Dun &amp; Bradstreet</strong> give Claude direct access to credit ratings and business intelligence feeds</li><li>Simultaneous announcement: a <strong>$1.5B joint venture</strong> with Blackstone, Hellman &amp; Friedman, and Goldman Sachs to build an AI-native enterprise services firm</li></ul><h3>Why It Matters</h3><p>This isn't a vague partnership press release. Anthropic has <strong>specific, named workflows running in production</strong> at the most scrutinized financial institutions on earth. When JPMorgan and Goldman Sachs standardize on the same AI infrastructure, it creates an industry default — and applies direct pressure to every mid-size bank still circling the vendor shortlist.</p><p>The Microsoft 365 integration and Moody's data access are the real unlock. They eliminate the two biggest deployment friction points: document workflows and data connectivity. <strong>Banks still in pilot mode risk being a full generation behind</strong> by the time regulators publish their AI governance framework.</p>"
+  },
+  "startups": {
+    "items": [
+      {
+        "company": "Sierra",
+        "tagline": "Enterprise AI agents for customer service, insurance claims, and mortgage refinancing",
+        "summary": "Sierra raised $950M at a $15B valuation this week, led by Tiger Global and GV. Founded by ex-Salesforce CEO Bret Taylor, its agents handle mortgage refinancing, insurance claims, and customer interactions at 40%+ of Fortune 50 companies, with $150M+ ARR two years post-launch.",
+        "analysis": "**Why banks should care:** Sierra's agents run in production financial workflows at institutional scale — evidence that agentic AI in customer-facing finance has crossed from experimental to proven.",
+        "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+      },
+      {
+        "company": "Trase",
+        "tagline": "Agentic AI platform that charges clients only on measurable efficiency improvements",
+        "summary": "Trase emerged from stealth with a $10.5M pre-seed led by Red Cell Partners. Co-founded by Grant Verstandig, the McLean startup embeds engineers inside client orgs to build AI workflows — currently serving healthcare and national security, including an active U.S. Navy contract.",
+        "analysis": "**The pricing model matters:** Trase charges only on proven efficiency gains — directly addressing the ROI barrier that stalls agentic AI adoption in compliance-heavy financial institutions.",
+        "url": "https://technical.ly/entrepreneurship/agentic-ai-startup-trase-raises-10m/"
+      }
+    ]
+  },
+  "thingsToKnow": {
+    "items": [
+      {
+        "headline": "Fed Exempts Agentic AI from Model Risk Rules in Landmark Regulatory Shift",
+        "source": "ABA Banking Journal",
+        "url": "http://bankingjournal.aba.com/2026/05/bowman-ai-evolution-requires-flexible-response-from-bank-regulators/",
+        "summary": "Fed Vice Chair Bowman announced May 1 that revised MRM guidance explicitly excludes generative and agentic AI — removing the SR 11-7 validation burden that has slowed bank deployments. The guidance now applies narrowly to traditional models only, signaling regulators are choosing innovation over obstruction.",
+        "keyPoint": "**Compliance unlock for banks.** Agentic AI deployments no longer require full model risk governance overhead — removing the biggest internal barrier to production rollouts at regulated institutions."
+      },
+      {
+        "headline": "GPT-5.5 Instant Is Now ChatGPT's Default Model — With 52% Fewer Finance and Law Hallucinations",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+        "summary": "OpenAI rolled GPT-5.5 Instant to all ChatGPT users on May 5, replacing GPT-5.3. Internal tests show 52.5% fewer hallucinations on high-stakes finance, law, and medicine prompts. Cross-session memory now draws from past conversations, connected files, and Gmail.",
+        "keyPoint": "**Better accuracy, new governance questions.** Enterprise ChatGPT users get improved financial-document accuracy automatically — but persistent cross-session memory creates fresh data confidentiality requirements for bank deployments."
+      },
+      {
+        "headline": "Google Silently Ships Gemini 3.2 Flash at $0.25/M Tokens Ahead of I/O",
+        "source": "Build Fast With AI",
+        "url": "https://www.buildfastwithai.com/blogs/gemini-3-2-flash-release-2026",
+        "summary": "Gemini 3.2 Flash appeared quietly in Google AI Studio and the iOS app on May 5 — no press release, priced at $0.25/M input tokens. Early benchmarks suggest near-Gemini 3.1 Pro performance on coding and reasoning. A formal reveal is expected at Google I/O on May 19-20.",
+        "keyPoint": "**Cheapest frontier-class model yet.** At $0.25/M tokens, Gemini 3.2 Flash makes high-volume document automation economically viable for institutions that couldn't justify frontier API costs before."
+      },
+      {
+        "headline": "Bank AI Survey: 91% Call It Strategic. Only 23% Are Past the Pilot Stage.",
+        "source": "Fintech Futures",
+        "url": "https://www.fintechfutures.com/ai-in-fintech/banking-in-2026-production-scale-ai-agents",
+        "summary": "Accenture's Q1 2026 banking survey found 91% of executives call AI a strategic priority — but only 23% have moved beyond pilots into production. Fraud detection leads as the most mature application; KYC and compliance automation lag despite now-reduced regulatory barriers.",
+        "keyPoint": "**The deployment gap is widening.** Tier-one banks are in production while most mid-size institutions are still piloting. With the regulatory friction now cleared, there's no longer a credible excuse to wait."
+      },
+      {
+        "headline": "OpenAI Grants EU Pre-Launch Access to Cyber AI Model as Government Scrutiny of Frontier Models Grows",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+        "summary": "OpenAI agreed to give EU regulators early access to GPT-5.5-Cyber ahead of public release. Microsoft and xAI made similar concessions. Anthropic's 'Mythos' model — capable of identifying vulnerabilities in legacy systems — remains withheld and is drawing regulatory scrutiny.",
+        "keyPoint": "**Government oversight is accelerating.** Banks using AI for cybersecurity and fraud detection should expect stricter model documentation requirements as regulators gain direct evaluation access to frontier AI."
+      }
+    ]
+  }
+}
