@@ -5,9 +5,9 @@ const fs = require('fs');
 const html = fs.readFileSync('_email.html', 'utf8');
 const subject = fs.readFileSync('_subject.txt', 'utf8').trim();
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: parseInt(process.env.SMTP_PORT),
-  secure: false,
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
   auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASSWORD }
 });
 transporter.sendMail({

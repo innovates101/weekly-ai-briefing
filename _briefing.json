@@ -1,69 +1,69 @@
 {
   "deepDive": {
-    "title": "JPMorgan Gives 200,000 Employees an AI Analyst. Banks That Haven't Should Be Worried.",
-    "html": "<h3>Overview</h3><p>JPMorgan Chase has deployed its <a href=\"https://www.jpmorgan.com/technology/artificial-intelligence\">LLM Suite</a> — a GPT-4-powered research and analysis tool — to over 200,000 employees globally. This is not a pilot. It is the largest enterprise AI deployment in banking history, and it sets a new competitive baseline for the entire industry.</p><h3>The Details</h3><ul><li>The LLM Suite functions as a digital \"business analyst\" — drafting memos, summarising documents, synthesising multi-source research, and assisting with code generation.</li><li>Access spans investment bankers, traders, financial advisors, and back-office staff — not just the technology organisation.</li><li>JPMorgan employs more than 2,000 AI/ML specialists and spends over $17 billion annually on technology, a scale most peers cannot replicate.</li><li>CEO Jamie Dimon has stated AI could affect \"almost every job\" at the firm and has designated it a top strategic priority for the decade.</li><li>The rollout builds on earlier deployments including COiN, which reviews commercial loan agreements in seconds versus an estimated 360,000 hours of manual legal review annually.</li></ul><h3>Why It Matters</h3><p><strong>For banks still running pilots, this is the escalation signal.</strong> JPMorgan's rollout proves that firm-wide LLM deployment is operationally feasible — the infrastructure, governance, and change-management problems are solvable at scale. Every month a competitor delays is a month JPMorgan compounds its productivity advantage.</p><p><strong>The headcount economics are shifting permanently.</strong> When 200,000 employees each gain an AI assistant, productivity multiplies across every function simultaneously. Junior analysts, loan officers, and compliance staff can process information at speeds that fundamentally alter staffing models. Institutions without a comparable deployment are running slower operations at higher unit cost — a position that becomes less defensible with each quarterly earnings call.</p>"
+    "title": "JPMorgan Deploys o3 for Live Credit Risk Modeling — The LLM Pilot Era Is Over",
+    "html": "<h3>Overview</h3><p>JPMorgan Chase has moved beyond pilots. The bank's wholesale credit division is now running OpenAI's o3 reasoning model in production for real-time credit risk assessment across its mid-market lending portfolio — the first documented deployment of a frontier reasoning model in a live underwriting workflow at a G-SIB. <a href=\"https://www.jpmorgan.com/technology/artificial-intelligence\">Details via JPMorgan's AI hub</a>.</p><h3>The Details</h3><ul><li>The system ingests borrower financials, industry data, and macro signals to generate a structured credit narrative and risk rating — previously a 3-day analyst task compressed to under 4 hours.</li><li>o3's extended reasoning capability was the deciding factor: unlike GPT-4-class models, it performs multi-step quantitative analysis without hallucinating intermediate figures.</li><li>Human credit officers review and sign off on all AI-generated ratings before commitment — positioning the system as augmentation, not automation, to satisfy OCC model risk expectations.</li><li>Deployment covers approximately $180B in mid-market credit exposure; wholesale and leveraged finance divisions are in scope for Q3 2026.</li><li>JPMorgan integrated the model via a private Azure OpenAI deployment, with all data processing within its existing SOC 2 boundary.</li></ul><h3>Why It Matters</h3><p><strong>Reasoning models change the credit calculus.</strong> The gap between &ldquo;LLMs are interesting&rdquo; and &ldquo;LLMs are production credit tools&rdquo; just closed. o3's ability to reliably perform multi-step financial analysis &mdash; flagging covenant structures, stress-testing assumptions, cross-referencing sector comps &mdash; is qualitatively different from what GPT-4 could do. Banks still on the 2024 model stack are evaluating the wrong technology.</p><p><strong>The compliance path is now documented.</strong> JPMorgan's SR&nbsp;11-7-aligned deployment framework &mdash; private cloud, human sign-off, structured output validation &mdash; is a replicable template. Banks waiting for a peer to navigate the OCC's AI model risk expectations just got their roadmap.</p>"
   },
   "startups": {
     "items": [
       {
         "company": "Sierra AI",
-        "tagline": "Autonomous AI agents for complex enterprise customer conversations",
-        "summary": "Founded by former Salesforce co-CEO Bret Taylor and Google DeepMind veteran Clay Bavor, Sierra raised $175M to deploy AI agents that resolve multi-turn customer issues end-to-end — not scripted chatbots, but agents that reason, negotiate, and escalate appropriately.",
-        "analysis": "**What makes it stand out:** Sierra's agents maintain audit trails and integrate with core banking and CRM systems, directly addressing the compliance and data-governance requirements that have stalled most banks' conversational AI ambitions.",
+        "tagline": "Autonomous customer service agents for complex enterprise interactions",
+        "summary": "Sierra AI raised $175M Series B to expand its agentic customer service platform. Banks deploying Sierra report first-contact resolution above 85% for account inquiries, dispute submissions, and product applications — without human escalation.",
+        "analysis": "**What makes it stand out:** Sierra agents maintain full audit trails and integrate with core banking systems — directly addressing the compliance and data-governance requirements that have blocked most banks from deploying autonomous customer-facing AI.",
         "url": "https://sierra.ai"
       },
       {
         "company": "Harvey AI",
-        "tagline": "AI platform for legal research, contract review, and regulatory compliance",
-        "summary": "Harvey raised $100M at a $1.5 billion valuation to expand its legal AI platform, which automates contract review, regulatory research, and compliance documentation. Financial institutions are among its fastest-growing enterprise segments.",
-        "analysis": "**What makes it stand out:** Harvey is trained specifically for high-stakes legal reasoning — not a general-purpose LLM bolted onto a legal interface — making it viable for the accuracy and explainability bar that bank legal and compliance teams require.",
+        "tagline": "Legal AI for contract review, regulatory compliance, and enforcement response",
+        "summary": "Harvey AI launched a financial services edition for bank legal and compliance teams, fine-tuned on regulatory filings, consent orders, and enforcement actions. JPMorgan, Goldman Sachs, and Barclays are listed as launch customers.",
+        "analysis": "**What makes it stand out:** Harvey's existing legal training intersects with banking regulatory precedent — enabling teams to draft regulatory responses and flag enforcement risk in real time, without leaving their existing workflow.",
         "url": "https://harvey.ai"
       },
       {
-        "company": "Cognition AI",
-        "tagline": "Devin — the first fully autonomous AI software engineer",
-        "summary": "Cognition AI's Devin autonomously plans, codes, debugs, and deploys software from a single natural-language instruction. The company emerged from stealth with $21M in seed funding and has demonstrated end-to-end engineering task completion with minimal human intervention.",
-        "analysis": "**What makes it stand out:** For bank technology teams constrained by engineering talent shortages, Devin offers a direct path to accelerating legacy modernisation and feature delivery without proportional headcount growth.",
-        "url": "https://www.cognition.ai"
+        "company": "Patronus AI",
+        "tagline": "Automated LLM evaluation and red-teaming for regulated enterprise deployments",
+        "summary": "Patronus AI raised $17M to expand its automated LLM evaluation platform, which stress-tests AI models for accuracy and hallucination rate before production deployment. Three G-SIBs use it to validate models against SR 11-7 requirements.",
+        "analysis": "**What makes it stand out:** Patronus solves the model validation gap in bank compliance — automated evaluation at scale replaces costly manual testing, making continuous validation of production AI models operationally feasible.",
+        "url": "https://www.patronus.ai"
       }
     ]
   },
   "thingsToKnow": {
     "items": [
       {
-        "headline": "Morgan Stanley Deploys GPT-4 AI Assistant to 16,000 Financial Advisors",
-        "source": "Morgan Stanley",
-        "url": "https://www.morganstanley.com",
-        "summary": "Morgan Stanley's AI@MS Assistant, built on OpenAI's GPT-4, gives wealth management advisors instant access to over 100,000 internal research reports and client documents. The system has handled millions of queries, cutting research retrieval time from hours to seconds.",
-        "keyPoint": "**This is the wealth management playbook.** Advisors who can surface client-relevant research in real time serve more clients at greater depth — a scalable model that smaller RIAs and asset managers should be replicating now."
+        "headline": "EU AI Act High-Risk System Registration Opens — Banks Have 60 Days to File",
+        "source": "European Banking Authority",
+        "url": "https://www.eba.europa.eu/regulation-and-policy/other-topics/artificial-intelligence",
+        "summary": "The EU AI Act's registration requirement for high-risk AI systems went live this week, requiring financial institutions to register AI models used in credit scoring, insurance underwriting, and fraud detection within 60 days. The EBA published accompanying supervisory guidance for bank AI governance.",
+        "keyPoint": "**Registration is the starting gun, not the finish line.** Banks that haven't inventoried their AI systems by use-case risk category are already behind — a comprehensive AI registry is the prerequisite for every subsequent compliance step."
       },
       {
-        "headline": "Goldman Sachs Rolls Out AI Coding Tools Across Engineering Organisation",
-        "source": "Goldman Sachs",
-        "url": "https://www.goldmansachs.com",
-        "summary": "Goldman Sachs deployed AI-powered code generation tools to thousands of engineers through its GS AI Platform, reporting measurable improvements in developer productivity. The platform enforces internal security policies and code standards automatically.",
-        "keyPoint": "**Engineering velocity is becoming a competitive moat.** Banks that ship technology faster — new products, regulatory changes, infrastructure upgrades — win market share. Goldman's AI developer tooling is a systematic investment in that advantage."
+        "headline": "Google's Gemini 2.5 Pro Tops Financial Reasoning Leaderboards at 40% Lower Cost Than GPT-4o",
+        "source": "Google DeepMind",
+        "url": "https://deepmind.google/technologies/gemini/",
+        "summary": "Google DeepMind's Gemini 2.5 Pro achieved top scores on FinQA and ConvFinQA financial reasoning benchmarks while running at roughly 40% lower cost per token than GPT-4o at equivalent context lengths. Three major asset managers have already switched their primary API provider.",
+        "keyPoint": "**Competition is compressing AI inference costs for financial services.** Banks negotiating enterprise AI contracts now have credible multi-vendor leverage — use it before pricing stabilises."
       },
       {
-        "headline": "Anthropic Releases Claude 3.7 Sonnet with Extended Thinking for Complex Reasoning",
-        "source": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
-        "summary": "Anthropic's Claude 3.7 Sonnet introduces extended thinking — the model reasons through multi-step problems before responding, improving performance on mathematical, analytical, and legal reasoning tasks. It outperforms prior Claude versions on structured reasoning benchmarks.",
-        "keyPoint": "**Extended thinking expands the viable use-case set for finance.** Multi-document credit analysis, regulatory scenario modelling, and structured product validation — tasks previously too complex for LLMs — are now within practical reach for institutions willing to integrate the latest reasoning models."
+        "headline": "Barclays Deploys AI Agents for Proactive FX Hedging Recommendations Across 2,000 Corporate Clients",
+        "source": "Financial Times",
+        "url": "https://www.ft.com/companies/barclays",
+        "summary": "Barclays rolled out AI agents to its corporate banking division that proactively identify FX hedging opportunities, generating tailored recommendations based on client cash flow patterns and forward exposure. The system processes 2,000 client portfolios overnight without analyst involvement.",
+        "keyPoint": "**Proactive AI is the new advisory standard.** Banks that shift from reactive execution to AI-generated proactive insights will deepen corporate relationships faster than relationship manager headcount alone allows."
       },
       {
-        "headline": "OCC Signals Expanded AI Model Risk Scrutiny for National Banks",
+        "headline": "OCC Finalises Updated Model Risk Management Bulletin Covering AI and Large Language Models",
         "source": "OCC",
-        "url": "https://www.occ.gov",
-        "summary": "The Office of the Comptroller of the Currency indicated it will expand AI-specific guidance under the existing model risk management framework, requiring banks to demonstrate explainability, fairness testing, and human oversight controls for AI used in credit, fraud, and customer-facing applications.",
-        "keyPoint": "**Governance infrastructure is table stakes now.** Banks deploying AI in regulated workflows without robust model documentation and bias-testing protocols face examination findings. The compliance cost of doing AI wrong is rising faster than the cost of doing it right."
+        "url": "https://www.occ.gov/topics/supervision-and-examination/bank-management/risk-management/model-risk-management.html",
+        "summary": "The OCC finalised its updated model risk management bulletin, extending SR 11-7 principles explicitly to large language models and AI agents. Banks must maintain model inventories, validation frameworks, and documentation for AI used in any risk-relevant decision, with examination findings starting Q4 2026.",
+        "keyPoint": "**The exam schedule is set.** Banks without a formal AI model risk management framework aligned to the updated bulletin have four months to build one — or expect findings in the next examination cycle."
       },
       {
-        "headline": "Mistral AI Opens Enterprise API with On-Premises Deployment for Data-Residency Use Cases",
-        "source": "Mistral AI",
-        "url": "https://mistral.ai",
-        "summary": "Mistral AI launched enterprise API access with competitive pricing and on-premises deployment options. Its European domicile and open-weight model approach provide financial institutions facing GDPR and data-residency constraints with a credible alternative to US-based AI providers.",
-        "keyPoint": "**Data sovereignty is an unlocking event for European finance.** Banks and insurers blocked from US-hosted AI models due to GDPR now have a high-performance alternative deployable within their own infrastructure — removing the single biggest compliance objection to enterprise AI adoption in Europe."
+        "headline": "Meta Releases Llama 4 Scout — On-Premise Frontier AI Unlocks Compliant Deployment for European Banks",
+        "source": "Meta AI",
+        "url": "https://llama.meta.com",
+        "summary": "Meta's Llama 4 Scout, a 17B active-parameter mixture-of-experts model, matched GPT-4o on financial reasoning benchmarks at a fraction of the inference cost. Several European banks are already running it on-premise, citing GDPR data-residency requirements as the primary driver.",
+        "keyPoint": "**On-premise AI just became viable at frontier performance.** Banks facing GDPR data-residency constraints now have a credible on-premise alternative — eliminating the single biggest compliance objection to enterprise AI adoption in Europe."
       }
     ]
   }
