@@ -42,7 +42,7 @@ All editorial config lives in `config.js`:
 - `TRACKED_COMPANIES` — 50+ banks, fintechs, AI vendors, regulators
 - `KEYWORDS` — primary and secondary AI/finance signal terms
 - `RSS_FEEDS` — 12 static sources (VentureBeat, TechCrunch, fintech outlets, etc.)
-- `NEWSAPI_QUERIES` — 5 pre-defined NewsAPI searches
+- `SEARCH_QUERIES` — per-category search queries used by Tavily and the WebSearch fallback
 - `OUTPUT` — max 4 articles/category, min relevance score 0.3
 - `CLAUDE` — path to Claude CLI executable (Windows UWP), 20 max context articles, 120s timeout
 
@@ -76,6 +76,59 @@ Content generation uses **Claude CLI via subprocess** (`spawnSync`), not the API
 - Uses `{{placeholder}}` syntax for content injection
 - All CSS must be inlined — email clients strip `<style>` blocks
 - Accent color: green `#009c6d`; saved editions go to `archive/{YYYY-MM-DD}.html`
+
+## WebSearch Fallback
+
+When `node _fetch.js` prints `FALLBACK_NEEDED`, all news sources returned 0 articles (direct outbound HTTP is blocked in sandboxed environments). **Do not stop the pipeline.** Instead:
+
+### Step 1 — Run these 6 WebSearch queries (2 per category)
+
+**Category 1 — Agentic AI Startups:**
+- `agentic AI startup funding launch <current month> <year>`
+- `AI agent company product announcement enterprise <current month> <year>`
+
+**Category 2 — AI in Financial Institutions:**
+- `AI agents banking financial institutions <current month> <year>`
+- `agentic AI fintech bank deployment announcement <current month> <year>`
+
+**Category 3 — New Model/Research Developments:**
+- `OpenAI Anthropic Claude model release <current month> <year>`
+- `Google Gemini Meta Llama AI model update benchmark <current month> <year>`
+
+### Step 2 — Rewrite `_articles.json` with real results
+
+Map each search result to this shape and write the file:
+
+```json
+{
+  "category1": [
+    {
+      "title": "Article headline",
+      "url": "https://...",
+      "source": "Publication name",
+      "publishedAt": "YYYY-MM-DD",
+      "snippet": "Up to 200 chars of description"
+    }
+  ],
+  "category2": [ ... ],
+  "category3": [ ... ],
+  "weekStart": "YYYY-MM-DD",
+  "weekEnd": "YYYY-MM-DD"
+}
+```
+
+Rules:
+- Only include articles published within the current week window
+- Keep up to 10 articles per category; aim for at least 3
+- `source` = publication name (e.g. `"TechCrunch"`, `"Bloomberg"`)
+- `snippet` = first 200 chars of the result description; empty string if none
+- `weekStart` / `weekEnd` = Monday–Monday of the current pipeline run
+
+### Step 3 — Continue the pipeline normally from Step 3 (content generation)
+
+The rest of the pipeline (content generation → build → send) is unchanged.
+
+---
 
 ## Known Issues / Incomplete Features
 

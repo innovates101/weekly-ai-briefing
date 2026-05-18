@@ -18,6 +18,10 @@ fetchAll()
       weekEnd: r.weekEnd.toISOString().split('T')[0],
     };
     require('fs').writeFileSync('_articles.json', JSON.stringify(out, null, 2));
+    const total = out.category1.length + out.category2.length + out.category3.length;
     console.log(`cat1=${out.category1.length} cat2=${out.category2.length} cat3=${out.category3.length}`);
+    if (total === 0) {
+      console.log('FALLBACK_NEEDED: all sources returned 0 articles — activate WebSearch fallback (see CLAUDE.md)');
+    }
   })
   .catch(e => { console.error(e.message); process.exit(1); });
