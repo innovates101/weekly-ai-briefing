@@ -7,7 +7,7 @@ const RSSParser = require('rss-parser');
 
 const parser = new RSSParser({
   timeout: 15_000,
-  headers: { 'User-Agent': 'AI-Agents-Weekly/1.0' },
+  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)' },
   customFields: {
     item: [
       ['media:content', 'mediaContent'],
@@ -193,7 +193,7 @@ async function fetchJson(url, timeoutMs = 12_000) {
   try {
     const res = await fetch(url, {
       signal: controller.signal,
-      headers: { 'User-Agent': 'AI-Agents-Weekly/1.0' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)' },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
     return await res.json();
