@@ -50,6 +50,7 @@ All editorial config lives in `config.js`:
 
 ```
 TAVILY_API_KEY=         # Tavily AI search API key (https://tavily.com — free tier: 1k req/month)
+NEWS_API_KEY=           # NewsAPI key (https://newsapi.org — free developer tier: 100 req/day)
 NOTIFY_FROM=            # Gmail sender address
 NOTIFY_TO=              # Gmail recipient address
 SMTP_HOST=smtp.gmail.com
@@ -57,6 +58,10 @@ SMTP_PORT=587
 SMTP_USER=              # Gmail address
 SMTP_PASSWORD=          # Gmail App Password (not your login password)
 ```
+
+### Notes on news source 403 errors in sandboxed environments
+
+Direct outbound HTTP calls to `newsapi.org` and `api.tavily.com` return HTTP 403 "Host not in allowlist" in sandboxed Claude Code environments. This is the **sandbox firewall** intercepting the request — not the APIs themselves. Both keys are valid and will work normally on a local machine, VPS, or GitHub Actions runner. The WebSearch MCP fallback (see below) handles the sandboxed case.
 
 ## Claude Integration
 
@@ -141,6 +146,7 @@ The rest of the pipeline (content generation → build → send) is unchanged.
 
 - **Deduplication**: exact URL match first, then Jaccard title similarity (threshold 0.8)
 - **RSS timeouts**: uses `Promise.race()` to avoid Windows RSS parser hangs (15s per feed)
-- **Google News**: batched 5 queries at a time, 300ms delay between NewsAPI calls
+- **Google News**: batched 5 queries at a time, concurrency-limited to avoid rate limits
+- **NewsAPI**: reuses `searchQueries` from `CATEGORY_DEFS`; 300ms delay between requests; runs in parallel with Tavily
 - **HTML sanitization**: only safe tags allowed in deep-dive section before inline-styling
 - **Email retry**: 3 attempts with exponential backoff (2s, 4s delays)

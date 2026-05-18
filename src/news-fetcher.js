@@ -274,6 +274,63 @@ async function fetchAllTavily(since) {
   return results;
 }
 
+// ─── NEWSAPI FETCHER ─────────────────────────────────────────────────────────
+
+async function fetchNewsApiQuery(query, categoryId, since) {
+  const key = process.env.NEWS_API_KEY;
+  if (!key) return [];
+
+  const params = new URLSearchParams({
+    q: query,
+    language: 'en',
+    sortBy: 'relevancy',
+    pageSize: '10',
+    from: since.toISOString().split('T')[0],
+    apiKey: key,
+  });
+
+  let data;
+  try {
+    data = await fetchJson(`https://newsapi.org/v2/everything?${params}`, 12_000);
+  } catch (err) {
+    console.warn(`[NewsAPI] query "${query}" failed: ${err.message}`);
+    return [];
+  }
+
+  if (data.status !== 'ok') {
+    console.warn(`[NewsAPI] query "${query}" error: ${data.message || data.status}`);
+    return [];
+  }
+
+  return (data.articles || []).map(a =>
+    normalizeArticle({
+      title: a.title,
+      url: a.url,
+      source: `NewsAPI:${a.source?.name || 'unknown'}`,
+      publishedAt: parseDate(a.publishedAt),
+      snippet: (a.description || '').slice(0, 500),
+      category: categoryId,
+    })
+  ).filter(a => !a.publishedAt || a.publishedAt >= since);
+}
+
+async function fetchAllNewsApi(since) {
+  const results = [];
+  let callCount = 0;
+
+  for (const [catId, def] of Object.entries(CATEGORY_DEFS)) {
+    for (const query of def.searchQueries) {
+      if (callCount > 0) await sleep(300);
+      const articles = await fetchNewsApiQuery(query, catId, since);
+      results.push(...articles);
+      callCount++;
+    }
+  }
+
+  console.log(`[NewsAPI] fetched ${results.length} raw articles across ${callCount} queries`);
+  return results;
+}
+
 // ─── GOOGLE NEWS RSS FETCHER ─────────────────────────────────────────────────
 
 function googleNewsUrl(query) {
@@ -585,11 +642,12 @@ async function fetchAll() {
 
   console.log(`[news-fetcher] Fetching articles from ${weekStart.toDateString()} to ${weekEnd.toDateString()}`);
 
-  // Run all three source types in parallel, with a global hard timeout.
+  // Run all four source types in parallel, with a global hard timeout.
   // Each sub-fetcher also has per-request timeouts; this is the safety net.
-  const [tavilyArticles, googleNewsArticles, staticFeedArticles] = await withTimeout(
+  const [tavilyArticles, newsApiArticles, googleNewsArticles, staticFeedArticles] = await withTimeout(
     Promise.all([
       fetchAllTavily(weekStart),
+      fetchAllNewsApi(weekStart),
       fetchAllGoogleNews(weekStart),
       fetchAllStaticFeeds(weekStart),
     ]),
@@ -597,13 +655,13 @@ async function fetchAll() {
     'fetchAll'
   );
 
-  const totalRaw = tavilyArticles.length + googleNewsArticles.length + staticFeedArticles.length;
-  console.log(`[news-fetcher] Raw totals — Tavily: ${tavilyArticles.length}, Google News: ${googleNewsArticles.length}, Static RSS: ${staticFeedArticles.length}`);
+  const totalRaw = tavilyArticles.length + newsApiArticles.length + googleNewsArticles.length + staticFeedArticles.length;
+  console.log(`[news-fetcher] Raw totals — Tavily: ${tavilyArticles.length}, NewsAPI: ${newsApiArticles.length}, Google News: ${googleNewsArticles.length}, Static RSS: ${staticFeedArticles.length}`);
 
-  // Merge: Tavily first (highest editorial quality), then Google News, then static feeds.
-  // This means earlier entries win deduplication, so premium sources are preferred.
+  // Merge order determines dedup priority: Tavily → NewsAPI → Google News → static feeds.
   const allArticles = [
     ...tavilyArticles,
+    ...newsApiArticles,
     ...googleNewsArticles,
     ...staticFeedArticles,
   ].filter(a => a.title && a.url && a.category);
@@ -643,6 +701,7 @@ async function fetchAll() {
       },
       sources: {
         tavily: tavilyArticles.length,
+        newsApi: newsApiArticles.length,
         googleNews: googleNewsArticles.length,
         staticFeeds: staticFeedArticles.length,
       },
@@ -670,6 +729,7 @@ function printSummary(result) {
   console.log('──────────────────────────────────────────────────────');
   console.log(` Raw articles: ${result.stats.totalRaw}`);
   console.log(`   Tavily:      ${result.stats.sources.tavily}`);
+  console.log(`   NewsAPI:     ${result.stats.sources.newsApi}`);
   console.log(`   Google News: ${result.stats.sources.googleNews}`);
   console.log(`   Static RSS:  ${result.stats.sources.staticFeeds}`);
   console.log(` After date filter: ${result.stats.afterDateFilter}`);
