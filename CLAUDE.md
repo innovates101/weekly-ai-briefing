@@ -49,7 +49,7 @@ All editorial config lives in `config.js`:
 ## Environment Variables (`.env`)
 
 ```
-NEWS_API_KEY=           # NewsAPI.org free-tier key
+TAVILY_API_KEY=         # Tavily AI search API key (https://tavily.com — free tier: 1k req/month)
 NOTIFY_FROM=            # Gmail sender address
 NOTIFY_TO=              # Gmail recipient address
 SMTP_HOST=smtp.gmail.com
