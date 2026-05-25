@@ -1,7 +1,101 @@
 {
-  "category1": [],
-  "category2": [],
-  "category3": [],
-  "weekStart": "2026-05-11",
-  "weekEnd": "2026-05-18"
+  "category1": [
+    {
+      "title": "Commure Secures $70M Led by General Catalyst to Scale Agentic AI for Healthcare",
+      "url": "https://news.fundsforngos.org/2026/05/21/healthcare-ai-startup-commure-secures-70m-funding-led-by-general-catalyst-to-scale-agentic-ai-systems/",
+      "source": "FundsForNGOs",
+      "publishedAt": "2026-05-21",
+      "snippet": "Healthcare AI platform Commure raised $70M led by General Catalyst to scale agentic AI systems automating administrative and clinical workflows across hospitals, with Sequoia and Morgan Stanley participating."
+    },
+    {
+      "title": "Writer Launches AI Agents That Act Without Prompts, Taking On Amazon, Microsoft, and Salesforce",
+      "url": "https://venturebeat.com/technology/writer-launches-ai-agents-that-can-act-without-prompts-taking-on-amazon-microsoft-and-salesforce",
+      "source": "VentureBeat",
+      "publishedAt": "2026-05-20",
+      "snippet": "Writer launched autonomous AI agents that initiate and execute tasks without user prompts, positioning itself as an enterprise AI platform rival to Amazon, Microsoft, and Salesforce offerings."
+    },
+    {
+      "title": "ServiceNow and Accenture Launch Forward Deployed Engineering Program to Scale Agentic AI Across the Enterprise",
+      "url": "https://newsroom.accenture.com/news/2026/servicenow-and-accenture-launch-forward-deployed-engineering-program-to-scale-agentic-ai-across-the-enterprise",
+      "source": "Accenture Newsroom",
+      "publishedAt": "2026-05-19",
+      "snippet": "ServiceNow and Accenture announced a forward deployed engineering program to help large enterprises move agentic AI from pilot projects to full production scale."
+    },
+    {
+      "title": "Camunda Announces ProcessOS: Agentic AI Intelligence Layer for Business Process Optimization",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "source": "AI Agent Store",
+      "publishedAt": "2026-05-20",
+      "snippet": "Camunda announced ProcessOS, an AI-powered intelligence layer that discovers, re-engineers, and continuously optimizes business processes as agentic workflows, entering closed beta May 20, 2026."
+    },
+    {
+      "title": "Claude Managed Agents Gets Public-Beta Self-Hosted Sandboxes and MCP Tunnels",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic",
+      "publishedAt": "2026-05-19",
+      "snippet": "Anthropic updated Claude Managed Agents with self-hosted sandboxes and research-preview MCP tunnels, enabling enterprises to run agents within their own controlled infrastructure connected to private MCP servers."
+    }
+  ],
+  "category2": [
+    {
+      "title": "Fiserv Launches agentOS: The Operating System for Agentic AI in Banking",
+      "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-launches-agentos-operating-system-agentic-ai-banking",
+      "source": "Fiserv",
+      "publishedAt": "2026-05-14",
+      "snippet": "Fiserv launched agentOS, an agentic AI operating system for financial institutions to deploy, manage, and scale AI agents. Six institutions co-developed it; two are in beta. Wider rollout expected August 2026."
+    },
+    {
+      "title": "FIS Brings Agentic AI to Banking With Anthropic, Starting With Financial Crimes",
+      "url": "https://www.fisglobal.com/about-us/media-room/press-release/2026/fis-brings-agentic-ai-to-banking-with-anthropic-starting-with-financial-crimes",
+      "source": "FIS",
+      "publishedAt": "2026-05-04",
+      "snippet": "FIS and Anthropic partner to deploy a Financial Crimes AI Agent that compresses AML investigations from hours to minutes. BMO and Amalgamated Bank are first deployers; broader availability planned for H2 2026."
+    },
+    {
+      "title": "Broadridge Deploys Agentic AI Across Capital Markets",
+      "url": "https://fintech.global/2026/05/11/broadridge-deploys-agentic-ai-across-capital-markets/",
+      "source": "Fintech Global",
+      "publishedAt": "2026-05-11",
+      "snippet": "Broadridge has deployed agentic AI across its capital markets operations, automating complex multi-step workflows in post-trade processing, reconciliation, and investor communications."
+    },
+    {
+      "title": "KPMG Integrates Claude Across Its 276,000-Person Global Workforce in Strategic Alliance With Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic",
+      "publishedAt": "2026-05-19",
+      "snippet": "KPMG announced a strategic alliance with Anthropic to integrate Claude AI across its core business and workforce of more than 276,000 employees, one of the largest enterprise AI deployments in professional services."
+    }
+  ],
+  "category3": [
+    {
+      "title": "Anthropic Releases Claude Opus 4.7 With Major Gains in Advanced Software Engineering",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "source": "Anthropic",
+      "publishedAt": "2026-05-19",
+      "snippet": "Anthropic releases Claude Opus 4.7, a notable step up from Opus 4.6 in advanced software engineering and the hardest tasks, now available across Claude products, API, AWS Bedrock, Google Vertex, and Microsoft Foundry."
+    },
+    {
+      "title": "Google Announces Gemini 4.0 Omni at I/O 2026: Unified Text, Image, and Video in One Model",
+      "url": "https://www.aixploria.com/en/ai-radar/google-io-2026-gemini-announcements-preview/",
+      "source": "AIxploria",
+      "publishedAt": "2026-05-19",
+      "snippet": "Google unveiled Gemini 4.0 Omni at I/O 2026, a unified multimodal model generating text, images, and video in a single pipeline, positioned to rival GPT-5.5 with new Android and XR glasses integrations."
+    },
+    {
+      "title": "Anthropic Introduces 'Dreaming' for Claude Managed Agents: Persistent Memory Consolidation Between Sessions",
+      "url": "https://releasebot.io/updates/anthropic/claude",
+      "source": "Releasebot",
+      "publishedAt": "2026-05-19",
+      "snippet": "Anthropic launched Dreaming, a research preview for Claude Managed Agents API that consolidates persistent memory between sessions by merging duplicates and removing stale entries, enabling stateful long-running agents."
+    },
+    {
+      "title": "Claude Developer Platform Now Returns Richer SEC Filing Data for Financial Research Agents",
+      "url": "https://releasebot.io/updates/anthropic",
+      "source": "Releasebot",
+      "publishedAt": "2026-05-19",
+      "snippet": "The Claude Developer Platform added enhanced SEC filing data returns with citations, making it easier to build financial research agents, earnings analysis workflows, and due-diligence tools grounded in primary sources."
+    }
+  ],
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-25"
 }
