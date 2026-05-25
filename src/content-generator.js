@@ -5,7 +5,22 @@ const { CLAUDE } = require('../config');
 
 // ─── CLAUDE CLI INVOCATION ────────────────────────────────────────────────────
 
-function callClaude(prompt) {
+async function callClaude(prompt) {
+  // API mode: use Anthropic SDK when ANTHROPIC_API_KEY is present (e.g. GitHub Actions)
+  if (process.env.ANTHROPIC_API_KEY) {
+    const Anthropic = require('@anthropic-ai/sdk');
+    const client = new Anthropic();
+    const message = await client.messages.create({
+      model: process.env.CLAUDE_MODEL || 'claude-opus-4-7',
+      max_tokens: 4096,
+      messages: [{ role: 'user', content: prompt }],
+    });
+    const block = message.content[0];
+    if (block.type !== 'text') throw new Error('Unexpected non-text response from Anthropic API');
+    return block.text;
+  }
+
+  // Local mode: use Claude CLI subprocess
   return new Promise((resolve, reject) => {
     const child = spawn(CLAUDE.command, ['--print'], { stdio: ['pipe', 'pipe', 'pipe'] });
 
@@ -23,7 +38,7 @@ function callClaude(prompt) {
     child.on('error', err => {
       clearTimeout(timer);
       if (err.code === 'ENOENT') {
-        reject(new Error('`claude` CLI not found. Make sure Claude Code CLI is installed.'));
+        reject(new Error('`claude` CLI not found. Set ANTHROPIC_API_KEY to use API mode instead.'));
       } else {
         reject(new Error(`Claude CLI spawn error: ${err.message}`));
       }

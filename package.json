@@ -9,10 +9,10 @@
     "run-now": "node src/index.js --run-now",
     "test-email": "node src/index.js --test-email",
     "test-fetch": "node src/index.js --test-fetch",
-    "test-generate": "node src/index.js --test-generate",
-    "test-email": "node src/index.js --test-email"
+    "test-generate": "node src/index.js --test-generate"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.98.0",
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.5",
     "node-cron": "^3.0.3",

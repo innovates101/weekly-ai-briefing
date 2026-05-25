@@ -1,0 +1,62 @@
+name: Weekly AI Briefing
+
+on:
+  schedule:
+    # Every Monday at 07:00 UTC
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+    # Allow manual runs from the GitHub Actions UI
+
+permissions:
+  contents: write
+
+jobs:
+  send-briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      TAVILY_API_KEY:   ${{ secrets.TAVILY_API_KEY }}
+      NEWS_API_KEY:     ${{ secrets.NEWS_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      NOTIFY_FROM:      ${{ secrets.NOTIFY_FROM }}
+      NOTIFY_TO:        ${{ secrets.NOTIFY_TO }}
+      SMTP_HOST:        smtp.gmail.com
+      SMTP_PORT:        465
+      SMTP_USER:        ${{ secrets.SMTP_USER }}
+      SMTP_PASSWORD:    ${{ secrets.SMTP_PASSWORD }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch articles
+        run: |
+          node _fetch.js
+          echo "Fetch complete."
+
+      - name: Generate content
+        run: node _generate.js
+
+      - name: Build email
+        run: node _build.js
+
+      - name: Send email
+        run: node _send.js
+
+      - name: Commit pipeline output
+        run: |
+          git config user.name  "AI Agents Weekly Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _articles.json _briefing.json _email.html _subject.txt
+          git diff --staged --quiet || git commit -m "Weekly briefing $(date -u +%Y-%m-%d)"
+          git push

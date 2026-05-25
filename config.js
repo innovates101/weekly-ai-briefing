@@ -137,8 +137,9 @@ const OUTPUT = {
 // ─── CLAUDE CLI SETTINGS ─────────────────────────────────────────────────────
 
 const CLAUDE = {
-  // Full path to Claude CLI executable (Windows UWP install location)
-  command: 'C:\\Users\\celes\\.local\\bin\\claude.exe',
+  // CLI path — override with CLAUDE_COMMAND env var for non-Windows installs.
+  // Ignored when ANTHROPIC_API_KEY is set (SDK is used instead).
+  command: process.env.CLAUDE_COMMAND || 'C:\\Users\\celes\\.local\\bin\\claude.exe',
   // Max tokens to allow in a single Claude call (approximate, for prompt budgeting)
   maxContextArticles: 20,
   // Timeout for a single Claude subprocess call (ms)
