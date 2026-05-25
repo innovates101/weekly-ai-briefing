@@ -3,7 +3,7 @@
 // ─── PUBLICATION METADATA ────────────────────────────────────────────────────
 
 const PUBLICATION = {
-  name: 'AI Agents Weekly',
+  name: 'Agentic AI Weekly News Briefing',
   tagline: 'AI developments impacting financial institutions',
   audience: 'Banking Strategy & Innovation Team',
   // Cron schedule: every Monday at 07:00 local time

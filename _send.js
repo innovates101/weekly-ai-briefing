@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
   auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASSWORD }
 });
 transporter.sendMail({
-  from: `"AI Agents Weekly" <${process.env.NOTIFY_FROM}>`,
+  from: `"Agentic AI Weekly News Briefing" <${process.env.NOTIFY_FROM}>`,
   to: process.env.NOTIFY_TO,
   subject,
   html

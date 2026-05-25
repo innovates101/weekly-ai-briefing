@@ -7,7 +7,7 @@ const RSSParser = require('rss-parser');
 
 const parser = new RSSParser({
   timeout: 15_000,
-  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)' },
+  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Agentic-AI-Weekly/1.0)' },
   customFields: {
     item: [
       ['media:content', 'mediaContent'],
@@ -193,7 +193,7 @@ async function fetchJson(url, timeoutMs = 12_000) {
   try {
     const res = await fetch(url, {
       signal: controller.signal,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Agentic-AI-Weekly/1.0)' },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
     return await res.json();
@@ -217,7 +217,7 @@ async function fetchTavilyQuery(query, categoryId, since) {
       signal: controller.signal,
       headers: {
         'Content-Type': 'application/json',
-        'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)',
+        'User-Agent': 'Mozilla/5.0 (compatible; Agentic-AI-Weekly/1.0)',
       },
       body: JSON.stringify({
         api_key: key,
@@ -723,7 +723,7 @@ function printSummary(result) {
   };
 
   console.log('\n══════════════════════════════════════════════════════');
-  console.log(' AI Agents Weekly — News Fetch Summary');
+  console.log(' Agentic AI Weekly News Briefing — News Fetch Summary');
   console.log(`  Week: ${result.weekStart.toDateString()} → ${result.weekEnd.toDateString()}`);
   console.log(`  Fetched at: ${result.fetchedAt}`);
   console.log('──────────────────────────────────────────────────────');

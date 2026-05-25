@@ -1,4 +1,4 @@
-# AI Agents Weekly — Claude Code Guide
+# Agentic AI Weekly News Briefing — Claude Code Guide
 
 ## What This Project Does
 

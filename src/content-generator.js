@@ -159,7 +159,7 @@ function selectArticles(fetchResult) {
 
 function buildDeepDivePrompt(articles) {
   return `\
-You are writing the lead article for "AI Agents Weekly" — a weekly email briefing for banking \
+You are writing the lead article for "Agentic AI Weekly News Briefing" — a weekly email briefing for banking \
 and fintech professionals. Readers range from frontline staff to CTOs and Heads of Strategy.
 
 Here are this week's top AI stories (${articles.length} articles):
@@ -201,7 +201,7 @@ Begin your response with "TITLE:" — no preamble.`;
 
 function buildStartupsPrompt(articles, deepDiveTitle) {
   return `\
-You are writing the "🚀 Agentic AI Startups to Watch" section for "AI Agents Weekly".
+You are writing the "🚀 Agentic AI Startups to Watch" section for "Agentic AI Weekly News Briefing".
 
 Here are this week's agentic AI startup stories (${articles.length} articles):
 
@@ -243,7 +243,7 @@ OUTPUT: JSON array ONLY. No explanation, no markdown fences. Raw JSON starting w
 
 function buildThingsToKnowPrompt(articles, deepDiveTitle) {
   return `\
-You are writing the "Things to Know" section for "AI Agents Weekly".
+You are writing the "Things to Know" section for "Agentic AI Weekly News Briefing".
 
 Here are this week's stories on AI in financial institutions and model developments \
 (${articles.length} articles):

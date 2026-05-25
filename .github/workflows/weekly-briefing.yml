@@ -55,7 +55,7 @@ jobs:
 
       - name: Commit pipeline output
         run: |
-          git config user.name  "AI Agents Weekly Bot"
+          git config user.name  "Agentic AI Weekly Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _articles.json _briefing.json _email.html _subject.txt
           git diff --staged --quiet || git commit -m "Weekly briefing $(date -u +%Y-%m-%d)"

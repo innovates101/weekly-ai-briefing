@@ -1,4 +1,4 @@
-# AI Agents Weekly
+# Agentic AI Weekly News Briefing
 
 Automated weekly email newsletter delivering AI news curated for financial institutions. The pipeline fetches articles from RSS feeds and NewsAPI, passes them through Claude for editorial analysis, renders an HTML email, and sends it via Gmail.
 

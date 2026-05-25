@@ -86,7 +86,7 @@ async function sendEmail(html, subject) {
   }
 
   const mailOptions = {
-    from:    `"${process.env.PUBLICATION_NAME || 'AI Agents Weekly'}" <${from}>`,
+    from:    `"${process.env.PUBLICATION_NAME || 'Agentic AI Weekly News Briefing'}" <${from}>`,
     to,
     subject,
     html,
