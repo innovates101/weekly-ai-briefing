@@ -1,62 +1,62 @@
 {
   "deepDive": {
-    "title": "Fiserv's agentOS Is the Plumbing Every Bank's AI Strategy Has Been Missing",
-    "html": "<h3>Overview</h3><p>On May 14, Fiserv launched <a href=\"https://investors.fiserv.com/news-releases/news-release-details/fiserv-launches-agentos-operating-system-agentic-ai-banking\">agentOS</a> &mdash; an agentic AI operating system built natively on top of Fiserv&rsquo;s core, payments, issuer, and servicing infrastructure. This isn&rsquo;t another bank chatbot or point solution. It&rsquo;s an enterprise deployment layer that lets financial institutions run AI agents across loan onboarding, AML triage, deposit intelligence, and operational reporting &mdash; with policy controls, auditability, and human oversight baked in from day one.</p><h3>The Details</h3><ul><li>agentOS runs natively across Fiserv&rsquo;s core banking, payments, issuer processing, and servicing platforms &mdash; eliminating the integration overhead that has derailed most bank AI deployments</li><li>Launch portfolio: four Fiserv-built agents (Commercial Loan Onboarding, Daily Operational Analysis, Agentic Deposit Intelligence, Agentic AML Triage) plus a marketplace of nine third-party partner agents covering disputes, reconciliation, and customer engagement</li><li>First Interstate Bank and Boulder Dam Credit Union are live in beta today; six institutions co-developed the platform, with general availability planned for August 2026</li><li>OpenAI and Amazon Web Services are key technology collaborators; Fiserv separately announced a strategic collaboration with OpenAI targeting core banking operational workflows</li><li>Fiserv serves over 10,000 financial institutions globally &mdash; agentOS adoption would represent one of the largest single-infrastructure AI rollouts in banking history</li></ul><h3>Why It Matters</h3><p><strong>The biggest barrier to AI in banking has never been the models &mdash; it&rsquo;s been integration.</strong> Every bank pilot that died on the vine died because connecting AI to core banking, payments, and AML systems is genuinely hard. Fiserv built agentOS natively on its own stack, which means any of its 10,000+ client institutions can deploy without a multi-year integration project. That changes the economic equation entirely for mid-tier banks.</p><p><strong>The marketplace model is the other key signal.</strong> By opening agentOS to third-party agent developers, Fiserv is building a financial services agent ecosystem &mdash; an app store for bank operations. Banks that adopt agentOS early get access to every future agent that plugs into it. The network effects here could entrench Fiserv&rsquo;s infrastructure position even further across an industry it already dominates.</p>"
+    "title": "TD Bank's AI Agent Kills the 15-Hour Mortgage Review",
+    "html": "<h3>Overview</h3><p><strong>TD Bank has deployed an AI agent that compresses mortgage document review from 15 hours to just minutes</strong> — a live production result, not a proof-of-concept. <a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPUTVQeV8wbndtRlBpWTN0bE01ak1mWXFwVHpTVjRVeVZkX21KQ1E3emM4TzhkWF9KRzByakdLaE50MWc0NEdKbk1SbnZNcC15Nnd6alFhUlhuSUxXTmdSbkY1VEdoQmltZWxManZaX1cya2h1MUgweTJHaGtHRlVyaEtQVF8wVlR3VUN1Wm9PYjg2TWs4SnN3TXFnTlN0TEZMYnY0YVdGWEtnbHE4T2c\">That&rsquo;s a 99%+ time reduction</a> that ends the &ldquo;AI isn&rsquo;t ready for core banking&rdquo; conversation.</p><h3>The Details</h3><ul><li>TD Bank&rsquo;s AI agent handles mortgage document review &mdash; income verification, appraisals, compliance checks &mdash; previously taking staff <strong>15 hours</strong>, completing it in <strong>minutes</strong></li><li>The deployment is live in production at one of North America&rsquo;s largest banks, with significant retail lending operations across Canada and the US</li><li>Mortgage origination is among banking&rsquo;s most document-intensive workflows and a primary bottleneck in loan decisioning speed</li><li>The result implies autonomous document parsing, data extraction, and compliance cross-referencing across dense file sets</li><li>Faster document review directly enables faster decisions and lower cost per origination &mdash; two metrics non-bank lenders have long used as competitive wedges</li></ul><h3>Why It Matters</h3><p>For mortgage teams, this isn&rsquo;t incremental efficiency &mdash; it&rsquo;s structural. A 99%+ time reduction means banks can process dramatically more applications, cut origination costs, and deliver same-day decisions. Institutions still relying on manual review are already operating at a structural disadvantage against both tech-native lenders and their own AI-enabled peers.</p><p>The broader implication extends well beyond mortgages. Any workflow built around dense document review &mdash; KYC, loan underwriting, regulatory filings, insurance claims &mdash; faces the same disruption curve. Banks that treat this as a single-department win will miss the point: <strong>this is proof that agentic AI can own entire operational workflows.</strong></p>"
   },
   "startups": {
     "items": [
       {
-        "company": "Sierra",
-        "tagline": "Enterprise AI agents for complex, regulated customer interactions at scale",
-        "summary": "Sierra raised $950M at a $15.8B valuation, led by Tiger Global and GV, just eight months after a $350M round at $10B. Founded by Bret Taylor and Clay Bavor, Sierra has crossed $150M ARR and counts over 40% of the Fortune 50 as customers, with agents handling mortgage refinancing, insurance claims, and account disputes.",
-        "analysis": "**What makes it stand out:** Sierra's traction in mortgage and insurance proves that enterprise AI agents can handle high-stakes, regulated interactions banks previously considered too sensitive to automate — and the $15.8B valuation signals that investors believe this is a winner-take-most market.",
-        "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+        "company": "Cognition",
+        "tagline": "Autonomous AI coding agent that handles full software development tasks end-to-end",
+        "summary": "Cognition raised $1B at a $26B valuation, with its Devin AI coding agent revenue nearing $492M. This week Fiserv — core banking technology provider to thousands of financial institutions — announced a partnership with Cognition to accelerate banking system upgrades using its AI coding agent.",
+        "analysis": "**Fiserv&rsquo;s buy-in is the real signal.** If the infrastructure backbone of US banking is deploying AI coding agents to modernize core systems, every bank on Fiserv&rsquo;s platform faces both opportunity and disruption from the same technology.",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRFNJQmRkZWdiNWl2VXdmSXhJY3Z2eW8tLXNCaEJtZ3NILVRya1hDcnhkWlJoVHh0ZVB3TGRTa3RGT2hfcFlwNTQ4YzBKbC1Gbm1hem9LRkJfMmFSb1pLUHFfc0Nzc1Y1Wkp2YkRmVGd0R3EzekJFMW5IcTdmaXVleEtzMm9PYnZWM3p4U2NvX190NlNSbU44VDk0N1o2QnhKT0UwVGFlenhLSC00"
       },
       {
-        "company": "Anthropic (Financial Services)",
-        "tagline": "Ten pre-built agent templates for the most time-consuming workflows in banking and asset management",
-        "summary": "Anthropic released ten ready-to-deploy agent templates covering pitchbooks, KYC screening, credit memos, underwriting, month-end close, and insurance claims — shipped as plugins for Claude Cowork and Claude Code. Claude Opus 4.7, already in production at JPMorganChase, Goldman Sachs, and Citi, now tops Vals AI's Finance Agent benchmark at 64.4%.",
-        "analysis": "**What makes it stand out:** Pre-built, benchmark-validated templates mean mid-tier banks can deploy institutional-grade AI agent workflows without a 12-month build cycle — closing the gap with G-SIBs that built bespoke tooling.",
-        "url": "https://www.anthropic.com/news/finance-agents"
+        "company": "Groq",
+        "tagline": "High-speed AI inference infrastructure, pivoting from custom chips to a software platform",
+        "summary": "Groq is reportedly raising $650M as it pivots from custom silicon to focus on AI inference — the performance layer governing how fast models respond to queries — following Nvidia&rsquo;s $20B strategic investment in the company.",
+        "analysis": "**Inference speed is a silent competitive weapon.** For banks running real-time fraud detection, credit decisioning, or customer-facing AI agents, Groq&rsquo;s infrastructure-first positioning could deliver meaningfully lower latency than general-purpose cloud AI providers.",
+        "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/"
       }
     ]
   },
   "thingsToKnow": {
     "items": [
       {
-        "headline": "FIS and Anthropic Launch AI Agent to Compress AML Investigations from Days to Minutes",
-        "source": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47695/fis-teams-with-anthropic-to-develop-financial-crimes-ai-agent",
-        "summary": "FIS and Anthropic announced a Financial Crimes AI Agent built on Claude that automatically assembles AML evidence across core systems, evaluates it against known typologies, and surfaces high-risk cases for investigator review. BMO and Amalgamated Bank are the first deployments; broader rollout planned for H2 2026.",
-        "keyPoint": "**AML is the first agentic AI use case with clear regulatory momentum.** Automating the investigation — not just the alert — is a qualitative step change for compliance teams drowning in false positives, and named G-SIB deployments signal examiner comfort."
+        "headline": "Saris raises $28.8m for agentic workflow platform",
+        "source": "Finextra Research",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEt2RXpwREZ0ekFwOTRXVXJJLXNQYkl2VmJZYXpzZXVuWVV0bzBiTE5tNVR4Z1lWN1V5TFB2TnRMUTljcmw1NHNCRzFkM0t5b2xpTGRIN2RHbk9SRjZRUHpvVGlWQklKRU9NVUh6NEROSDdYZ1NSVGtsYWJMUDlma0VjczBzazNpd01jVWtkT0NNUmd0",
+        "summary": "Saris closed a $28.8M round for its agentic workflow automation platform targeting financial services operations, adding to a growing cohort of purpose-built AI tools designed specifically for compliance-heavy, regulated industries.",
+        "keyPoint": "**Fintech infrastructure is going sector-specific.** Generic AI tools are giving way to agentic platforms built for financial workflows, signaling that the next competitive edge is vertical depth and regulatory fit, not raw model capability."
       },
       {
-        "headline": "Google Commits Up to $40B in Anthropic in Cash and Compute",
-        "source": "TechCrunch",
-        "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-        "summary": "Google announced a commitment of up to $40 billion in Anthropic — the largest disclosed AI investment on record — providing cash and Google Cloud compute. The deal cements Google as Anthropic's primary cloud provider and sharpens AI infrastructure competition with Microsoft's OpenAI bet.",
-        "keyPoint": "**Cloud provider choice is now an AI strategy choice.** Banks evaluating hyperscalers are effectively choosing between the Anthropic/Google stack and the OpenAI/Microsoft stack — and switching costs will compound as workloads deepen."
+        "headline": "CBA hopes its AI agents can fend off a competitive threat from OpenAI",
+        "source": "AFR",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTjZyLVRMV3BoMmNTR1ZrdUVSbnNHaWcwU0l1ZmhCdV93MG1JOFhyOEh0WWRJVHFOdkxaYjYwaDNDYkhJUGp6Wmg0TTZlY3pDTGRTT0lFNlZrN25KVGhVUk5TbTJDeTloVzZHUVlsZkV1S2dZeS16d3Nja21ISG8wc1ZQTmFPU3ZOZlpfUlJxVTEyTWVFbTZmalZlR0tTVVd6dkZ0bE5DOWVqMUxaeENzamprbWExT29BaVBfS3gzSzhmdzdZaFhETUY4N3JQZFU",
+        "summary": "Commonwealth Bank of Australia is deploying proprietary AI agents as a strategic defense against OpenAI&rsquo;s potential expansion into banking services, framing homegrown AI capability as both a competitive moat and a customer retention tool.",
+        "keyPoint": "**Banks aren&rsquo;t just deploying AI &mdash; they&rsquo;re deploying it defensively.** CBA&rsquo;s posture reflects a new reality: build your own AI capability now, or risk tech giants owning your customer relationships on top of your infrastructure."
       },
       {
-        "headline": "Anthropic Releases 'Mythos' — Its Most Capable Model Yet — to Vetted Partners Only",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-        "summary": "Anthropic released Mythos, described as its most powerful model to date with significant cybersecurity applications, exclusively to a select group of approved organisations. The model remains off-limits publicly while Anthropic assesses safety implications, particularly around offensive security use cases.",
-        "keyPoint": "**Frontier models are now too capable for open release — and banks with early access programs stand to benefit.** Mythos-class capabilities in fraud detection and threat intelligence could create meaningful competitive separation between institutions that get early access and those that wait."
+        "headline": "Claude Opus 4.8: Anthropic Launches Its Most Capable AI Model Yet With Dynamic Workflows and Agent Swarms",
+        "source": "Memeburn",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDdkQ0dTcl9PczFFQ1h6aVdGTElVWkVNUTRLVldYQWlQLXduS0h6UWdqYkZQd011UTFYRTNzWjAyTVctRF9NMFRGaGZNWmNTeUk1MWw3eDlPZ0pHQmI4Szg1eEdMTC1PcldYODN1WnhaekdXUlM3QktnaFFKX2U0Xy15UzJSaTNrVVE",
+        "summary": "Anthropic released Claude Opus 4.8, featuring dynamic workflows and agent swarm support &mdash; enabling networks of coordinated AI agents to divide and execute complex multi-step tasks in parallel across enterprise environments.",
+        "keyPoint": "**Agent swarm support changes how banks should architect AI.** Multi-step financial workflows &mdash; compliance checks, loan origination, risk modeling &mdash; can now run as coordinated agent networks rather than sequential single-model pipelines."
       },
       {
-        "headline": "Fiserv and OpenAI Form Strategic Collaboration to Bring Frontier AI to Core Banking Operations",
-        "source": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/fiserv-and-openai-bring-frontier-ai-to-banks/",
-        "summary": "Separate from the agentOS launch, Fiserv announced a strategic collaboration with OpenAI with joint teams already working on applying frontier AI to core banking operations. Progress is expected to reach Fiserv client institutions through the remainder of 2026.",
-        "keyPoint": "**The fintech infrastructure layer is becoming the AI battleground.** With both OpenAI and Anthropic now embedded in Fiserv and FIS respectively, AI vendor relationships are being locked in at the infrastructure level — not at individual bank level."
+        "headline": "Andrej Karpathy Joins Anthropic to Lead Claude Pre-training Research",
+        "source": "StartupHub.ai",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLTN6OGNlb01XUXIxb1JMWjhKTzBQT2hXSWQ2WnJOdXFGNmxFbmVINm1YajF5LVpWUEFkTnZKX1N0UDhMclh2ckJMUEhYNkd6MnpLYk1MdmJVNXZXMldqMUNPdGFIc21hUVpIcWxNQ1VnRDVROHo3R2ptYnExMTlvS2p2MUZRX05jN0oyenM2WEJON0tGR2ZkMmlXSXdEcER4SnBCYUl0SnU",
+        "summary": "Andrej Karpathy, co-founder of OpenAI and one of AI&rsquo;s most respected researchers, reportedly joined Anthropic to lead pre-training research for the Claude model family &mdash; one of the most significant talent moves in frontier AI this year.",
+        "keyPoint": "**Talent concentration at safety-focused labs matters for enterprise AI.** Karpathy&rsquo;s move reinforces Anthropic&rsquo;s technical credibility and signals deeper investment in Claude&rsquo;s foundational capabilities &mdash; relevant for banks standardizing on Claude for high-stakes workflows."
       },
       {
-        "headline": "The AI-Agent Era in Financial Services Is Just Beginning",
-        "source": "ABA Banking Journal",
-        "url": "https://bankingjournal.aba.com/2026/05/the-ai-agent-era-in-financial-services-is-just-beginning/",
-        "summary": "The ABA Banking Journal's analysis of 2026 deployments argues that despite the pace of announcements, banks are still in the first inning of agentic AI adoption. Governance frameworks — model inventories, oversight protocols, audit trails — are identified as the primary bottleneck, not model capability.",
-        "keyPoint": "**Governance is the new bottleneck.** Banks that invest in AI governance infrastructure now will be able to deploy faster as models improve, rather than scrambling to build controls retroactively around already-live systems."
+        "headline": "Q&A: How Polygon's Becoming the Payment Rail for AI Agents",
+        "source": "Technology Magazine",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWE16dTZjNEh3dHhHQjJHZ1I2Vzl6OXdsaGo1dXBvZ21pUFRTcHB6a0ZwZTdoVXYyUnE4aW5wV055Unk4SnJYUWl6SG5hMG40ZHhLSWRkdTdlOUJ2OWdsRENpVW5vQ0VuYmZNMUtPRndxMm9HRFlXUXNpbVc1M2JEUGU4cU1ZdFp1a1RlWEhfUnhhdEpLdDRn",
+        "summary": "Polygon is positioning its blockchain infrastructure as the payments layer for AI agent-to-agent transactions, enabling autonomous AI systems to send, receive, and settle value without human intermediaries.",
+        "keyPoint": "**AI agents need payment rails, and incumbents haven&rsquo;t built them yet.** As agentic systems handle procurement and settlement autonomously, banks and payments firms must decide whether blockchain-native or traditional infrastructure handles this emerging transaction class."
       }
     ]
   }

@@ -1,7 +1,220 @@
 {
-  "category1": [],
-  "category2": [],
-  "category3": [],
-  "weekStart": "2026-05-11",
-  "weekEnd": "2026-05-18"
+  "category1": [
+    {
+      "title": "Cognition Statements: AI Does Not Replace Programmers | Jawlah - Jawlah",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE8yMmhlUXBHLW1tYUZGMUhpN3Q3Q2VJUE9vX3pOejZidkdkTHlfMGtBa3h6STZHVnRvM2g4ZjdYOA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "Cognition Statements: AI Does Not Replace Programmers | Jawlah Jawlah"
+    },
+    {
+      "title": "Cognition Raises $1B as AI Coding Agent Devin Revenue Nears $492M - WinBuzzer",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOclRKSS1iQk16X2sxM3lVcVg4NE9sUm9DLWFTbnJNLXJaSFpCbF9aemVidlpOUU9Xa3NaaklKMUZhakxBeXV1MU53SS1wSlNqTmViOHZZYnZyMUxlVWVqLUNrLTNvTDExMHhWd0NObHNVUHlQWmdFUXJhalVvaEJEcllSeGJ6UUx0azM0aHFhN0ZjUQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Cognition Raises $1B as AI Coding Agent Devin Revenue Nears $492M WinBuzzer"
+    },
+    {
+      "title": "Microsoft and Nvidia reportedly team up on AI PCs that run actual agents instead of Copilot - The Decoder",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX0tBX2VnOXZKR3QtQWR3Q2hjUklqejVMUHp0RUQ5TjRoSFhnZ3FQRXFtWmZzREtsdENaRG40V25nTk9jMExUQzdxQlVtQ1dYWUdYMUNNLVFqS3hLM3kzcE5jZndubHJqUDdVeU5NQl9VNlM3d19XRmVBLUxWRGxWbDhGbTBtblFwRGZVT0hsVjlXS1NYRFJUQUtVX2FqVHl5dkh0VlVrdGdwWGRldGFYQmtYaEpYY2c?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Microsoft and Nvidia reportedly team up on AI PCs that run actual agents instead of Copilot The Decoder"
+    },
+    {
+      "title": "Fiserv partners with Cognition AI to speed banking upgrades - MSN",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRFNJQmRkZWdiNWl2VXdmSXhJY3Z2eW8tLXNCaEJtZ3NILVRya1hDcnhkWlJoVHh0ZVB3TGRTa3RGT2hfcFlwNTQ4YzBKbC1Gbm1hem9LRkJfMmFSb1pLUHFfc0Nzc1Y1Wkp2YkRmVGd0R3EzekJFMW5IcTdmaXVleEtzMm9PYnZWM3p4U2NvX190NlNSbU44VDk0N1o2QnhKT0UwVGFlenhLSC00?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Fiserv partners with Cognition AI to speed banking upgrades MSN"
+    },
+    {
+      "title": "Don't want to let an AI agent take over your machine? Here are 3 no-install OpenClaw alternatives you can try today - Tom's Guide",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWktYTVpwTURTNm05TGJVV0FYTWxFdFZwRlZfMERNc2ZHWUJtYkY5X3ZISTByVGpqX184ampRMld1RkdHdVpYUk1uaFhjTmpaQzh6Qk5KZWE2d2lGcXU1YmJ4cUlwQjVwR1FicDMtaTJMQ1lWbUt5NlBhN1RmWU5iSXRJQ3U3YUNVLTdTdjlfODFXZ0RoZ3ZBU3UwM2VKaFNtMi1MXzZ4d0Z5dEFIOWFyWFNJMUo1Zk1UUGNzVTFKMERmdllhVVpXcnVNXzNjVkpzNlFmaWtPdUYwdw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Don't want to let an AI agent take over your machine? Here are 3 no-install OpenClaw alternatives you can try today Tom's Guide"
+    },
+    {
+      "title": "Japanese firms eye P2-billion PH factory, AI banana farming expansion - Newsbytes.PH",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVB0cXpnZFBLV2Z2WDJudDdfVXAyUnpwOTlkMmYzVmpRZ0ViVTZLcTJhNHdfMFBzMDlDN1dKRWpWZHd0WjJnTHowcXU3ZkJLQTB4UkJRUHpBRzVTMTJBeFZMUElJYUxJcng4eWs1SGRKcnZmVGN2NFJxR0lDZWRpUFpjQ0xpaVhKdFFILWxtc0tqeG4zSXhnVE9PaTVyTzJZWlk1dw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Japanese firms eye P2-billion PH factory, AI banana farming expansion Newsbytes.PH"
+    },
+    {
+      "title": "Cognition raises $1B at $26B valuation, CEO emphasizes AI’s supportive role",
+      "url": "https://cryptobriefing.com/cognition-raises-1b-26b-valuation/",
+      "source": "NewsAPI:Crypto Briefing",
+      "publishedAt": "2026-05-29",
+      "snippet": "Cognition's rapid valuation growth highlights AI's transformative potential in engineering, but reliance on AI-generated code poses significant risks. The post Cognition raises $1B at $26B valuation, "
+    },
+    {
+      "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-05-29",
+      "snippet": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, pe"
+    },
+    {
+      "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+      "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-05-29",
+      "snippet": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers."
+    },
+    {
+      "title": "Calian debuts ATHORA interoperability platform and Cohere AI partnership at CANSEC - SpaceQ",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0RpY1FtV3pkUE1GSUd4YXJqbjIyTEotX0w1dGdyemdvcjRDUlN1NmRhY2ZrRHVEejRuRUhWSWdxYWstY012T2lBS05LWW9EWDVZSV9WQ0diaDNvVFBHSUg3U2JVSHNXMl9IVzFkQTVvTVJKbXV3NzhHUmI4Vk05Rzc5TW5jeVcwTWtfa1NEZ1NHUlZoME5INVRmei1uSzFXcEo4?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-29",
+      "snippet": "Calian debuts ATHORA interoperability platform and Cohere AI partnership at CANSEC SpaceQ"
+    }
+  ],
+  "category2": [
+    {
+      "title": "Saris raises $28.8m for agentic workflow platform - Finextra Research",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEt2RXpwREZ0ekFwOTRXVXJJLXNQYkl2VmJZYXpzZXVuWVV0bzBiTE5tNVR4Z1lWN1V5TFB2TnRMUTljcmw1NHNCRzFkM0t5b2xpTGRIN2RHbk9SRjZRUHpvVGlWQklKRU9NVUh6NEROSDdYZ1NSVGtsYWJMUDlma0VjczBzazNpd01jVWtkT0NNUmd0?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "Saris raises $28.8m for agentic workflow platform Finextra Research"
+    },
+    {
+      "title": "CBA hopes its AI agents can fend off a competitive threat from OpenAI - AFR",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTjZyLVRMV3BoMmNTR1ZrdUVSbnNHaWcwU0l1ZmhCdV93MG1JOFhyOEh0WWRJVHFOdkxaYjYwaDNDYkhJUGp6Wmg0TTZlY3pDTGRTT0lFNlZrN25KVGhVUk5TbTJDeTloVzZHUVlsZkV1S2dZeS16d3Nja21ISG8wc1ZQTmFPU3ZOZlpfUlJxVTEyTWVFbTZmalZlR0tTVVd6dkZ0bE5DOWVqMUxaeENzamprbWExT29BaVBfS3gzSzhmdzdZaFhETUY4N3JQZFU?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "CBA hopes its AI agents can fend off a competitive threat from OpenAI AFR"
+    },
+    {
+      "title": "TD Bank Says AI Agent Cuts Mortgage Review Work From 15 Hours To Minutes - CUToday",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUTVQeV8wbndtRlBpWTN0bE01ak1mWXFwVHpTVjRVeVZkX21KQ1E3emM4TzhkWF9KRzByakdLaE50MWc0NEdKbk1RbnZNcC15Nnd6alFhUlhuSUxXTmdSbkY5VEdoQmltZWxManZaX1cya2h1MUgweTJHaGtHRlVyaEtQVF8wVlR3VUN1Wm9PYjg2TWs4SnN3TXFnTlN0TEZMYnY0YVdGWEtnbHE4T2c?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "TD Bank Says AI Agent Cuts Mortgage Review Work From 15 Hours To Minutes CUToday"
+    },
+    {
+      "title": "Q&A: How Polygon’s Becoming the Payment Rail for AI Agents - Technology Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWE16dTZjNEh3dHhHQjJHZ1I2Vzl6OXdsaGo1dXBvZ21pUFRTcHB6a0ZwZTdoVXYyUnE4aW5wV055Unk4SnJYUWl6SG5hMG40ZHhLSWRkdTdlOUJ2OWdsRENpVW5vQ0VuYmZNMUtPRndxMm9HRFlXUXNpbVc1M2JEUGU4cU1ZdFp1a1RlWEhfUnhhdEpLdDRn?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "Q&A: How Polygon’s Becoming the Payment Rail for AI Agents Technology Magazine"
+    },
+    {
+      "title": "Roots launches new AI Agent platform - Coverager",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02NGNMX3V6ZHBOMzNtS1VYY0cycmJLWGg5RW5xTWMwMGNGUm43TlhKNmVBb0NybFhQcUNRaXdqOGpWMk40NzI3dUhtRzBNX2Y2SWJ6QWNOTFJSOHloYnhVejY2a2RXazZHME9v?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Roots launches new AI Agent platform Coverager"
+    },
+    {
+      "title": "Google's 24/7 AI agent Spark finally rolls out to Ultra subscribers",
+      "url": "https://www.androidpolice.com/gemini-spark-starts-landing-for-ai-ultra-subscribers/",
+      "source": "NewsAPI:Android Police",
+      "publishedAt": "2026-05-29",
+      "snippet": "Android, iOS, and web support should be live now"
+    },
+    {
+      "title": "Vertu unveils AlphaFold, its first book-style foldable and boasts about its Hermes AI agent",
+      "url": "https://www.gsmarena.com/vertu_unveils_alphafold_its_first_bookstyle_foldable_and_boasts_about_its_hermes_ai_agent-news-73049.php",
+      "source": "NewsAPI:GSMArena.com",
+      "publishedAt": "2026-05-29",
+      "snippet": "Vertu is on a foldable phone kick – following the Quantum Flip, the luxury brand has now launched the AlphaFold globally, its first book-style foldable. And while it has the requisite premium material"
+    },
+    {
+      "title": "A company accidentally spent $500 million on Claude in one month",
+      "url": "https://boingboing.net/2026/05/29/a-company-accidentally-spent-500-million-on-claude-in-one-month.html",
+      "source": "NewsAPI:Boing Boing",
+      "publishedAt": "2026-05-29",
+      "snippet": "An AI consultant told Axios that one of their clients \"recently spent half a billion dollars in a single month\" on Claude, the Anthropic AI assistant, because nobody had capped how much its employees "
+    },
+    {
+      "title": "I went looking for the AI weed vape that gives you Bitcoin for smoking",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/933916/ai-powered-crypto-cannabis-vape",
+      "source": "NewsAPI:The Verge",
+      "publishedAt": "2026-05-29",
+      "snippet": "The crypto weed vape found me on 4/20, the high holiday of cannabis enthusiasts everywhere. It arrived over Slack with the thumbnail of a man exhaling a plume of vapor, the words \"every hit delivers B"
+    },
+    {
+      "title": "Amazon says it shut down a token leaderboard: 'Don't use AI just to use AI'",
+      "url": "https://www.businessinsider.com/amazon-ai-leaderboard-tokenmaxxing-2026-5",
+      "source": "NewsAPI:Business Insider",
+      "publishedAt": "2026-05-29",
+      "snippet": "Amazon nixed an employee-created AI leaderboard called \"KiroRank\" after concerns it encouraged excessive AI spending."
+    }
+  ],
+  "category3": [
+    {
+      "title": "Andrej Karpathy Joins Anthropic to Lead Claude Pre-training Research - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLTN6OGNlb01XUXIxb1JMWjhKTzBQT2hXSWQ2WnJOdXFGNmxFbmVINm1YajF5LVpWUEFkTnZKX1N0UDhMclh2ckJMUEhYNkd6MnpLYk1MdmJVNXZXMldqMUNPdGFIc21hUVpIcWxNQ1VnRDVROHo3R2ptYnExMTlvS2p2MUZRX05jN0oyenM2WEJON0tGR2ZkMmlXSXdEcER4SnBCYUl0SnU?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "Andrej Karpathy Joins Anthropic to Lead Claude Pre-training Research StartupHub.ai"
+    },
+    {
+      "title": "Claude Opus 4.8 Tops The Intelligence Index Yet Mythos Dominates Hacking - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WVjB2dzduRW9yVGZJQXQxaVpkcWkxUGY2U0gxLWkxS2Fvd2tELWU1ZXNwek1JeU4tV0JLbzhodlQ0WXBWeEozcE5zOFJOZXAydTBhLVpEdmZnanVZUVM0bDZrQ2lmcHli?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "Claude Opus 4.8 Tops The Intelligence Index Yet Mythos Dominates Hacking Yellow.com"
+    },
+    {
+      "title": "Anthropic Just Fixed AI’s Biggest Problem: Claude Opus 4.8 Alex Pereira (VYhX1LjRIT) - Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OVkJqWjFRUlgyX0RXMXRNTXlMY0g1Tkp0T3lVTV9GOHljNDRMVEZYdDhVQ2ZnMDN0eFUtcHN5SzcwS3IzZFBNXzhHdmtxUzVaREUyVXJmeEpFU0U?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "Anthropic Just Fixed AI’s Biggest Problem: Claude Opus 4.8 Alex Pereira (VYhX1LjRIT) Mshale"
+    },
+    {
+      "title": "It’s Happening... Anthropic MYTHOS 1 Is Here! Manchester City - Brentford (VaiZZTHewf) - Mshale",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WSzB3bmg0ZTI5bmNvaU8tbUtxTzR0eWVxR2V2SzBxWnNKQmhfNHduZzVvM3hRR3FBV203MVdYTkxNVmdxQkxnQXVYS2hYYUNUSUdLdVdwZEZIWkU?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "It’s Happening... Anthropic MYTHOS 1 Is Here! Manchester City - Brentford (VaiZZTHewf) Mshale"
+    },
+    {
+      "title": "AI Week in Review 26.05.30 - Substack",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zT0hjbGRVVnBFTGNwWHpHc3U5NjVfQy1NU1Z5Ty1lNzhvTlpJU1lOUU1SZm9iVkRFbXFWRkVENUVnMEw1d3RiWmRRY1o3VC0xSi1aam9YdF9UNjZGUzUzZUJCMW1tblMyU1pDZ29B?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-31",
+      "snippet": "AI Week in Review 26.05.30 Substack"
+    },
+    {
+      "title": "Show HN: Thaw – Git branch for a running LLM (fork agents, skip prefill)",
+      "url": "https://github.com/thaw-ai/thaw",
+      "source": "NewsAPI:Github.com",
+      "publishedAt": "2026-05-30",
+      "snippet": "I built thaw because forking an LLM agent is absurdly wasteful today. When an agent explores N branches — RL rollouts, best-of-N, parallel coding attempts — each branch re-runs prefill over the same s"
+    },
+    {
+      "title": "How Opus 4.8 compares to Claude Mythos and GPT 5.5 - R&D World",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWVpibW5TTm5pZ3o4dkNsN1l6Q3VxcjlzTlY1MEpDdnU1N2RheXE1UU1ISHFGSkMwMjFNN2djNW9DTTVLZTlyM1o4U3cweWNVbHczTGZxYk4wU3hLenNYWVM1S20xMlJHZkNuY2NFdkdSY2MyRWhWMnptQjdRZGpCaFFfelVmVXFz?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "How Opus 4.8 compares to Claude Mythos and GPT 5.5 R&D World"
+    },
+    {
+      "title": "Claude Opus 4.8: Anthropic Launches Its Most Capable AI Model Yet With Dynamic Workflows and Agent Swarms - Memeburn",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDdkQ0dTcl9PczFFQ1h6aVdGTElVWkVNUTRLVldYQWlQLXduS0h6UWdqYkZQd011UTFYRTNzWjAyTVctRF9NMFRGaGZNWmNTeUk1MWw3eDlPZ0pHQmI4Szg5eEdMTC1PcldYODN1WnhaekdXUlM3QktnaFFKX2U4Xy15UzJSaTNrVVE?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Claude Opus 4.8: Anthropic Launches Its Most Capable AI Model Yet With Dynamic Workflows and Agent Swarms Memeburn"
+    },
+    {
+      "title": "Anthropic Releases Claude Opus 4.8, Surpasses Value of OpenAI - Thurrott.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZUdNd3NSTGhudERVQU1EN2FSNlZRVkY3WHFUUGRNVHlaQWE1b1hKLXlvN1VwakNGOHJVTmJGSWl3M2JJbGdHSmFhaHNrTTk4cW16cXUtQlh1SGcta1R2Tkh0Ync3eGkwMnU1SU9JczVFV3poYW1ydkNRMmNkaXl5RVdTVHBseEJlTHVJSTNjX25RQ3pEYjhQLTJWTTNNcUk3UFNSUk9ZZjNNQQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "Anthropic Releases Claude Opus 4.8, Surpasses Value of OpenAI Thurrott.com"
+    },
+    {
+      "title": "OpenAI Updates GPT-5.5 Instant for Style and Quality - Let's Data Science",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVUZRTUVXX2MwaVMwQ3QxcjBaYVVKSkxqY0g0RVlHNnNrTk9tcktUZ1c5enlGbGRlVEhXLVVwVVVHNFZlVGh2blBFVUZfbkRGN2NJQmJ4VjRwZjRoUnNuSGJGdlpYUld5cFV0aFRVWk1xUEVFUHpPSTdidFM3RVRCdk00eTYzS2lSZXpfZVBCcC1hcHlHbUZYeA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-05-30",
+      "snippet": "OpenAI Updates GPT-5.5 Instant for Style and Quality Let's Data Science"
+    }
+  ],
+  "weekStart": "2026-05-24",
+  "weekEnd": "2026-05-31"
 }
