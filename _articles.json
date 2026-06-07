@@ -1,7 +1,220 @@
 {
-  "category1": [],
-  "category2": [],
-  "category3": [],
-  "weekStart": "2026-05-11",
-  "weekEnd": "2026-05-18"
+  "category1": [
+    {
+      "title": "Composio Showcases Integration-First AI Tooling Strategy and Developer Use Cases - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLUlZM1JVZ2hFSVpGVEpzMmt0ejExdmRrZ1kwdjZtWU9WRU9yc2RpcFN5VlJzVnlwTndMQ05vZlJzcE43OWoyOVFCRktlM2xwYVZEeGxVODQxZDNidE8zMVBWYWVHQXJTc0pOZHlKTFl1VHlzQVliN0tFZWotc2tmWGhnY0xleFNjZzlQNWFPUThSd3dXMGgxNHAtekFDS2RkTFVFbVRKc1B3NV9LRk9CRXQwT0lDdk5lTklWRm5mcmZGLUFBZldV?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "Composio Showcases Integration-First AI Tooling Strategy and Developer Use Cases TipRanks"
+    },
+    {
+      "title": "CrewAI: Taming AI Agent Costs - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSV9nM0dQek5yYWhfdzlOMTc5Y09pT1VHZkZiYjBQek5LQlNfeTBSQUVvT2xXYkdibUxEOGphVmdkeHFqVm5nNzBNTDM1eVFEYWdpejlmNDNaOUlmZ2U0QWtZeTg3Qm85eS1CczlvNmFQUVI3cjR1X2I4Z3RJeUU2R2hFZnZuRXlFTlhGWnU0QXJnbm1pTXc?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "CrewAI: Taming AI Agent Costs StartupHub.ai"
+    },
+    {
+      "title": "OpenClaw used Gavriel Cohen’s code and exposed the AI Agent accountability problem - The New Stack",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE03ZDQ2eFJ4dUJqdXpzb1dhN0dEc21KRWU4M1NBQVdvbEtoMXJpVkhOR1o2UWgxdHNxRzRhb3J3ekRObndBanROWjE2RkRsR1lYSUx5T2dJR0hjM0NuWmd5cEpseG9VVFk0U1BqOG5tbDNNeWRuclVJUXZaaw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "OpenClaw used Gavriel Cohen’s code and exposed the AI Agent accountability problem The New Stack"
+    },
+    {
+      "title": "OpenClaw Code Reuse Exposes AI Agent Accountability Problem - Let's Data Science",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZF9BOVd5OW5JVFJjR3l2VFpDV2lhV3V4TFU1TGl1OFktUHVfT0NaaGdVbzZUQ0dqXzlxa3FzSURKaXBRdms4UEtNcTJzRWdtbHBiZ0JLWC1ZejNfdkVQZWhZYnZqUFZiRG5QMkNmZEpWTGFBQkRhcVFqZXRJalVDb2I5RjdGVTBuUmszWG91VDRQT3FzaXdXX1M5MFhwYzFaME40?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "OpenClaw Code Reuse Exposes AI Agent Accountability Problem Let's Data Science"
+    },
+    {
+      "title": "Google DeepMind Releases Gemma 4 QAT Checkpoints: Q4_0 and a New Mobile Format Cut On-Device Memory - MarkTechPost",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTNFekRiS0NqakJCRVRCdDBDN1dtSmR4bndEOW9ON1p0UHJpM0tHejFlTE14NEViTkJ6NDRSN1owbzI2MjBNZU0yUGMzTkd1bk51UVBUelJRQ2MtZENBS1NPeXdlYnoxMXNBZWlPZGt4NHNaUHkxSnhzQXk1bkQ2bnJVRGxUT3NzaGNCRkd1YVEzOFJWNWk4alRBdHl4SFlQWjBzREQxZU9WOExsOUFCODByYTFWbDdSNTNuTjJpN2V4RmQ3ZXNVQVFNcTlhOTRIalhGZzJn?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "Google DeepMind Releases Gemma 4 QAT Checkpoints: Q4_0 and a New Mobile Format Cut On-Device Memory MarkTechPost"
+    },
+    {
+      "title": "CoinMarketCap AI Agent Hub Is Now Live - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSncyUXdNY2tfakhLZ2k0a2ZaTWhPS1JrajRRVlFtZjNFbU96b1dBVlJ0YXZ3QlRVTkdFMTJLVk5nRFFMRmpEeEJ0S3FwQUR3U2hTcU9uVzRnNGg5Y01qVkZrRTh6RmF3akppMmFWMzJhN3MxMXo4XzhuRnBJZVZ4aDlzbw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "CoinMarketCap AI Agent Hub Is Now Live CoinMarketCap"
+    },
+    {
+      "title": "The Fat Pipe June 5th 2026: Trump Wavers On Iran Nuclear Dust, AI Hits Mad Max Stage, You ARE The Exit Liquidity, & Grab Bag - peakprosperity.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd1ZlMmxMUXI0ODJuYmhPdmhtTVFzWUxOWUpOZGtHT0dMdFRpQ01RMlhBSlRpcWlYVlZyY3F3TUhQa2FzYUpYRHRFQWNqajFuTHctRmNkNE1DVzd6RUVlaHpidkhtamxVOWcwUERwNXZEa2E5aldpYzFaX1lqa1BZQVNRbTRSak5yWjdRaDZxaGxhNWltdFZHdUtHcUFKSjdKNERRdlgyNFdocmQwQVU2TXpQODRFaGV2WDNXdXRRYmdqUTc1dXJSS1dZMjQyT0tpSnI5VmJUU1dTWGRsVWNV?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "The Fat Pipe June 5th 2026: Trump Wavers On Iran Nuclear Dust, AI Hits Mad Max Stage, You ARE The Exit Liquidity, & Grab Bag peakprosperity.com"
+    },
+    {
+      "title": "8 best OpenClaw alternatives to run your personal AI agent - Hostinger",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00VzdvN1BYc0pSQzN1MWwteTFKRERFWnNSR0hjY0pXZUdIOHFpMzd5SDVoUVZrUWFldG5wV0pWcUNlek9CQV9ZM2M5d1Q4Z1Q4bTJFUERiTVNsVE9YX0dBLVZ6ZklqU19BZVh3VA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "8 best OpenClaw alternatives to run your personal AI agent Hostinger"
+    },
+    {
+      "title": "After filing for its IPO, Anthropic says AI should slow down. Fat chance.",
+      "url": "https://siliconangle.com/2026/06/05/filing-ipo-anthropic-says-ai-slow-fat-chance/",
+      "source": "NewsAPI:SiliconANGLE News",
+      "publishedAt": "2026-06-05",
+      "snippet": "No sooner did Anthropic file for its initial public offering of stock this week than it then put out a missive suggesting that AI model makers need to slow down to let us catch our breath — or else AI"
+    },
+    {
+      "title": "AI Update, June 5, 2026: AI News and Views From the Past Week",
+      "url": "https://www.marketingprofs.com/opinions/2026/54909/ai-update-june-5-2026-ai-news-and-views-from-the-past-week",
+      "source": "NewsAPI:MarketingProfs.com",
+      "publishedAt": "2026-06-05",
+      "snippet": "Catch up on select AI news and developments since Friday, May 29. Stay in the know. Read the full article at MarketingProfs"
+    }
+  ],
+  "category2": [
+    {
+      "title": "Jamie Dimon’s JPMorgan AI Hiring Push will Transform Wall Street Banking Workflows - Tekedia",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ0dscjJ2RTdjczBRODU3emZNUlRyLTBKUFY2dThLQWpyQTU4ZW96QzlKU2RVeEQ3eUxVbjJvQnpBc0VWVTJ0VmZuYnNzZzRWNmJrWWpEOWV4am5VR1lRQzh3NGIzZjhJVXBCaE1NUUtVVVM2ZkZOTnAyQm91LS1OekkyS0U0b1VMWFdNc0hxZGNRZVlhZEFCSnJIZEVmTkhmVkstOWdGeWdBQQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-07",
+      "snippet": "Jamie Dimon’s JPMorgan AI Hiring Push will Transform Wall Street Banking Workflows Tekedia"
+    },
+    {
+      "title": "Banks are turning AI efficiency into a workforce strategy - Startup Fortune",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXYwWkNBdlpqU3FUMDNheEhRUUdhaktabWpCWGZfeTE4bnRjajYwLXJVX1hDSy1uZzdMbkVyTzlBQ2RRSE5RUFQzb2lzRTFmcDNodzY3ZG9RSzk2bmk4a2xrc0lZN04xUFM4b081Vm1qY3Q0Y2cxR3JOOXo3WEtQbnRvdldJcWVUaEpmTFV3?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-07",
+      "snippet": "Banks are turning AI efficiency into a workforce strategy Startup Fortune"
+    },
+    {
+      "title": "SuperStrike: Redefining Autonomous Finance in the Age of AI - Bitget",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kWEJtNWFBZHN6Z1dkd1VDQ1Ewd1FLUXVyTzdfNnI1SVBYVVpYbGV1NlBNRWlTUnR4WlBTcmFLQkhQWGRfMkZOOWxYY2g5c0FHeXVyZjh5SmFoSW9XVHB4aFVkc9IBY0FVX3lxTE1kWEJtNWFBZHN6Z1dkd1VDQ1Ewd1FLUXVyTzdfNnI1SVBYVVpYbGV1NlBNRWlTUnR4WlBTcmFLQkhQWGRfMkZOOWxYY2g5c0FHeXVyZjh5SmFoSW9XVHB4aFVkcw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "SuperStrike: Redefining Autonomous Finance in the Age of AI Bitget"
+    },
+    {
+      "title": "Anthropic and FIS are building an AI agent to help banks police financial crimes - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQVFFJWmxaS0dPaW8zalh2QlltSzFjNEtrclRRaFJhemdjUGNaSXYySjczSmk2WTNxX1RtV2cyVjhodm1tQzRwNy1SdjVFUllMNmVvOXVmNGFxbmdhLU9acXJiOTVUUDNHTHNyYUhhbE14Um1PZzI0N2Q5dC1Cbi0wMUYtZHVQMDJDZ2NYMDFXSDhGaFQtemEyMEViZDYwVXZkcy0xbTVzQ2cyTHVnWFlWc1VfMHI2Q3c2MkJIY2UtalFwRklDUEFRWHVTYU45Rlp0bldnX3VPdllFdVdudUFvS2FZLWc4ZGEtQlA3N3RhUzJHN2JhTm4zZXI4NjI5QWNESk16TDhNQ1BwXzBUaW9FRE03d2FKWXFzQjFGZmU3YXdaVUZRbllWUUZiNG9uZDNodGtYVm9LMktXQ0VyUjNjUGlnNnZRT1lOMWxVS0tPQXZOOURxUGgwbVVIWWRZb3U5UmppNkxn?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "Anthropic and FIS are building an AI agent to help banks police financial crimes MSN"
+    },
+    {
+      "title": "The Future of Autonomous AI in Banking - Financial IT",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTTc1RHZuYS1WOGh1U3JZNGxrVGd2Y0pBZHJwUGJaSE4xZlVOeFdpWXZYckVlZWxOV2oxOXdMVmd6M2s3ZTA1OUZjZGtGczlJU1RTOEFHVmpaWkNrSG9OQmF2ZkV1Zk13SUptaWlaakJjMGtxcDJaeUlyLWtpVi1aT09xNVVhSkk?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "The Future of Autonomous AI in Banking Financial IT"
+    },
+    {
+      "title": "Proposed bill seeks to establish federal regulation of AI",
+      "url": "https://bankingjournal.aba.com/2026/06/proposed-bill-seeks-to-establish-federal-regulation-of-ai/",
+      "source": "ABA Banking Journal",
+      "publishedAt": "2026-06-05",
+      "snippet": "Two lawmakers have released a draft bipartisan bill to establish a national regulatory framework for artificial intelligence, including increased penalties for AI-enabled fraud and temporary preemptio"
+    },
+    {
+      "title": "Lloyds expands Microsoft partnership to scale agentic AI - National Technology News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWnpLWGJiOUItX3p3aERWT1JiMVZFaEhhSWh3WlNSWXdldXdIaG1FSXNsSGFCOVJCQ013alk5d3NGZWU4b1R5aGhaY1I3S3BDUHA0dDREb1dDTUM0Y0YwVi1vbmYtcDFpZEIxM3dJdUpHTHBULWxJQWJsLVZRQ0V4N2VkWU9oYVgyQVgxLWNjT0tiMmJPaG5BTQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "Lloyds expands Microsoft partnership to scale agentic AI National Technology News"
+    },
+    {
+      "title": "Microsoft Partners with Lloyds to Scale Agentic AI - Business Chief",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkk3TUw3eXpsRkhnNEdCSXR6cjIzZng2MHBhSndKUzZrbU56N0ZDYUd0LWEyVlpHQTVCZUxIQ3M0Y3VqTDVRR2FJUVRWQ0dsN0pTSWVBMHppZ000MG9HTkhRRDMzLVdiN3NWNFphclF3SHo3eUFDVXRIWm9JVDhRRlBlUVhlZ3FU?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "Microsoft Partners with Lloyds to Scale Agentic AI Business Chief"
+    },
+    {
+      "title": "Agentic AI opens the door to weaponizing financial systems - Atlantic Council",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcUl6TVkzLXhfV1laUWlfVUwyZHQxSjJyTnhwX1RhRnZ2b2liY3lXVW40d2RBNV9jdG1LY1dnTC1GUDFWZW1FaU9ydDJiS2htUjRBcGRNcHROdlIybHVyYXZkMmJ5WEVFcU5EanFhZ1lJRmh5cndXMU9OYjdFdTltQ05OYTBtamVzWjF0LVQ3d1JUYjAyVzNJSVh6NUpfMmRXZW5YVg?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "Agentic AI opens the door to weaponizing financial systems Atlantic Council"
+    },
+    {
+      "title": "Experian Brings Trusted Agentic AI to Financial Services With the Launch of Agent Operating SystemTM - Fintech Finance",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOS2VIQnA0VTRIMFpWbExFdWc1bkQxX0k2RmpPYkZpV09mMGFMVWVlSU9MRVZhYVlVTzBMcUJzSGx0SHhrQ1BPdFZTNWdNeVp5YnpOZ056ZHkwRWt5cU1sSXl2eG9TUWVCLUo3Y1NBMjVqcTVLSmxKQXd4SWp5OGNCZXg3T0ZKcllUN0ZBUHRNVVFNMkNKdUo0YUl6dFF3ekZwejF2b0VzYzZEZ1NUSUhwSENlTkJ3VGR6MjFjV2xMTWJqTVUzc1hDVm9tOVRNV3FtcG5jVGd3OA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-05",
+      "snippet": "Experian Brings Trusted Agentic AI to Financial Services With the Launch of Agent Operating SystemTM Fintech Finance"
+    }
+  ],
+  "category3": [
+    {
+      "title": "Notion restores Anthropic AI models after brief service disruption - MEXC",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1MRVcxVmlfWkZ5MklVOHF3YnA3MWFlaGI3ZExMcHB3R2dlOU12RnBic0JrSjNxMzBPSWlhT3NlZGMzamVpZzdZ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-07",
+      "snippet": "Notion restores Anthropic AI models after brief service disruption MEXC"
+    },
+    {
+      "title": "Notion disables Anthropic models after Claude outage hits users | 'Anthropic-specific features remain unavailable' | Inshorts - Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZVQ3R1kzN1JTdnhXVnlQVDJFU2w3UUhHVER2TDJzMlAyc2JPZlhwTmUzaGMxQmJvT1hENkxsSFhDQmFjM0R6eW8wSjZjb1NpNWVfYnc5UkJUaDZaOW9NNTZsQzRsX09UWHBDSzJOTjZ4c2hPbUZjTmtBNHJiaVdubGdsdlNTRFBhV2MtTTJ3Ry1NZnlvMUk1TE9OdURNVU8xTUFSUXNEa0MyQdIBrwFBVV95cUxNeWNHOUFQYUVaTTBDTy1YYkppdHBHRW5CRk42Ync5dzcxb2R5empzaE1DbnV4VnlOR0t3SDhndS1QalZ4Q0ZzZGpwUlhKWEJIZmppMThkZzRmN3pLRkJRYzFtX0U2YzE2dzhGQlR1XzQzekFVZ3FUOVVUcW9TbUk4NDlMQ2ZSTUkzX2lDa19iVjFLbmpjZFFhYnk4OVJ2T3llT2VORkRIc0IxbF9ycHFJ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-07",
+      "snippet": "Notion disables Anthropic models after Claude outage hits users | 'Anthropic-specific features remain unavailable' | Inshorts Inshorts"
+    },
+    {
+      "title": "Anthropic’s Claude Opus 4.7 matches dedicated NMR software in chemistry tasks - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoWkhZU2oxUTZrSXRpZmlGaFVjc3pOV3hBNlRERkVhUklreWNBdWY3eUR0TW9kVlo1ekdBRW8wQUUxa1F4dlcwZTBUSnBWT2JkeGJBcndxYWZwUE1TaWJLdmVXNjJHR0pHb2RtY0pWYw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-07",
+      "snippet": "Anthropic’s Claude Opus 4.7 matches dedicated NMR software in chemistry tasks Crypto Briefing"
+    },
+    {
+      "title": "Anthropic IPO: Key Information You Need to Know About Claude’s Creator - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa28tTl93WVB4VlNSanNWbTJpaFFyVzFqV1poNkFtRkc2cG93ZDVmaTZkdDhNSTcxdzNTZml3NW9NLXNuc3ViZlZPTkZTc0tGZmFCRGkwOXpYb0g0aG1zVzRuRVJFYTFDWmROQm5LSmlfd0Zrd19kblFBczMySkJ3RFNNekRicWlDcXNZc1NvcVZvOFZ1Tk93clhBYVF4dw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-07",
+      "snippet": "Anthropic IPO: Key Information You Need to Know About Claude’s Creator TradingKey"
+    },
+    {
+      "title": "Anthropic's Claude Goes Down — Notion Disables All Claude Models and Reroutes to Alternatives - FourWeekMBA",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbUNNOElXY2JiUTRXa1h3Zlh0OU5LNzBFTXdST1dFUkVNLTZCT3hXN3p4N3pNdFhVR0VSLXpFcnNZcXRqQjJuWTluVWdYWlZJSEFneEZBaUo1U1NhWnMxVzFRWW9pVlk1WHI3ZVZodHBWRWFMZkI3dmdTUkNRX2xha3BxS2U?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-07",
+      "snippet": "Anthropic's Claude Goes Down — Notion Disables All Claude Models and Reroutes to Alternatives FourWeekMBA"
+    },
+    {
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-06-06",
+      "snippet": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process."
+    },
+    {
+      "title": "Snowflake And Anthropic Accelerate Enterprise AI Adoption As Demand For Governed AI Grows - Pulse 2.0",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdXFlblhQa3FFM3FNOGYtcGhoMDhYVEt5SW5QNTBHTVBSLUdrSDVlTHRPbzQ5dFlBaFRxNGxwSUhybXRwbFNfTzZZV2dGdi1pblg5MTZoN01IWFUtWTBJMGNKNEVNcjhHZjN3aGd4Ulg2ZEs3SWdJd0tYQmlXQkloVTV6NFpYR09HTVpDOFN3dFVkQnZsY0Foa2t1V2VwN2w5SG5PWnFmeGRhcnFmc3fSAbMBQVVfeXFMTnExbW9pSDJnNF9pcTNsakJRTGVJTThKTjl3UjBsenp5ZDlkWUZaYnIzWGRQSURIaktVa2lrQzEzZVFvcmVyV3RXSG14eW05M3p1Ri1famZGeGkwSG5oWjBpaUpJNFRpSDhrbVJERThYbEMxa2pOYWFPODNXdDZQaTA2VjZsZ3Z2QW9wMVlYUWN5bGItY2RtWENnNUFjRmhuWTRySHRFRElkb3RzZzA3TzVYLVE?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "Snowflake And Anthropic Accelerate Enterprise AI Adoption As Demand For Governed AI Grows Pulse 2.0"
+    },
+    {
+      "title": "Google Gemini 3.5 Pro Nears June Launch With 2 Million Token Context And Deep Think Reasoning - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc2VxZWZ3WGhXY2gtZXN3SVpJTU9sYTNfNGhiRER6THdpaUV5UGExR1pydHgwRHBwNWxxMEJOODFLTEItdFdCSUtnbHc1QzlmeERnM0dOVVdwb3dKYVB2NFRTZ3gyMGk5b1JTOUdMSXMtQmRHUmRRcnVkMEhlaHZ5dUxWUVgxUUJ4X3Z2Z0xxODhJOUVjb2Zzc1B3WTFCOUxtcTJrZVdIanhsRHhPakV0QjBTNWM5RFJkWDl3UV8xd0V6ZEhUX0g5RFpSc3l6V3VFTEVaTA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "Google Gemini 3.5 Pro Nears June Launch With 2 Million Token Context And Deep Think Reasoning Tech Times"
+    },
+    {
+      "title": "promptecho added to PyPI",
+      "url": "https://pypi.org/project/promptecho/",
+      "source": "NewsAPI:Pypi.org",
+      "publishedAt": "2026-06-06",
+      "snippet": "Record & replay for LLM API calls — like vcrpy/nock, built for LLM traffic."
+    },
+    {
+      "title": "Anthropic Admitted Claude Is Close To Self-Improvement — Here’s What That Means - Dallas Express",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORjJXTWxNVHF3dzZXNFdQZGNBV3hhSF9XOGFuLTI2VVF2bmF2M2xJNlRyX0NjR2pGVnMyejNOZWR6MnVGUXJJOGFSNklOOE11SzhSLVkyLXpHRjNCMml6Q1FGQ3dtRFluQTVNZ2JzMVkyWi02MGdYem5CTXFnTGYwUUVFbmh5ejNSSEtVSm0wZ1Nlcnh0eXdRQmlXaHdlQ25UY3QwTVdlRWlyUVBSakpJdk9SSzk0VF9ac2VVMw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-06",
+      "snippet": "Anthropic Admitted Claude Is Close To Self-Improvement — Here’s What That Means Dallas Express"
+    }
+  ],
+  "weekStart": "2026-05-31",
+  "weekEnd": "2026-06-07"
 }
