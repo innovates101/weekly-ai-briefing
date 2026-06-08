@@ -53,9 +53,13 @@ const TRACKED_COMPANIES = [
   'BlackRock', 'Vanguard', 'Fidelity', 'State Street',
   // Fintechs
   'Stripe', 'Plaid', 'Marqeta', 'Brex', 'Chime', 'Alibaba', 'Tencent', 'Ping An', 'WeBank', 'Nubank', 'Revolut', 'Wise', 'Adyen',
+  // Banking technology & data
+  'FIS', 'Fiserv', 'Temenos', 'Finastra', 'SS&C', 'Experian', 'Equifax', 'TransUnion',
+  // European banks
+  'Lloyds', 'NatWest', 'Santander', 'ING', 'UBS', 'Société Générale', 'Crédit Agricole', 'ABN AMRO',
   // AI vendors relevant to finance
-  'OpenAI', 'Anthropic', 'Google DeepMind', 'Microsoft', 'Palantir',
-  'Salesforce', 'ServiceNow', 'Bloomberg', 'Refinitiv', 'FactSet', 'amazon web services', 'huawei cloud', 'baidu cloud', 'mistral AI', 'Deepseek', 'Cohere', 'AI21 Labs', 'Hugging Face', 'qwen AI', 'xAI', 'liquid AI',
+  'OpenAI', 'Anthropic', 'Google DeepMind', 'Microsoft', 'Palantir', 'Apple',
+  'Salesforce', 'ServiceNow', 'Bloomberg', 'Refinitiv', 'FactSet', 'amazon web services', 'huawei cloud', 'baidu cloud', 'mistral AI', 'Deepseek', 'Cohere', 'AI21 Labs', 'Hugging Face', 'qwen AI', 'xAI', 'liquid AI', 'CrewAI', 'Composio',
   // Regulators
   'FCA', 'SEC', 'OCC', 'Federal Reserve', 'Basel', 'EBA', 'CFPB',
 ];
@@ -78,6 +82,12 @@ const KEYWORDS = {
     'digital transformation', 'RegTech', 'SupTech',
     'risk management', 'fraud detection', 'KYC', 'AML',
     'chatbot', 'copilot', 'workflow automation', 'openclaw',
+    // Cost management & governance
+    'AI cost', 'token cost', 'AI spending', 'tokenomics', 'AI governance',
+    // Enterprise AI tools & productivity
+    'enterprise AI', 'AI workspace', 'AI productivity', 'AI plugin', 'role-specific AI',
+    // Messaging & customer engagement
+    'AI messaging', 'Messages for Business', 'AI customer service',
   ],
 };
 
@@ -85,7 +95,7 @@ const KEYWORDS = {
 
 const RSS_FEEDS = [
   // AI-focused
-  { url: 'https://feeds.feedburner.com/venturebeat/SZYF', label: 'VentureBeat AI', category: 'big_tech' },
+  { url: 'https://venturebeat.com/category/ai/feed/', label: 'VentureBeat AI', category: 'big_tech' },
   { url: 'https://techcrunch.com/category/artificial-intelligence/feed/', label: 'TechCrunch AI', category: 'agentic_startups' },
   { url: 'https://a16z.com/ai/', label: 'a16z', category: 'big_tech' },
   { url: 'https://www.sequoiacap.com/feed/', label: 'Sequoia', category: 'big_tech' },
@@ -103,6 +113,8 @@ const RSS_FEEDS = [
   { url: 'https://feeds.feedburner.com/efinancialcareersnews', label: 'eFinancialCareers', category: 'banks_fintechs' },
   { url: 'https://www.fintechfutures.com/feed/', label: 'Fintech Futures', category: 'banks_fintechs' },
   { url: 'https://bankingjournal.aba.com/feed/', label: 'ABA Banking Journal', category: 'banks_fintechs' },
+  { url: 'https://www.finextra.com/rss/headlines.aspx', label: 'Finextra', category: 'banks_fintechs' },
+  { url: 'https://www.pymnts.com/feed/', label: 'PYMNTS', category: 'banks_fintechs' },
   { url: 'https://www.risk.net/rss', label: 'Risk.net', category: 'regulation_risk' },
 
   // Regulation
@@ -119,6 +131,12 @@ const NEWSAPI_QUERIES = [
   { q: 'AI regulation banks', language: 'en', sortBy: 'relevancy' },
   { q: 'generative AI fintech', language: 'en', sortBy: 'relevancy' },
   { q: 'LLM enterprise finance', language: 'en', sortBy: 'relevancy' },
+  // Capture cost management & tokenomics stories
+  { q: 'AI cost management token spending enterprise', language: 'en', sortBy: 'relevancy' },
+  // Capture enterprise AI productivity tools (Codex, workspace agents etc.)
+  { q: 'enterprise AI workspace agents productivity tools', language: 'en', sortBy: 'relevancy' },
+  // Capture AI agents in consumer/business messaging (relevant to bank customer service)
+  { q: 'AI agent messaging platform customer service fintech', language: 'en', sortBy: 'relevancy' },
 ];
 
 // ─── OUTPUT SETTINGS ─────────────────────────────────────────────────────────
