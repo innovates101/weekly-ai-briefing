@@ -7,7 +7,7 @@ const RSSParser = require('rss-parser');
 
 const parser = new RSSParser({
   timeout: 15_000,
-  headers: { 'User-Agent': 'AI-Agents-Weekly/1.0' },
+  headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)' },
   customFields: {
     item: [
       ['media:content', 'mediaContent'],
@@ -70,8 +70,8 @@ const CATEGORY_DEFS = {
     id: 'category1',
     label: 'Agentic AI Startups — Game-Changing Initiatives',
 
-    // Queries sent to NewsAPI (/everything)
-    newsApiQueries: [
+    // Queries sent to Tavily search API
+    searchQueries: [
       '"agentic AI" startup funding',
       '"AI agent" launch announcement startup',
       'autonomous AI agent company raises',
@@ -98,7 +98,7 @@ const CATEGORY_DEFS = {
     id: 'category2',
     label: 'Agentic AI in Financial Institutions',
 
-    newsApiQueries: [
+    searchQueries: [
       '"AI agent" bank OR banking',
       'agentic AI "financial institution"',
       '"AI automation" insurance "asset management"',
@@ -128,7 +128,7 @@ const CATEGORY_DEFS = {
     id: 'category3',
     label: 'New Model Developments',
 
-    newsApiQueries: [
+    searchQueries: [
       'OpenAI new model release',
       'Anthropic Claude model update',
       '"Google DeepMind" OR Gemini model release',
@@ -193,7 +193,7 @@ async function fetchJson(url, timeoutMs = 12_000) {
   try {
     const res = await fetch(url, {
       signal: controller.signal,
-      headers: { 'User-Agent': 'AI-Agents-Weekly/1.0' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)' },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
     return await res.json();
@@ -202,31 +202,103 @@ async function fetchJson(url, timeoutMs = 12_000) {
   }
 }
 
+// ─── TAVILY FETCHER ──────────────────────────────────────────────────────────
+
+async function fetchTavilyQuery(query, categoryId, since) {
+  const key = process.env.TAVILY_API_KEY;
+  if (!key) return [];
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 12_000);
+  let data;
+  try {
+    const res = await fetch('https://api.tavily.com/search', {
+      method: 'POST',
+      signal: controller.signal,
+      headers: {
+        'Content-Type': 'application/json',
+        'User-Agent': 'Mozilla/5.0 (compatible; AI-Agents-Weekly/1.0)',
+      },
+      body: JSON.stringify({
+        api_key: key,
+        query,
+        search_depth: 'basic',
+        max_results: 10,
+        include_answer: false,
+        include_raw_content: false,
+        include_images: false,
+      }),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    data = await res.json();
+  } catch (err) {
+    console.warn(`[Tavily] query "${query}" failed: ${err.message}`);
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+
+  return (data.results || []).map(r => {
+    let hostname = '';
+    try { hostname = new URL(r.url).hostname.replace(/^www\./, ''); } catch { /* ignore */ }
+    return normalizeArticle({
+      title: r.title,
+      url: r.url,
+      source: `Tavily:${hostname || 'unknown'}`,
+      publishedAt: r.published_date ? parseDate(r.published_date) : null,
+      snippet: (r.content || '').slice(0, 500),
+      category: categoryId,
+    });
+  }).filter(a => !a.publishedAt || a.publishedAt >= since);
+}
+
+// Small delay to stay within Tavily's rate limits (~1 req/s on free tier)
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function fetchAllTavily(since) {
+  const results = [];
+  let callCount = 0;
+
+  for (const [catId, def] of Object.entries(CATEGORY_DEFS)) {
+    for (const query of def.searchQueries) {
+      if (callCount > 0) await sleep(1_000);
+      const articles = await fetchTavilyQuery(query, catId, since);
+      results.push(...articles);
+      callCount++;
+    }
+  }
+
+  console.log(`[Tavily] fetched ${results.length} raw articles across ${callCount} queries`);
+  return results;
+}
+
 // ─── NEWSAPI FETCHER ─────────────────────────────────────────────────────────
 
-async function fetchNewsApi(query, categoryId, since) {
+async function fetchNewsApiQuery(query, categoryId, since) {
   const key = process.env.NEWS_API_KEY;
   if (!key) return [];
 
   const params = new URLSearchParams({
     q: query,
-    from: since.toISOString().split('T')[0],
     language: 'en',
-    sortBy: 'publishedAt',
-    pageSize: '20',
+    sortBy: 'relevancy',
+    pageSize: '10',
+    from: since.toISOString().split('T')[0],
     apiKey: key,
   });
 
   let data;
   try {
-    data = await fetchJson(`https://newsapi.org/v2/everything?${params}`);
+    data = await fetchJson(`https://newsapi.org/v2/everything?${params}`, 12_000);
   } catch (err) {
     console.warn(`[NewsAPI] query "${query}" failed: ${err.message}`);
     return [];
   }
 
   if (data.status !== 'ok') {
-    console.warn(`[NewsAPI] query "${query}" returned status=${data.status}: ${data.message || ''}`);
+    console.warn(`[NewsAPI] query "${query}" error: ${data.message || data.status}`);
     return [];
   }
 
@@ -236,15 +308,10 @@ async function fetchNewsApi(query, categoryId, since) {
       url: a.url,
       source: `NewsAPI:${a.source?.name || 'unknown'}`,
       publishedAt: parseDate(a.publishedAt),
-      snippet: a.description || a.content || '',
+      snippet: (a.description || '').slice(0, 500),
       category: categoryId,
     })
-  );
-}
-
-// Small delay to stay well within NewsAPI's rate limits
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  ).filter(a => !a.publishedAt || a.publishedAt >= since);
 }
 
 async function fetchAllNewsApi(since) {
@@ -252,9 +319,9 @@ async function fetchAllNewsApi(since) {
   let callCount = 0;
 
   for (const [catId, def] of Object.entries(CATEGORY_DEFS)) {
-    for (const query of def.newsApiQueries) {
-      if (callCount > 0) await sleep(300); // ~3 req/s max
-      const articles = await fetchNewsApi(query, catId, since);
+    for (const query of def.searchQueries) {
+      if (callCount > 0) await sleep(300);
+      const articles = await fetchNewsApiQuery(query, catId, since);
       results.push(...articles);
       callCount++;
     }
@@ -575,10 +642,11 @@ async function fetchAll() {
 
   console.log(`[news-fetcher] Fetching articles from ${weekStart.toDateString()} to ${weekEnd.toDateString()}`);
 
-  // Run all three source types in parallel, with a global hard timeout.
+  // Run all four source types in parallel, with a global hard timeout.
   // Each sub-fetcher also has per-request timeouts; this is the safety net.
-  const [newsApiArticles, googleNewsArticles, staticFeedArticles] = await withTimeout(
+  const [tavilyArticles, newsApiArticles, googleNewsArticles, staticFeedArticles] = await withTimeout(
     Promise.all([
+      fetchAllTavily(weekStart),
       fetchAllNewsApi(weekStart),
       fetchAllGoogleNews(weekStart),
       fetchAllStaticFeeds(weekStart),
@@ -587,12 +655,12 @@ async function fetchAll() {
     'fetchAll'
   );
 
-  const totalRaw = newsApiArticles.length + googleNewsArticles.length + staticFeedArticles.length;
-  console.log(`[news-fetcher] Raw totals — NewsAPI: ${newsApiArticles.length}, Google News: ${googleNewsArticles.length}, Static RSS: ${staticFeedArticles.length}`);
+  const totalRaw = tavilyArticles.length + newsApiArticles.length + googleNewsArticles.length + staticFeedArticles.length;
+  console.log(`[news-fetcher] Raw totals — Tavily: ${tavilyArticles.length}, NewsAPI: ${newsApiArticles.length}, Google News: ${googleNewsArticles.length}, Static RSS: ${staticFeedArticles.length}`);
 
-  // Merge: NewsAPI first (highest editorial quality), then Google News, then static feeds.
-  // This means earlier entries win deduplication, so premium sources are preferred.
+  // Merge order determines dedup priority: Tavily → NewsAPI → Google News → static feeds.
   const allArticles = [
+    ...tavilyArticles,
     ...newsApiArticles,
     ...googleNewsArticles,
     ...staticFeedArticles,
@@ -632,6 +700,7 @@ async function fetchAll() {
         category3: grouped.category3.length,
       },
       sources: {
+        tavily: tavilyArticles.length,
         newsApi: newsApiArticles.length,
         googleNews: googleNewsArticles.length,
         staticFeeds: staticFeedArticles.length,
@@ -659,6 +728,7 @@ function printSummary(result) {
   console.log(`  Fetched at: ${result.fetchedAt}`);
   console.log('──────────────────────────────────────────────────────');
   console.log(` Raw articles: ${result.stats.totalRaw}`);
+  console.log(`   Tavily:      ${result.stats.sources.tavily}`);
   console.log(`   NewsAPI:     ${result.stats.sources.newsApi}`);
   console.log(`   Google News: ${result.stats.sources.googleNews}`);
   console.log(`   Static RSS:  ${result.stats.sources.staticFeeds}`);
