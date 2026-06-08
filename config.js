@@ -6,44 +6,49 @@ const PUBLICATION = {
   name: 'AI Agents Weekly',
   tagline: 'AI developments impacting financial institutions',
   audience: 'Banking Strategy & Innovation Team',
-  // Cron schedule: every Monday at 07:00 local time
-  schedule: '0 7 * * 1',
+  // Cron schedule: every Monday at 08:00 local time
+  schedule: '0 8 * * 1',
 };
 
 // ─── CATEGORIES ──────────────────────────────────────────────────────────────
 // Each category becomes a section in the briefing.
 // 'prompt' guides Claude's editorial framing for that section.
+// NOTE: tracked companies and keywords are a prioritisation signal, not an
+// exclusion filter — include emerging or novel developments even when they
+// fall outside the predefined scope, if they carry relevance to financial institutions.
 
 const CATEGORIES = [
   {
     id: 'agentic_startups',
     label: 'Agentic AI Startups',
-    prompt: 'Focus on funding rounds, launches, and product announcements for AI agent startups. Emphasise relevance to financial institutions.',
+    prompt: 'Focus on funding rounds, launches, and product announcements for AI agent startups. Emphasise relevance to financial institutions. Do not limit coverage to tracked companies — surface emerging or under-the-radar startups whose technology could matter to banks and fintechs.',
   },
   {
     id: 'big_tech',
     label: 'Big Tech & Foundation Models',
-    prompt: 'Cover model releases, capability jumps, and platform announcements from OpenAI, Anthropic, Google DeepMind, Meta, Mistral, and others. Focus on enterprise and agentic implications.',
+    prompt: 'Cover model releases, capability jumps, and platform announcements from major AI labs and cloud providers. Focus on enterprise and agentic implications for financial institutions. Include notable developments from less prominent players if they represent a genuine capability shift.',
   },
   {
     id: 'banks_fintechs',
     label: 'Banks & Fintechs Deploying AI',
-    prompt: 'Cover how banks, asset managers, insurers, and fintechs are deploying AI in production. Focus on scale, use case, and lessons for peers.',
+    prompt: 'Cover how banks, asset managers, insurers, and fintechs are deploying AI in production. Focus on scale, use case, and lessons for peers. Go beyond tracked institutions — include smaller or regional players whose deployments illustrate broader trends.',
   },
   {
     id: 'regulation_risk',
     label: 'Regulation & Risk',
-    prompt: 'Cover regulatory guidance, policy moves, risk frameworks, and compliance developments related to AI in financial services.',
+    prompt: 'Cover regulatory guidance, policy moves, risk frameworks, and compliance developments related to AI in financial services. Include emerging signals from jurisdictions or bodies not yet on the radar, as early-stage regulatory moves often precede broader impact.',
   },
   {
     id: 'research',
     label: 'Research & Thinking Worth Reading',
-    prompt: 'Highlight academic papers, long-form analysis, and practitioner reports that offer strategic insight for financial institutions adopting AI.',
+    prompt: 'Highlight academic papers, long-form analysis, and practitioner reports that offer strategic insight for financial institutions adopting AI. Cast a wide net — include work from independent researchers, think tanks, and non-finance AI labs if the findings carry clear implications for the sector.',
   },
 ];
 
 // ─── TRACKED COMPANIES ───────────────────────────────────────────────────────
-// Articles mentioning these companies are prioritised.
+// Articles mentioning these companies are prioritised — but coverage is not
+// limited to them. Emerging players and unlisted institutions should still
+// be included when they signal relevant AI developments.
 
 const TRACKED_COMPANIES = [
   // Major banks
@@ -119,6 +124,9 @@ const NEWSAPI_QUERIES = [
   { q: 'AI regulation banks', language: 'en', sortBy: 'relevancy' },
   { q: 'generative AI fintech', language: 'en', sortBy: 'relevancy' },
   { q: 'LLM enterprise finance', language: 'en', sortBy: 'relevancy' },
+  // Broader queries to surface emerging developments beyond tracked scope
+  { q: 'AI breakthrough financial impact', language: 'en', sortBy: 'relevancy' },
+  { q: 'emerging AI technology banking risk', language: 'en', sortBy: 'relevancy' },
 ];
 
 // ─── OUTPUT SETTINGS ─────────────────────────────────────────────────────────

@@ -4,6 +4,10 @@
 
 Automated weekly email newsletter delivering AI news curated for financial institutions. The pipeline: fetch articles → Claude analyzes & editorializes → render HTML email → send via Gmail.
 
+## Editorial Philosophy
+
+The newsletter's purpose is to keep readers abreast of **all AI developments that could impact the financial sector** — not just news about tracked companies or predefined categories. Tracked companies and keywords are a *prioritisation signal*, not an exclusion filter. Claude should actively surface emerging developments, novel research, and under-the-radar signals even when they fall outside the configured scope, provided they carry plausible relevance to financial institutions.
+
 ## Architecture
 
 ```
@@ -19,10 +23,11 @@ index.js (CLI entry)
 2. **Things to Know** — 4–6 broader stories across all categories. Each capped at 80 words. Headline is plain bold text; the source name is the clickable underlined link to the article.
 3. **Agentic Startups to Watch** — 2–3 startup stories, capped at 80 words each. Focus on what the product actually does, what's novel, and why it matters to financial institutions.
 
-**Three article categories:**
+**Four article categories:**
 1. Agentic AI startups
 2. AI deployments in financial institutions
 3. New model/research developments
+4. Emerging AI developments that financial institutions should know
 
 ## How to Run
 
