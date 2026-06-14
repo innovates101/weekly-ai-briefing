@@ -1,62 +1,69 @@
 {
   "deepDive": {
-    "title": "Fiserv's agentOS Is the Plumbing Every Bank's AI Strategy Has Been Missing",
-    "html": "<h3>Overview</h3><p>On May 14, Fiserv launched <a href=\"https://investors.fiserv.com/news-releases/news-release-details/fiserv-launches-agentos-operating-system-agentic-ai-banking\">agentOS</a> &mdash; an agentic AI operating system built natively on top of Fiserv&rsquo;s core, payments, issuer, and servicing infrastructure. This isn&rsquo;t another bank chatbot or point solution. It&rsquo;s an enterprise deployment layer that lets financial institutions run AI agents across loan onboarding, AML triage, deposit intelligence, and operational reporting &mdash; with policy controls, auditability, and human oversight baked in from day one.</p><h3>The Details</h3><ul><li>agentOS runs natively across Fiserv&rsquo;s core banking, payments, issuer processing, and servicing platforms &mdash; eliminating the integration overhead that has derailed most bank AI deployments</li><li>Launch portfolio: four Fiserv-built agents (Commercial Loan Onboarding, Daily Operational Analysis, Agentic Deposit Intelligence, Agentic AML Triage) plus a marketplace of nine third-party partner agents covering disputes, reconciliation, and customer engagement</li><li>First Interstate Bank and Boulder Dam Credit Union are live in beta today; six institutions co-developed the platform, with general availability planned for August 2026</li><li>OpenAI and Amazon Web Services are key technology collaborators; Fiserv separately announced a strategic collaboration with OpenAI targeting core banking operational workflows</li><li>Fiserv serves over 10,000 financial institutions globally &mdash; agentOS adoption would represent one of the largest single-infrastructure AI rollouts in banking history</li></ul><h3>Why It Matters</h3><p><strong>The biggest barrier to AI in banking has never been the models &mdash; it&rsquo;s been integration.</strong> Every bank pilot that died on the vine died because connecting AI to core banking, payments, and AML systems is genuinely hard. Fiserv built agentOS natively on its own stack, which means any of its 10,000+ client institutions can deploy without a multi-year integration project. That changes the economic equation entirely for mid-tier banks.</p><p><strong>The marketplace model is the other key signal.</strong> By opening agentOS to third-party agent developers, Fiserv is building a financial services agent ecosystem &mdash; an app store for bank operations. Banks that adopt agentOS early get access to every future agent that plugs into it. The network effects here could entrench Fiserv&rsquo;s infrastructure position even further across an industry it already dominates.</p>"
+    "title": "US Locks Down Claude Fable 5 After Anthropic's Jailbreak Standoff",
+    "html": "<h3>Overview</h3><p>The Trump administration has imposed <strong>export controls on Anthropic's Claude Fable 5</strong> — blocking foreign access to the company's most powerful model — after Anthropic declined to patch a known jailbreak that a Chinese group reportedly exploited. <a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0JVZ1VmVE9Tam15QlVrVURFYkFKaDRCenItc1JZWGlaakl3ZmhIUVFfbE4yMUhaQmdIUDlHVnJxT1FONWdBWW1ZREFPcHJBQVhIUFdYd28tNEVzSS1FdVZBcGNLdG01bDB3T2p2dnpBSDY1UUV5N3N5dEx3ejZJZk9zNzZxRlhPdnJHYmRPeDlrQzNVMGxSYkg4YUoxQ21lbURBY0ZpczRpSkU3SktvbUxpQdIBuAFBVV95cUxONGMzSmFWQzJhLWV5ckJsX2dXQ2FuVk5rMjQ5dGZjblRVSzNuUU9lRjRMOHRzdGRUQ2RPbGJBMTFmczM3eEZHYVA1bG1vUFVjWkYzQUpMRXN5dmVjV0t3YTJlRlBmbDhmSkZlTXJsSXM4V0pHeDc0cmpBS1ROQkxxcDkzcmFjVjVaOVZwNGhOU3FwNENFZ0g3RzFmaC1maXNjTEQ3TGlZaWhXeU5iWTN4Q1ctRVd6eVNt\">The fallout is significant</a>, and global banks are directly exposed.</p><h3>The Details</h3><ul><li>Claude Fable 5, Anthropic's most powerful model, was jailbroken — a Chinese group reportedly accessed the model via the vulnerability</li><li>The US government warned Anthropic and requested the flaw be patched before export controls were triggered</li><li>Anthropic declined, calling the jailbreak &ldquo;isn't serious&rdquo; — a position the Trump administration flatly rejected</li><li>The US implemented export controls restricting <em>foreign</em> access to Anthropic's top-tier models</li><li>Claude Fable 5 was restricted while GPT-5.5 was not, fuelling industry debate about selective enforcement</li><li>Anthropic, valued at approximately $965 billion, faces significant commercial damage as international enterprise clients lose access</li></ul><h3>Why It Matters</h3><p>For any bank or fintech outside the US running Claude in production, this is an operational emergency. Export controls can terminate API access and enterprise agreements overnight. AI procurement leads at global financial institutions need to audit vendor contracts and assess <strong>concentration risk</strong> on US frontier AI models — immediately.</p><p>The deeper issue is vendor governance. Anthropic's decision to dismiss a government-flagged security vulnerability — and the export controls that followed — establishes that AI model vendors can become <strong>geopolitical actors</strong>. Compliance and risk teams need a new framework for this category of AI vendor risk; existing third-party risk models were not built for it.</p>"
   },
   "startups": {
     "items": [
       {
-        "company": "Sierra",
-        "tagline": "Enterprise AI agents for complex, regulated customer interactions at scale",
-        "summary": "Sierra raised $950M at a $15.8B valuation, led by Tiger Global and GV, just eight months after a $350M round at $10B. Founded by Bret Taylor and Clay Bavor, Sierra has crossed $150M ARR and counts over 40% of the Fortune 50 as customers, with agents handling mortgage refinancing, insurance claims, and account disputes.",
-        "analysis": "**What makes it stand out:** Sierra's traction in mortgage and insurance proves that enterprise AI agents can handle high-stakes, regulated interactions banks previously considered too sensitive to automate — and the $15.8B valuation signals that investors believe this is a winner-take-most market.",
-        "url": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/"
+        "company": "ChatSee",
+        "tagline": "Failure intelligence platform that captures and learns from enterprise AI agent errors in production",
+        "summary": "ChatSee raised $6.5M in seed funding, led by True Ventures, to build a failure intelligence layer for autonomous AI agents — logging and analyzing agent errors so enterprise deployments become more reliable over time.",
+        "analysis": "**Essential for bank deployments.** Financial institutions running AI agents in compliance or fraud workflows need to understand why agents fail; ChatSee provides that operational visibility before failures escalate into regulatory incidents.",
+        "url": "https://siliconangle.com/2026/06/12/chatsee-raises-6-5m-build-failure-memory-enterprise-ai-agents/"
       },
       {
-        "company": "Anthropic (Financial Services)",
-        "tagline": "Ten pre-built agent templates for the most time-consuming workflows in banking and asset management",
-        "summary": "Anthropic released ten ready-to-deploy agent templates covering pitchbooks, KYC screening, credit memos, underwriting, month-end close, and insurance claims — shipped as plugins for Claude Cowork and Claude Code. Claude Opus 4.7, already in production at JPMorganChase, Goldman Sachs, and Citi, now tops Vals AI's Finance Agent benchmark at 64.4%.",
-        "analysis": "**What makes it stand out:** Pre-built, benchmark-validated templates mean mid-tier banks can deploy institutional-grade AI agent workflows without a 12-month build cycle — closing the gap with G-SIBs that built bespoke tooling.",
-        "url": "https://www.anthropic.com/news/finance-agents"
+        "company": "Composio",
+        "tagline": "Production-ready AI agent infrastructure platform built for enterprise integrations and reliability at scale",
+        "summary": "Composio is positioning its AI agent infrastructure as the production-grade layer enterprises actually need — emphasizing reliability, security, and deep tool integrations over developer-centric prototypes.",
+        "analysis": "**Infrastructure shortlist for banks.** Financial institutions building agentic AI need auditable, reliable integration layers; Composio's production-first positioning makes it a natural candidate for enterprise AI buildouts in regulated sectors.",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSWNGaV9KdkROZ0h2dU1CNVdCNXN3c1pMcVQwejZpOEZQVGx3NGN6UC1yczFjTVpvdndMY3VhVDBTbnZwcXVHc1JTTmdFT2YwSVVVbURkS3hIVG41UDdkdDA1SlQ3OEc1aHlvUzM5SVRDa0dhOFZ5TE5NWUFVeU9FRG9QYUdtanVRaDNaM21KemlNa2JhR0J6TGJjamRCeE9tV3UwMWI0ZUhsSTFv"
       }
     ]
   },
   "thingsToKnow": {
     "items": [
       {
-        "headline": "FIS and Anthropic Launch AI Agent to Compress AML Investigations from Days to Minutes",
-        "source": "Finextra",
-        "url": "https://www.finextra.com/newsarticle/47695/fis-teams-with-anthropic-to-develop-financial-crimes-ai-agent",
-        "summary": "FIS and Anthropic announced a Financial Crimes AI Agent built on Claude that automatically assembles AML evidence across core systems, evaluates it against known typologies, and surfaces high-risk cases for investigator review. BMO and Amalgamated Bank are the first deployments; broader rollout planned for H2 2026.",
-        "keyPoint": "**AML is the first agentic AI use case with clear regulatory momentum.** Automating the investigation — not just the alert — is a qualitative step change for compliance teams drowning in false positives, and named G-SIB deployments signal examiner comfort."
+        "headline": "Lloyds Is Using Agentic AI To Supercharge Its Fight Against Fraud",
+        "source": "WIRED",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWE1RVkZqQ1lIUEJVYjVfbXJSdWI4dWo0aVh0STJRaHRzbEhnZG5hVUxRSkNPd3I3X05yUHRncE8zekxqTDZkU3hmX0FoUGVkY0NnQWR2Rjc0UF9sZ3RtX0xwamZZa1JtbWVWTXYxbEdtei1RelZycGFndkpxZmhHZnpReUFjQmtXQS1EMQ",
+        "summary": "Lloyds Banking Group has deployed agentic AI to strengthen fraud detection, using autonomous agents to investigate suspicious activity and cut response times across its operations.",
+        "keyPoint": "**The enterprise banking playbook.** Lloyds' live deployment of agentic fraud systems is the case study compliance and financial crime teams will use to justify — or delay — their own rollouts."
       },
       {
-        "headline": "Google Commits Up to $40B in Anthropic in Cash and Compute",
-        "source": "TechCrunch",
-        "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-        "summary": "Google announced a commitment of up to $40 billion in Anthropic — the largest disclosed AI investment on record — providing cash and Google Cloud compute. The deal cements Google as Anthropic's primary cloud provider and sharpens AI infrastructure competition with Microsoft's OpenAI bet.",
-        "keyPoint": "**Cloud provider choice is now an AI strategy choice.** Banks evaluating hyperscalers are effectively choosing between the Anthropic/Google stack and the OpenAI/Microsoft stack — and switching costs will compound as workloads deepen."
+        "headline": "Ant Group tests AI agent interface in Alipay super app",
+        "source": "디지털투데이",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUFh1YjRocHN3OEV5bVNIWjFDbl9tbzVGemJJLXZBQ21ia0lmM2xlb3BKUENJS0s5MlozMjczOVVMY3NYcVFjanV2bGhBbGd5N0dER2lXWVlKNnJzR1ZocXNQUmFIMjV4TUFxSGNsQVdhVFFVV3cwQ3EzOVNkTUNoVWlEdmZOT2Vsamt2MjlFUUpYRmVPLVF2c0xMcURYT1Et",
+        "summary": "Ant Group is testing an AI agent interface inside Alipay, enabling the super app's vast user base to interact with autonomous financial AI for queries and financial tasks.",
+        "keyPoint": "**The scale benchmark.** Alipay running agentic AI at consumer scale sets the competitive target for Western banks — and will accelerate regulatory scrutiny of AI autonomy in financial services globally."
       },
       {
-        "headline": "Anthropic Releases 'Mythos' — Its Most Capable Model Yet — to Vetted Partners Only",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
-        "summary": "Anthropic released Mythos, described as its most powerful model to date with significant cybersecurity applications, exclusively to a select group of approved organisations. The model remains off-limits publicly while Anthropic assesses safety implications, particularly around offensive security use cases.",
-        "keyPoint": "**Frontier models are now too capable for open release — and banks with early access programs stand to benefit.** Mythos-class capabilities in fraud detection and threat intelligence could create meaningful competitive separation between institutions that get early access and those that wait."
+        "headline": "The First Bank To Let An AI Agent Move Money Will Set The Rules For Everyone",
+        "source": "Forbes",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZGVNdm1ZQjBvczFFTWx5MmQwaUJ3dTUzM1BDTHlhQjNuUG42V0xBV1BSSEVvQUFGaC1tWEp6Wl96UFd0WXVEV2NYQ3RfbVlpNS1ZWDVDN2RYbXYtY0VnclhoMXFtWmRFLTAwZlVCVUlseUFYODFuTG9NMVhETmxxR1lfWUJobl96TXQzZFNJbzgybURyV2xHY2FaZVVFYWRpcGRiaXotbFlNaExsTHMyUlZGNkJockVZNFhUTGtQUmtyd25BZWV6cEpZdC0",
+        "summary": "Forbes examines the governance vacuum around AI agents in banking: which institution will be first to allow an AI agent to autonomously initiate transactions — and what liability and regulatory frameworks that decision will establish for everyone else.",
+        "keyPoint": "**Board-level governance question.** The first bank to cross this threshold writes the compliance template regulators will apply to all institutions that follow."
       },
       {
-        "headline": "Fiserv and OpenAI Form Strategic Collaboration to Bring Frontier AI to Core Banking Operations",
-        "source": "PYMNTS",
-        "url": "https://www.pymnts.com/artificial-intelligence-2/2026/fiserv-and-openai-bring-frontier-ai-to-banks/",
-        "summary": "Separate from the agentOS launch, Fiserv announced a strategic collaboration with OpenAI with joint teams already working on applying frontier AI to core banking operations. Progress is expected to reach Fiserv client institutions through the remainder of 2026.",
-        "keyPoint": "**The fintech infrastructure layer is becoming the AI battleground.** With both OpenAI and Anthropic now embedded in Fiserv and FIS respectively, AI vendor relationships are being locked in at the infrastructure level — not at individual bank level."
+        "headline": "Agentic AI surges in financial sector even as many firms fail to manage security risks",
+        "source": "Cybersecurity Dive",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY1lla0FtNWhNTnZKU3E2a3Bxb2FTRnU5T1UyRXV4Y3dMNHdXLWpySklqa2RMakRrWnlRamQ2RkhXdDh4YThSYS1FTGMxaFphOWJqYXhCb3FmTWNDaGRkTXhfNTVNcDd3a2kyUFVaclV4QVlnM1d5UlBUZ0FYclI0QmpJODNLM0ZZbW5Db21vdXlxVW1jcVkyd1VpbE5IRF9D",
+        "summary": "Agentic AI adoption is accelerating across banks and fintechs, but most firms lack mature security frameworks to govern autonomous AI — creating exposure to prompt injection, data exfiltration, and model manipulation attacks.",
+        "keyPoint": "**Adoption ahead of governance.** Banks are deploying agentic AI faster than they are building controls to manage it — a gap that is already on regulators' radar."
       },
       {
-        "headline": "The AI-Agent Era in Financial Services Is Just Beginning",
-        "source": "ABA Banking Journal",
-        "url": "https://bankingjournal.aba.com/2026/05/the-ai-agent-era-in-financial-services-is-just-beginning/",
-        "summary": "The ABA Banking Journal's analysis of 2026 deployments argues that despite the pace of announcements, banks are still in the first inning of agentic AI adoption. Governance frameworks — model inventories, oversight protocols, audit trails — are identified as the primary bottleneck, not model capability.",
-        "keyPoint": "**Governance is the new bottleneck.** Banks that invest in AI governance infrastructure now will be able to deploy faster as models improve, rather than scrambling to build controls retroactively around already-live systems."
+        "headline": "Is the agentic payments wave leaving banks behind?",
+        "source": "American Banker",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSElSdzU2dFhfbVViYUdmbVRBQlpySlVjM29RN2d2dHdvbkh3NUZKMHNEVkItRHNyYW5wa0NzY1pjYkdoWkRCWE9vbEFIODd0NUtSdDNNTmlNMlI3MmQyRURtWXlra3h6ZGpzakJkMEhCdzgwOWxJMGI0TTBfdnVBTEV0X3BGSURiS05jTEZiMC11WW9iZzBjaG9Jam5jaU9QY01RX1BKdzU",
+        "summary": "Incumbent banks risk ceding the agentic payments infrastructure layer to fintechs and payment networks moving faster to deploy AI agents for autonomous transactions, liquidity management, and reconciliation.",
+        "keyPoint": "**Speed gap is a strategic threat.** If banks don't define their agentic payments position now, faster-moving competitors will own the infrastructure — and the customer relationships that come with it."
+      },
+      {
+        "headline": "Will TCS and Anthropic's Claude Partnership Set a New Standard for Regulated AI?",
+        "source": "The Futurum Group",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3R0ZEIxdGRKQk9DcC1rZEJEall6OG1icXpEM010NFFCYWpoS1NFb09UUl9RdHhwS3dvYlFCaXFsUWdxYlIyWkRRRm44M3J4UWEzNi1lQkZMV1hCRFM2b3hUZDczUmdPM0NQcF9NZjRMUUFyZWdTX18yN2NTcU8zZFdWaWIxYXR5cW1nVVliV3k1OUp5MkgwdWI0YkZNeUcxTzdNcDlwZ1NpZTk1LUpQbFhzQQ",
+        "summary": "TCS and Anthropic have partnered to deliver Claude-based AI solutions to regulated industries, with TCS integrating Claude into its enterprise offerings targeting compliance-heavy financial sector clients including banks.",
+        "keyPoint": "**Systems integrator signal.** TCS's commitment to Claude for regulated AI channels significant enterprise spend toward Anthropic's platform and marks a milestone in frontier AI moving from pilot to production in banking."
       }
     ]
   }

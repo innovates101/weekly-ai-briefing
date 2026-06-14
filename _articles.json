@@ -1,7 +1,220 @@
 {
-  "category1": [],
-  "category2": [],
-  "category3": [],
-  "weekStart": "2026-05-11",
-  "weekEnd": "2026-05-18"
+  "category1": [
+    {
+      "title": "LVP taps OpenClaw, Claude in hybrid cloud AI play - iTnews",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNenc5T3QtZ1Z6b3JQUFZJOUUzSkNYZ29ZMnhoaGtkOGtPck1IcUJjWHQ2b3ZZWUY4ZV9DRkJlam55WWx0QkwycmJwZHdjSWRoNHF1QlUtcTRRWEJBZ0xscXYxQVA4MjhwX0d1ZE1DZ2dBX3F4aXN6VThvOHB1VjlhRVVNc1pGMlN0NFlGZG01aw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "LVP taps OpenClaw, Claude in hybrid cloud AI play iTnews"
+    },
+    {
+      "title": "Apple Could Eventually Bring An OpenClaw-Like Competitor To Multiple Platforms, Offering Personalized AI Agents At Flexible Pricing - Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNelhPbENLeGh3QV84ZHNmOTMzUjdOdEV4SXdwSm83STVYSVowUktqSlZhMXMxdWNXSWpEMTJzRTAwRG1lSHVIWmxoalN5WmwzUnJIWmlfVjFoSE4telR0WjgtTkRtZkpweWU0YzlRdGNUWkp3Z21oSkM3QmtXX3pFNFVvMFV5cElZS1dpdWdFYkF2MU9QcGR5cklB0gGfAUFVX3lxTE16Tkl0RjI4aHVCeHNvT1FoUk02V0luR0lPZUVLcGMyU1ktZUdPZkh0TWFnQ2pXQ3d1RmdKQVktd3JuNUdjTFYwY2dxN1lFZ24tTDRYRmNBMnZHRmxKQTlUM05hZ2o3X3Z6QzRmN0Foc192WUF2WVV4bkF1QjRtV2thNXo3VGZMRnhNU1ZGNkp0eHlfZVpJNDdZTmllNm1Ncw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Apple Could Eventually Bring An OpenClaw-Like Competitor To Multiple Platforms, Offering Personalized AI Agents At Flexible Pricing Wccftech"
+    },
+    {
+      "title": "Bezos just dropped $12B on “Prometheus”—a factory AI now valued at a wild $41B - greenworks.lu",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVWdEVFg5am1uX0JZQjduQWgweE1lT3QtYmowMmc2enNXVlZZZFFNeUpyZUlkTWowc2p4OGRHa2VBa1ZkUEdlNWtwN0M4OE5wOGhfZnh0VXBTT0tKRkNGX0JmQ3FuRDh3U04tZWpaSTF5SnZhWGYwc3FEREtDSkNyeGlvR3ZPaVdlclp5Tko3dXdSRzE3SUttOEFvQXBXVnhLR3dlU0JPNGNhRmY3cUVOMV9LWkQzMUE?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Bezos just dropped $12B on “Prometheus”—a factory AI now valued at a wild $41B greenworks.lu"
+    },
+    {
+      "title": "OneXPlayer reveals X2 Mini Pro pricing: OpenClaw-ready Ryzen AI Max+ 388 handheld PC launching with up to 64 GB RAM, optional liquid-cooling, and 118 TOPS of AI performance - Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPMmZUVml5bnlRdnlaSUF1d205RnFiVTRNNmRlcEE4NlpJRi1WdkZqMEZhUWhrRTJFZFAzZ0FFOXhlUFhjaWpyam5zMUN6X3IteUdfN01UUUE1dTQweUVSelFnalh3cE9MU2QzYXRHNDhFZEZxSTcwTDBPTzQ1cEFXZmlqQWJiX3J1RW5uVzNtLUhTU0xGSzR5MDdGUXRKQmJlZmhQTzRXM0V2N2xyYVY5UlFZVlBSaEdSMkNBcUtTS1E3NmhDWFBEaG9IZGRmcTdwaFBwcmJud0gwU1ZjajlqOXBUSEhsaUt3bTMxbHBNMEFSRGlZM01DNlNvT0k2RmF5bWg4ZWI5SkF1Y0EwWHZudWw0V1VidWhCdC1wTGQ3aVRpdG9JSE5sT2ZZeGdvTnpZVHdBb3hCY2E?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-13",
+      "snippet": "OneXPlayer reveals X2 Mini Pro pricing: OpenClaw-ready Ryzen AI Max+ 388 handheld PC launching with up to 64 GB RAM, optional liquid-cooling, and 118 TOPS of AI performance Notebookcheck"
+    },
+    {
+      "title": "Coinbase Says Let the AI Agents Trade Fartcoin",
+      "url": "https://gizmodo.com/coinbase-says-let-the-ai-agents-trade-fartcoin-2000771128",
+      "source": "NewsAPI:Gizmodo.com",
+      "publishedAt": "2026-06-12",
+      "snippet": "Why lose money trading Fartcoin when an AI agent could lose it for you?"
+    },
+    {
+      "title": "Subotiz Launches AI Agent Suite and MCP Server to Democratize Subscription Commerce for the GenAI and SaaS Era - Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTWtxdlNvcS1tSDhad1NzT3RtbGxRZWk0NUlIV0FDbUxzYy1WNkVCV1FXRzZyVVRjOHFNajUxb3VPTXpjWE5UM0xhZUNPWmhILWdad1RjRURmcTJfWmdMTmtrVjcwbzB6ekcxMDloTllGdC1OdVdIanRjak1FWG5LUGdicmlRTWs?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Subotiz Launches AI Agent Suite and MCP Server to Democratize Subscription Commerce for the GenAI and SaaS Era Yahoo Finance Singapore"
+    },
+    {
+      "title": "ChatSee raises $6.5M to build ‘failure memory’ for enterprise AI agents",
+      "url": "https://siliconangle.com/2026/06/12/chatsee-raises-6-5m-build-failure-memory-enterprise-ai-agents/",
+      "source": "NewsAPI:SiliconANGLE News",
+      "publishedAt": "2026-06-12",
+      "snippet": "ChatSee.AI Inc., a company that provides a failure intelligence layer for autonomous artificial intelligence systems, today announced it raised $6.5 million in seed funding. True Ventures led the roun"
+    },
+    {
+      "title": "SpaceX’s record IPO, Bezos’ Prometheus rising and Anthropic’s controversial call for AI limits",
+      "url": "https://siliconangle.com/2026/06/12/spacexs-record-ipo-bezos-prometheus-rising-anthropics-controversial-call-ai-limits/",
+      "source": "NewsAPI:SiliconANGLE News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Blastoff! Elon Musk’s SpaceX went public Thursday evening and raised a stunning $75 billion, easily an all-time record. The IPO is just the first of the triumvirate of AI leaders — yes, SpaceX owns xA"
+    },
+    {
+      "title": "Composio Emphasizes Production-Ready AI Agent Infrastructure - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSWNGaV9KdkROZ0h2dU1CNVdCNXN3c1pMcVQwejZpOEZQVGx3NGN6UC1yczFjTVpvdndMY3VhVDBTbnZwcXVHc1JTTmdFT2YwSVVVbURkS3hIVG41UDdkdDA1SlQ3OEc1aHlvUzM5SVRDa0dhOFZ5TE5NWUFVeU9FRG9QYUdtanVRaDNaM21KemlNa2JhR0J6TGJjamRCeE9tV3UwMWI0ZUhsSTFv?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Composio Emphasizes Production-Ready AI Agent Infrastructure TipRanks"
+    },
+    {
+      "title": "Maneva raises $27M to expand factory AI vision - Let's Data Science",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM0l3WWF4RTVDSXdYNHBUSHpoUXU1M1N0WVJ1eEhSdFdYRHJDbmVaYmY5T2pZVDBaNlBPeTdIS0tMLWFpMGQ0OVRObEpEZWxVbHN4QVRfRm9udzE3dExITDVhSE5RZmE3N2w0Nnk2blp1cVJHSkU4Z2lSWmg4YTI4alVZMWhQMjBBeU1YRWcwYlA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Maneva raises $27M to expand factory AI vision Let's Data Science"
+    }
+  ],
+  "category2": [
+    {
+      "title": "Ant Group tests AI agent interface in Alipay super app - 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUFh1YjRocHN3OEV5bVNIWjFDbl9tbzVGemJJLXZBQ21ia0lmM2xlb3BKUENJS0s5MlozMjczOVVMY3NYcVFjanV2bGhBbGd5N0dER2lXWVlKNnJzR1ZocXNQUmFIMjV4TUFxSGNsQVdhVFFVV3cwQ3EzOVNkTUNoVWlEdmZOT2Vsamt2MjlFUUpYRmVPLVF2c0xMcURYT1Et?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Ant Group tests AI agent interface in Alipay super app 디지털투데이"
+    },
+    {
+      "title": "Lloyds Is Using Agentic AI To Supercharge Its Fight Against Fraud - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWE1RVkZqQ1lIUEJVYjVfbXJSdWI4dWo0aVh0STJRaHRzbEhnZG5hVUxRSkNPd3I3X05yUHRncE8zekxqTDZkU3hmX0FoUGVkY0NnQWR2Rjc0UF9sZ3RtX0xwamZZa1JtbWVWTXYxbEdtei1RelZycGFndkpxZmhHZnpReUFjQmtXQS1EMQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Lloyds Is Using Agentic AI To Supercharge Its Fight Against Fraud WIRED"
+    },
+    {
+      "title": "Is the agentic payments wave leaving banks behind? - American Banker",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSElSdzU2dFhfbVViYUdmbVRBQlpySlVjM29RN2d2dHdvbkh3NUZKMHNEVkItRHNyYW5wa0NzY1pjYkdoWkRCWE9vbEFIODd0NUtSdDNNTmlNMlI3MmQyRURtWXlra3h6ZGpzakJkMEhCdzgwOWxJMGI0TTBfdnVBTEV0X3BGSURiS05jTEZiMC11WW9iZzBjaG9Jam5jaU9QY01RX1BKdzU?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Is the agentic payments wave leaving banks behind? American Banker"
+    },
+    {
+      "title": "Agentic AI surges in financial sector even as many firms fail to manage security risks - Cybersecurity Dive",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY1lla0FtNWhNTnZKU3E2a3Bxb2FTRnU5T1UyRXV4Y3dMNHdXLWpySklqa2RMakRrWnlRamQ2RkhXdDh4YThSYS1FTGMxaFphOWJqYXhCb3FmTWNDaGRkTXhfNTVNcDd3a2kyUFVaclV4QVlnM1d5UlBUZ0FYclI0QmpJODNLM0ZZbW5Db21vdXlxVW1jcVkyd1VpbE5IRF9D?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Agentic AI surges in financial sector even as many firms fail to manage security risks Cybersecurity Dive"
+    },
+    {
+      "title": "The First Bank To Let An AI Agent Move Money Will Set The Rules For Everyone - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZGVNdm1ZQjBvczFFTWx5MmQwaUJ3dTUzM1BDTHlhQjNuUG42V0xBV1BSSEVvQUFGaC1tWEp6Wl96UFd0WXVEV2NYQ3RfbVlpNS1ZWDVDN2RYbXYtY0VnclhoMXFtWmRFLTAwZlVCVUlseUFYODFuTG9NMVhETmxxR1lfWUJobl96TXQzZFNJbzgybURyV2xHY2FaZVVFYWRpcGRiaXotbFlNaExsTHMyUlZGNkJockVZNFhUTGtQUmtyd25BZWV6cEpZdC0?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "The First Bank To Let An AI Agent Move Money Will Set The Rules For Everyone Forbes"
+    },
+    {
+      "title": "How Much Does It (Really) Cost to Use Claude Fable, GPT-5.5, and Gemini 3.5 Flash?",
+      "url": "https://gizmodo.com/how-much-does-it-really-cost-to-use-claude-fable-gpt-5-5-and-gemini-3-5-flash-2000770837",
+      "source": "NewsAPI:Gizmodo.com",
+      "publishedAt": "2026-06-12",
+      "snippet": "As if anyone is supposed to know what a million tokens adds up to."
+    },
+    {
+      "title": "Compliance expectations muddied with immigration advisory; Ripple makes its play as agentic payments get — and more top stories in Bankers' Hours - LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRnRCcVM0SWJHcDB5c3lMNWFxYjc4YmZtTDI4dXZMa1hyZXk1WVpoNDMwdlRsYTF2dVBUN0RkcGxtdXBUdzl2X1U3NXMtd05xdk5Xell5bEo4SG1LM3ItNWJXenE5QnlzV1JWclhlUFcwRkRvWDhJSGtkWU5lSjBXTTQ3QjB5aE5OVmtWVW5MTE1mdXhqbVFvelg2cG4?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Compliance expectations muddied with immigration advisory; Ripple makes its play as agentic payments get — and more top stories in Bankers' Hours LinkedIn"
+    },
+    {
+      "title": "My company replicated my exact role with an AI agent. I'm confident it won't replace me — here's why.",
+      "url": "https://www.businessinsider.com/company-replicated-employees-role-with-ai-agent-worker-not-worried-2026-6#article",
+      "source": "NewsAPI:Business Insider",
+      "publishedAt": "2026-06-12",
+      "snippet": "A chief of staff working alongside an AI chief of staff at a San Francisco startup shares how she balances human work and outsourcing to AI."
+    },
+    {
+      "title": "Lloyds Bank to fight cyber crime with agentic AI - Cyber Daily",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaThtUHRXX3daQWRIQVg0eVlJdXg3UkxJc1ZYNDRqbnI2ejhXdjdFbkN0dy1rUWJKMTJXZEFrMXlwTGxHUXg4WlkwX0VzYUdOaEdIeTZCN2gtdFpxUWVyTEc4RUVIMEhwd09fdWNKd0swdHdsNTlYaW1lYkVyQy1tVW1HZ0ZVTFlyZ3lVaG5aX2wxUQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-12",
+      "snippet": "Lloyds Bank to fight cyber crime with agentic AI Cyber Daily"
+    },
+    {
+      "title": "Talkdesk introduces proactive AI agents to grow retail and financial services - MarTech Cube",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYnBDY0JYdUhUQ2E4M3dSRHNoMW0yaU5aNXpZYk1QVmdQUU1ZTWFEYzRMS1huQzhpa3ZKaEk3MDZTeFRURTQxWTZhN3pSRjhWOTAzSEpveU1NcVJqcTZlMklCdkpzN0Z2c04zdjJHZXVZS1V5RDZHYi1ZYnpDLTUwZFMxMFJZVWdwamlTX0Z2ZnJTejhEdEdpWTA3b1VpeEZ3ckxNTjh5RWRvdw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-11",
+      "snippet": "Talkdesk introduces proactive AI agents to grow retail and financial services MarTech Cube"
+    }
+  ],
+  "category3": [
+    {
+      "title": "The Claude ‘Fable 5’ Jailbreak | How a Handful of People Made a $965 Billion AI Company Blink - South Pasadena News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNWVMVERUT1ZuTmpweFEzYzY3U1lKNWNyUWVMU1R6RGtoaFVIR2lSc3c3MHN4R05UaGEteUs2dkF1a2t0N2stWHQ3dGthaWhqRmRRS2RHczRIQWh6cFp3T1NRSEd1M1d2OFJhMGQtNnZuM0k2bEJGZGhUYUZzZU9GSlp1MVlyLXdJSTVIbGUxSWR5ZXl5cjgwRHBDSGctYkZ1RU14WUV5UVhudDFXVUcwUTkzR0dKb2M?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "The Claude ‘Fable 5’ Jailbreak | How a Handful of People Made a $965 Billion AI Company Blink South Pasadena News"
+    },
+    {
+      "title": "Claude Fable 5 vs GPT 5.5: Is this why the Trump admin banned one and not the other? - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ENkVmNkswcWNpaWJhSGFucVpaM19FOU9pZHd3SF9EYVlLTmxRRUhvcTUtWVNFcmNHdTRickxvaFE1RkpNZzdZRlBmVDB1NVJ4QWcxVEJaZUNuWGRnQVlLcjRyTll4UU9CMEE1VHBnVVVZZVRzOUxj?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Claude Fable 5 vs GPT 5.5: Is this why the Trump admin banned one and not the other? Mashable"
+    },
+    {
+      "title": "US asks Anthropic to block global access to top AI models: Why it matters - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0JVZ1VmVE9Tam15QlVrVURFYkFKaDRCenItc1JZWGlaakl3ZmhIUVFfbE4yMUhaQmdIUDlHVnJxT1FONWdBWW1ZREFPcHJBQVhIUFdYd28tNEVzSS1FdVZBcGNLdG01bDB3T2p2dnpBSDY1UUV5N3N5dEx3ejZJZk9zNzZxRlhPdnJHYmRPeDlrQzNVMGxSYkg4YUoxQ21lbURBY0ZpczRpSkU3SktvbUxpQdIBuAFBVV95cUxONGMzSmFWQzJhLWV5ckJsX2dXQ2FuVk5rMjQ5dGZjblRVSzNuUU9lRjRMOHRzdGRUQ2RPbGJBMTFmczM3eEZHYVA1bG1vUFVjWkYzQUpMRXN5dmVjV0t3YTJlRlBmbDhmSkZlTXJsSXM4V0pHeDc0cmpBS1ROQkxxcDkzcmFjVjVaOVZwNGhOU3FwNENFZ0g3RzFmaC1maXNjTEQ3TGlZaWhXeU5iWTN4Q1ctRVd6eVNt?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "US asks Anthropic to block global access to top AI models: Why it matters Al Jazeera"
+    },
+    {
+      "title": "Will TCS and Anthropic’s Claude Partnership Set a New Standard for Regulated AI? - The Futurum Group",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3R0ZEIxdGRKQk9DcC1rZEJEall6OG1icXpEM010NFFCYWpoS1NFb09UUl9RdHhwS3dvYlFCaXFsUWdxYlIyWkRRRm44M1J4UWEzNi1lQkZMV1hCRFM2b3hUZDczUmdPM0NQcF9NZjRMUUFyZWdTX18yN2NTcU8zZFdWaWIxYXR5cW1nVVliV3k1OUp5MkgwdWI0YkZNeUcxTzdNcDlwZ1NpZTk1LUpQbFhzQQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Will TCS and Anthropic’s Claude Partnership Set a New Standard for Regulated AI? The Futurum Group"
+    },
+    {
+      "title": "Anthropic Refused To Patch Claude Fable's Jailbreak, So The US Banned It, David Sacks Says - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16V002eXYyME5BQUQ2d01jRjUwWUgxU0lULVR0UXpBVi1GMThqdlBGSXlrUkJ0UXVvNTlGQy0zNTFzazJWU3lzbWRZeDk5bWk3WTRUUlFvTHVxZVk5bU9mOTRnMHYyY2FIaF9hUw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Anthropic Refused To Patch Claude Fable's Jailbreak, So The US Banned It, David Sacks Says Yellow.com"
+    },
+    {
+      "title": "These 4 Artificial Intelligence Stocks Have Room to Run Thanks to Anthropic's New Fable Model - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMFJJajJBODVxWmRkSGRXVHQyZjlieURWQXJKYUNKN0VWUUo2cXN6d2JhQnc2R3FhZ1lQcmhhNE9OX21STWJEOEF0SWgxQlVKOWdTSW9yRkthTUNRcnpPdG9tNEdEdWl0M19KeldZb3d6VDE0V21udm1RQnJmLUtDQ2lsdjBSb1ZCa0M3QkNiQzR4QkZzZTNvcQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "These 4 Artificial Intelligence Stocks Have Room to Run Thanks to Anthropic's New Fable Model The Motley Fool"
+    },
+    {
+      "title": "US government warned Anthropic that Fable 5 had been jailbroken, but firm 'refused' to fix before US implemented export controls — Anthropic defended its decision by saying the jailbreak 'isn’t serious,' Chinese group had reportedly accessed model - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdjBYb2szem9pa1lRNlFFR25iTFFPVmZoM2x1Y0xBQVRHdW1hZ0JGbVdKQnlORTBuWm91Q3JNbEk3ak5Ta1g2Tkw4VC1ub0lRTFk3TlhfUEVsQjFtZGl4STVpNFhQR2RIaW9rZks5QTBWQUFKa09mWlVBa1pleHl2NGlZOWw0Rk9tajVkS3FUTzRUSks2TWhQZzhyOVNwNEp1VXpZaGhBeGdKaWYxRjk5MHNfRFFOLUwxV21weF90c19LV192aXp3bDh5a3JyY1RjdkVTWjFFX0YxYmlqRlk4SC02Z1ZQMVNDZDB2Vk5QYzRoSEhfSVZ5RmdR?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "US government warned Anthropic that Fable 5 had been jailbroken, but firm 'refused' to fix before US implemented export controls — Anthropic defended its decision by saying the jailbreak 'isn’t seriou"
+    },
+    {
+      "title": "Trump’s Ban On Foreign Access To New Anthropic Models Sparks Tech Backlash - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWFp3QjNibnVscHRRT2llUWlwYXY3YzktNjFMT0QyVGFxNFl0Sm01UnlIOWRzVVgycEtLb2JQYUdNWGtER1FmV1pKLWZIb293ZnpLNERGcDBhcW9rNTJ6ZjRuSWQwTFNwbjZIdU50RF9kMzZvZnV3YVVyZ1FsU0tqYXg4dWNndXdPS2RzTktZYnpqdWpjV0NNbU9mT2R6SFlQdV9lUlk2cnJ4MUU?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Trump’s Ban On Foreign Access To New Anthropic Models Sparks Tech Backlash Newsweek"
+    },
+    {
+      "title": "Claude Fable 5 Four-Day Horror - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA0Yl9pWnZJMEFkcjItU0s0VEVVdmFBNFF4SDhpcEV0WWl1NzhzV0lYeDJMcXVzZllkQmRJelB5ZjBJbENjUmYycUI0OEhSLUtBOWVj?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "Claude Fable 5 Four-Day Horror 36 Kr"
+    },
+    {
+      "title": "The Most Powerful Claude Stuck on the Eve of Going Public - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qdnpYX0xwVUlPY1d1MUZmbExQdEFwNjJHLTFQTjZnX2ExVjlHRjZsMzg4UFo5Z0hERmVQRi1XcWI3N1hkWUI5ODVPOV9oeURxTzNv?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-14",
+      "snippet": "The Most Powerful Claude Stuck on the Eve of Going Public 36 Kr"
+    }
+  ],
+  "weekStart": "2026-06-07",
+  "weekEnd": "2026-06-14"
 }
