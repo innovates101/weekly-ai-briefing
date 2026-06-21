@@ -1,7 +1,220 @@
 {
-  "category1": [],
-  "category2": [],
-  "category3": [],
-  "weekStart": "2026-05-11",
-  "weekEnd": "2026-05-18"
+  "category1": [
+    {
+      "title": "\"An agent is an LLM and a harness\": What Nvidia really thinks about OpenClaw - The New Stack",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zSHhHaEJWWnV4clVweVhLMldCRDA4TWY5UE9INl95ZjN5MkJMS3VCeXhndExoWHU1TTR2RVc4UkpNWk5SeU81MEhBam5uZFIwMXZBb3RQdkNCNUhxeFgza2pRTjMydjA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-21",
+      "snippet": "\"An agent is an LLM and a harness\": What Nvidia really thinks about OpenClaw The New Stack"
+    },
+    {
+      "title": "Composio Deepens AI Ecosystem Ties and Showcases Enterprise Integration Momentum - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZEFGMlpzdjE1VFh2NGl3ODIzTkRjTlg0QURIOWEtTUcyOUxObFdKMldPdHVBM3pMVERFWl9xSUN2MFF5OHQwamdzQklLR2JnckNjVzN0U1M3Z3ItaV82NHJKZVNBVGhEek1UVTFPbDBFZDhwOFVEZUhDMFZHZHYtRHk2R3Ewd00xODBtQmpyWTVqZHpqVnE0a2ZTcWh4VVpzVlVpVEhYSVAwbzMwQ2hjbkFFWW5iRllCZlJ2bkRsQllWeEtlSUdj?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-20",
+      "snippet": "Composio Deepens AI Ecosystem Ties and Showcases Enterprise Integration Momentum TipRanks"
+    },
+    {
+      "title": "Accenture, Siemens & IndX: Digital Twins and Factory AI - Manufacturing Digital Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObGhrZDZON1pNT3g0S3dRWkZfdHhSNlFoSThzWWxGWXJjc19BR1dvZUs4UzJmVEhQYW5FUGhKX3Z3NjR4NmhqMDhjZjdnX21FMnl5NmNyVVJkRk51U3FJZ3JpR0xNQlYybk01VTRIRFdHWW41T1VtSExPd0lTUGVCVi1GV2pXSHhFMmh4b0czR2h3T0VhN0E?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-20",
+      "snippet": "Accenture, Siemens & IndX: Digital Twins and Factory AI Manufacturing Digital Magazine"
+    },
+    {
+      "title": "Composio Co-Hosts AI Engineer Fair Event to Deepen Ecosystem Engagement - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLVVNOXRiMzRUS1hCcnZ6UGdvdGRLUGUtZWwwWFhVellFRXhnY3Yxd1d6U3BVMGl4WldXQ2tPU2R4UU5FaGhjeUtGN0hoa2IwZjdKWWxEWUVfTzduMXpRbE80LVFvX2Fmd2J5RUJiLVdqWWJ6YXFUVDMtM1VJR1dMYmVVR2NKVDNseGE3MDd0QzhsbUZwNm5sZmlzZC1welE5cmR0Z3VHUGVSZERQU1BEWXVyNktqcnNzdFl3?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-20",
+      "snippet": "Composio Co-Hosts AI Engineer Fair Event to Deepen Ecosystem Engagement TipRanks"
+    },
+    {
+      "title": "AI agent framework flaws hit 7,000 servers - VentureBeat",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb3gtUFdMVEJBYjhnbHliSlYzczA3S25JY1RKd21pTXlZSFNnREc5SDRISTZiQW1aeldFa1hzTEtCa0w4eks5QmpVTUstVXliTDQ3dWo1b2ZYeVBTclB0czRCNy02SXBPM3lBalFZU2NzRVdmUF80RHc4Sy1kd1R5R0lVVGJxcWNwWnVvbHpsYXRsRXNfTldFd1NpUEMtaE0?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-19",
+      "snippet": "AI agent framework flaws hit 7,000 servers VentureBeat"
+    },
+    {
+      "title": "When to use Claude memory, Oracle AI Agent Memory, and LangChain together - Oracle Blogs",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWEVUdDVndUpDN3VPQnlqMkFyWDdKQlJOVmZXR2wzSVRHNUJUM2VKcmwzQ1JaUURsVWozYURKelF5cXdfYmJFUlF6aVlYbHNBRzByRXYyZzJ2M2tpUURpdEptRFAwRzZnYnNXaVowb1huWkVFcWlTZE5nMHFMTTlKTXBDSk9MWEVpQmZNc3A2VG0wUnVaNGV2aUZTOHJrN2kwSWFFQ0FqamdEalk?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-19",
+      "snippet": "When to use Claude memory, Oracle AI Agent Memory, and LangChain together Oracle Blogs"
+    },
+    {
+      "title": "HIVE Digital stock gains after Bell-Cohere AI deal, Bitcoin miner pushes pivot - TechStock²",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSU9VYm5xQ2hQWlZaRW94ZmZWLVRsWjJ2Wm9XY0JxQzhkVXMxM0FWQjhybm52R1IwSk0xR2QzZlEzcFROdUtyR0sxS1IzT09hdjBQOGJGakFQTXRqUlBqcG4xUDdUd1dMQXBEY096YnRrQmlIampaU0Z4cnBrLWFra1Q2REIwLW5ieDB1RzF3bGR5UEZ6NDllZElDVWtOWWc?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-19",
+      "snippet": "HIVE Digital stock gains after Bell-Cohere AI deal, Bitcoin miner pushes pivot TechStock²"
+    },
+    {
+      "title": "Complexity, convergence, AI and the demand for trust are reshaping telecom testing - RCR Wireless News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fbHRMVkduSE5Qak9LWGZrUkNXQU1fU2E0VWFsZGtQd1JWUFVDc0ZzTGIzN1M0Z1ZITE45RDJVSEN6Q1I4azVMWTFMOW5ENnEzaWNHMWNldHF0SGVNOWgtSXI0TlRBVGhKU3A4UU9ZSkMzSnRWMWxGM2NhT0lydw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-19",
+      "snippet": "Complexity, convergence, AI and the demand for trust are reshaping telecom testing RCR Wireless News"
+    },
+    {
+      "title": "LUMIQ Raises Strategic Funding to Become the AI Decision Layer for Financial Services",
+      "url": "https://www.prnewswire.com/news-releases/lumiq-raises-strategic-funding-to-become-the-ai-decision-layer-for-financial-services-302805244.html",
+      "source": "NewsAPI:PRNewswire",
+      "publishedAt": "2026-06-19",
+      "snippet": "While most AI in financial services remains advisory, LUMIQ has built the layer that owns the decision — autonomous, auditable AI agents making regulated calls in production at leading banks, insurers"
+    },
+    {
+      "title": "Trump kneecaps Anthropic, SpaceX bags Cursor and Databricks debuts AI agent coworker",
+      "url": "https://siliconangle.com/2026/06/19/trump-kneecaps-anthropic-spacex-bags-cursor-databricks-debuts-ai-agent-coworker/",
+      "source": "NewsAPI:SiliconANGLE News",
+      "publishedAt": "2026-06-19",
+      "snippet": "Databricks may keep refusing to go public, but this week it wasn’t shy about proclaiming its intentions to be a central player in artificial intelligence. At its annual Data + AI conference in San Fra"
+    }
+  ],
+  "category2": [
+    {
+      "title": "Lloyds Banking Group to hire 300 tech experts to work on AI - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFdFVF9xanFDbE1WckVwbXN6U0tlaFdXbWRLM2F0ZHExWHlTY2hnOWU4b0Fkc2dRUHRCazhHNHR6WXJPM3BCWDV3R2ZFVzc4VTAyRHRKaDJEQk5DbnRYc1hxbWNLLUNzMzUxcEFXWC0wU0FoTjMxZEJJak1CUFFqVndGSEtteDRmU3VrQm1IQWxTZ2Q0b1h1MDQwY3FpTnNhczh4dGktZ0RoQUE?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-20",
+      "snippet": "Lloyds Banking Group to hire 300 tech experts to work on AI The Guardian"
+    },
+    {
+      "title": "An AI Agent Just Launched Its Own Company & Opened a Bank Account, All Without Humans - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX1lNUW1ydUswdGNabG9sejV6bmVHZ082Q3RYVXlJRkNGWWtFZzkyM1psdU91dWtwb0dfZ281R2lpRkhQMThaOFJkNWpVNkJEOGFodVFPT2ZaVkVrd2RPX2pEM0E2aEYyT2t5YVBJbEV0bk1ER2FmejNFS2V3SjlUUmRfMVFUWlRMMUpzekZaVzZiQ1dkVVQtSDZVNnBhejVNcDltNFpVU1E3Sm1nNE5JUzFnUjI?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-19",
+      "snippet": "An AI Agent Just Launched Its Own Company & Opened a Bank Account, All Without Humans CoinMarketCap"
+    },
+    {
+      "title": "Agentic Coding Is a Trap",
+      "url": "https://khalilstemmler.com/articles/agentic-coding-is-a-trap/",
+      "source": "NewsAPI:Khalilstemmler.com",
+      "publishedAt": "2026-06-19",
+      "snippet": "AI-assisted coding is accelerating skill atrophy for developers who haven't built the foundations yet. Here's how to know which phase you're in — and what to do about it."
+    },
+    {
+      "title": "Vibe Architects: Agentic Vibe Coders",
+      "url": "https://www.nngroup.com/articles/vibe-architects/",
+      "source": "NewsAPI:Nngroup.com",
+      "publishedAt": "2026-06-19",
+      "snippet": "Nondevelopers are building complex agentic AI systems on intuition developed through many hours of experimentation, YouTube videos, and Reddit threads."
+    },
+    {
+      "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
+      "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+      "source": "NewsAPI:Internet",
+      "publishedAt": "2026-06-19",
+      "snippet": "Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker's web page,"
+    },
+    {
+      "title": "Bangladeshi financial sector’s cyber resilience in the age of autonomous AI - The Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSTh3cjhsV2FDdWQxczJ6ME5XLVR4RlNGUmFycjhDNjA4UlloU1dCUzI3dEpJUWppQ252SWtDendnWktMUWdfVnNIVVZ4TUtMSmJpMkxWbjNBM2R1WTc1YjZlYkhnMU1xVmEwWkU1NFdURUVqZ1o5akZRZzF1UmJPSEpzdUxFdkxtMmszTFlEb3J2Z21UeEhvZk1TeHlsSUVXOXBYMXpNaHLSAa4BQVVfeXFMTmQ3Nk5CWklKdFpUZlQzR2VnS0o1aTB2RnJOVXRLR3hwYzlJdHJuRWJZOGxNSVlwQUVYUWVTMmNxY1dYdEVpRVRKLUJnMzMwQlVuenNkZVZTTXBsRG45bTI0ampYZXBvQUMyWHdxcXZZSkMwX0ExZ3pETUV1ODVUNGM5Rkpac2FnMFUzZVp6VXlyQm53blFwSUlMM1NPLWpudGtUTlpXSkEzdzlzTHVn?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-19",
+      "snippet": "Bangladeshi financial sector’s cyber resilience in the age of autonomous AI The Business Standard"
+    },
+    {
+      "title": "LUMIQ Secures Strategic Funding to Expand AI Decision-Making Platform for Financial Institutions - citybiz",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaXIwdEhfdE5iN3E2RXFpczdLMVA2TkJUczlnZEppRGdSNXVXckVoVTlaSEtwYzA3blBNa3RKYi0xVDFtaUQxTmxQSHpEX2hIZGZ2VjZCUVVPa25Mc01menVGQk05cVhLSUZCUU9RSWhGWS1FbGpyZEpIZVBac1h5cVprdUJSNjhERlF0X1B0NG8wek1vRXV3R0V6cVFkdGxJS3R6eVE4U0wxZExTUGlSdmxmR1ZQd2hfOF9fcWhrUU5YeHhjYUJpcWZsV1lhM01R?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-19",
+      "snippet": "LUMIQ Secures Strategic Funding to Expand AI Decision-Making Platform for Financial Institutions citybiz"
+    },
+    {
+      "title": "I built an AI tool that negotiated hotel prices for me. One hotel suspected it was AI, but it got me a better deal.",
+      "url": "https://www.businessinsider.com/ai-agent-called-hotels-negotiated-prices-big-tech-software-engineer-2026-6#article",
+      "source": "NewsAPI:Business Insider",
+      "publishedAt": "2026-06-19",
+      "snippet": "A 24-year-old engineer built an AI agent that called hotels, asked for discounts, and negotiated perks. Here's the transcript"
+    },
+    {
+      "title": "Google, Microsoft Back Draft AI Agent Discovery Spec via @sejournal, @MattGSouthern",
+      "url": "https://www.searchenginejournal.com/google-microsoft-back-draft-ai-agent-discovery-spec/579894/",
+      "source": "NewsAPI:Search Engine Journal",
+      "publishedAt": "2026-06-18",
+      "snippet": "A coalition including Google, Microsoft, and GitHub published Agentic Resource Discovery, an open draft spec for how AI agents find and verify tools online. The post Google, Microsoft Back Draft AI Ag"
+    },
+    {
+      "title": "Agentic AI in Insurance Claims: Where to Start, What to Automate, and What to Keep Human-Controlled: By Vital Soupel - Finextra Research",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVEsyaG1reFJ1UGFadmVJeXotMndZeVlqTGFYMnFOeC1NTUlUbWpPTk00WDlOWDVUWE9tSTJpdXBQUk5HYkhYSGpzVUJ6TGk0TE1Ob0o1Y25LQmhpS1h1SFNUSmJNa1puenFtWTNiRU5iWktrUHpfMjhXcUVKRTAzbmpRVGRZcGpOblh6SXlkSEx4UVhXNEFqSE9LQ3VCbzhDbWpFY2VHMF9zQnpDOHk3QS1SdDJ2Rmx2TnVqTDZaajBCNnYyTVdfdGE3a0JsZUFmWTBXQ3FB?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-18",
+      "snippet": "Agentic AI in Insurance Claims: Where to Start, What to Automate, and What to Keep Human-Controlled: By Vital Soupel Finextra Research"
+    }
+  ],
+  "category3": [
+    {
+      "title": "GPT-5.6 Launch Window Starts Monday: Alignment Fix and 1.5M Token Context Inside - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeXl3V1FteUpsZVB6NUkxREhkT1p2NUNRTkFlLW1GUXl1MjF2ZmhKVmNYN3cwWDlNRHA1WFFNUXB2ZWVsUGx2VmdwZXM2bHQyUTRrTlB5VWNncEZjLXZ5ZkViUVNTUno4VWdTVW4zakRxVEpPMGxmYm1xakd3VEVzN0xaTHJlcURoM180UlhyYXA1Z1Z1ZzBmOVB3M21RaFIzYXNjbjNHeDk2NHVRTm5FSzhBTWppN0piblQyTGNTTUtPa3BvQlVR?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-21",
+      "snippet": "GPT-5.6 Launch Window Starts Monday: Alignment Fix and 1.5M Token Context Inside Tech Times"
+    },
+    {
+      "title": "Anthropic and OpenAI gear up for dueling AI model releases as mid-tier race heats up - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5IX2FIOUd5TVJOMHRCVi1KekZIQm9hTkhYeGk5cWhibnp1ckQ0TmNocGJyNXB1S28tU0VIdDJ1dndpeU5Vc21nbUVCTF9LRl9IekM4OWJuTkVNd0YwWW9YSUtyak9mTVhEZklWZmNRZ3hKdUpPZnc?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-21",
+      "snippet": "Anthropic and OpenAI gear up for dueling AI model releases as mid-tier race heats up Crypto Briefing"
+    },
+    {
+      "title": "Claude Identity Verification Starts July 8: What Facial Data Anthropic Collects - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSEhmelJUbUxDMkdtNTRzWEFjenpnMWhKeHJNRHV6UkxJS1AwbjB0M00wOHpwNS0ySmMxV1ZVREZuSWpCa2c5ZzZvdDVCSXNfa2FfMVJxZmVqZ2Qzbms2THRkRjVIVlEwWFl0LU5FOVEyS0pMZXMtNzhaZEprVEIwZXdQOVJxM2w1Y2ZWMkpUMklBTVhDNjVKOG9Cak1YRFpTWnp3c3p4U01nc2pzM3g3NmVCS2FPMmJkRzNQQkY2TG1XZUlVSXJwRmdGckV0dw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-21",
+      "snippet": "Claude Identity Verification Starts July 8: What Facial Data Anthropic Collects Tech Times"
+    },
+    {
+      "title": "Macron Wants Europe In on Anthropic's AI Models. Trump Says Not So Fast - Memeburn",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM1JNT19KOU5WSHRUU1pQdnM3R2dBc1QwTlFHYWNlcHRnY0NLMmpNRDVrM1NHNnVlN1NSU2dkQmQwM054VjY5cWVlVG9kdmhiU2ZkYm84QzlpNHlIeXVJeDN3cVJnRk1rVGluRXM5YjM2QmZfMzFoam4wY1AxX1Y3QlJBUWU1Q1E2UnUyNTFNMWVqSEE3Znc?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-21",
+      "snippet": "Macron Wants Europe In on Anthropic's AI Models. Trump Says Not So Fast Memeburn"
+    },
+    {
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-06-20",
+      "snippet": "Jumper isn't the only big name leaving Google DeepMind."
+    },
+    {
+      "title": "Show HN: Mitos – N-way live copy-on-write fork of running Firecracker microVMs",
+      "url": "https://github.com/mitos-run/mitos",
+      "source": "NewsAPI:Github.com",
+      "publishedAt": "2026-06-20",
+      "snippet": "Millisecond microVM sandbox forking for AI agents on Kubernetes. Firecracker VMs that restore from memory snapshots in milliseconds, fork a running VM into N copies, and persist durable, versioned ..."
+    },
+    {
+      "title": "Teslas May Run a Native Version of xAI's Grok - Not a Tesla App",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tZzJKOG9lRjNEUDU4OGxJZ2JzUWUtU0VDOHotcjFENjRTbnJoRktCVHpoT3BheXNPd0xhSHhPaDZqUDVjZ0Zfb3pBMXdQdV91VGpublZ3Q2RnZw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-20",
+      "snippet": "Teslas May Run a Native Version of xAI's Grok Not a Tesla App"
+    },
+    {
+      "title": "Anthropic, SpaceX and Meta: This Week's Top Stories in AI - AI Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLUJUWXQxWWlpcUdDa3h1WGJtOFNiSEt5eHpsZUY0bkx2VEFDNkdxZV9ZZGhsZ2IzZmVKa2lmT3ZHTDU3b1RLVVhqdjFWdkIzSGNnVlBJWGswSEpVSjVwYldnWVg0SW1MYUJ4M3VqVTRkM2JzWkhrUm5URERCdnl0NWdnZmQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-20",
+      "snippet": "Anthropic, SpaceX and Meta: This Week's Top Stories in AI AI Magazine"
+    },
+    {
+      "title": "Show HN: AgentArk – open-source self-hosted AI agent OS",
+      "url": "https://github.com/agentark-ai/AgentArk",
+      "source": "NewsAPI:Github.com",
+      "publishedAt": "2026-06-20",
+      "snippet": "Article URL: https://github.com/agentark-ai/AgentArk Comments URL: https://news.ycombinator.com/item?id=48606186 Points: 2 # Comments: 0"
+    },
+    {
+      "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-06-19",
+      "snippet": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos."
+    }
+  ],
+  "weekStart": "2026-06-14",
+  "weekEnd": "2026-06-21"
 }
