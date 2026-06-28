@@ -1,7 +1,220 @@
 {
-  "category1": [],
-  "category2": [],
-  "category3": [],
-  "weekStart": "2026-05-11",
-  "weekEnd": "2026-05-18"
+  "category1": [
+    {
+      "title": "LangChain Review: The Ultimate Framework for Building AI Agents - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMzVlYkpHQlNmaldrOHlBRGtyTktpb3A3UWxsS2JrR0hBVS04M1ljeU9xclBNWFhqMEZjUkliZ1F6V2ZSamxUZ2xwX0ExX011TEFPajRUSlRsM296LXl6VkhNb0dxMEIzLWt2OC1rUXpPc0xJVmtLRG1SUy1fZ3V5M1EtR3o1bjI3Tm5jVll3?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "LangChain Review: The Ultimate Framework for Building AI Agents quasa.io"
+    },
+    {
+      "title": "Forget AGI. The prize is enterprise AGI",
+      "url": "https://siliconangle.com/2026/06/27/forget-agi-prize-enterprise-agi/",
+      "source": "NewsAPI:SiliconANGLE News",
+      "publishedAt": "2026-06-27",
+      "snippet": "We believe much of the artificial intelligence industry is chasing the wrong prize. Frontier model vendors such as Anthropic PBC and OpenAI Group PBC, they may have shifted their commercial focus towa"
+    },
+    {
+      "title": "Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-06-27",
+      "snippet": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market."
+    },
+    {
+      "title": "I left Big Law to become an investor, but building an AI firm proved more lucrative. We hit 6 figures in our first 6 months.",
+      "url": "https://www.businessinsider.com/big-law-cooley-ai-agents-legal-platform-2026-6#article",
+      "source": "NewsAPI:Business Insider",
+      "publishedAt": "2026-06-26",
+      "snippet": "An entrepreneur shifts from a traditional law firm to an AI-based legal service, gaining $650K funding and achieving $372K in revenue post-launch."
+    },
+    {
+      "title": "AI prompts a memory-chip boom — and electronics inflation. Get used to it.",
+      "url": "https://siliconangle.com/2026/06/26/ai-prompts-memory-chip-boom-electronics-inflation-get-used/",
+      "source": "NewsAPI:SiliconANGLE News",
+      "publishedAt": "2026-06-26",
+      "snippet": "Even though investors are getting wary of chip stocks, prompting a two-day tech selloff this week, memory-chip maker Micron had a monster quarter and its shares jumped almost 16% Thursday. On top of t"
+    },
+    {
+      "title": "3 founders skipped VC funding, used AI to stay lean, and got to $1 million in revenue in year one",
+      "url": "https://www.businessinsider.com/how-outward-intelligence-founders-bootstrapped-seven-figure-revenue-2026-6#article",
+      "source": "NewsAPI:Business Insider",
+      "publishedAt": "2026-06-26",
+      "snippet": "Three friends with résumés spanning Google, Palantir, and Harris Poll skipped venture capital and bootstrapped their startup instead."
+    },
+    {
+      "title": "CoinMarketCap AI Agent Hub Is Now Live - CoinMarketCap",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSncyUXdNY2tfakhLZ2k0a2ZaTWhPS1JrajRRVlFtZjNFbU96b1dBVlJ0YXZ3QlRVTkdFMTJLVk5nRFFMRmpEeEJ0S3FwQUR3U2hTcU9uVzRnNGg5Y01qVkZrRTh6RmF3akppMmFWMzJhN3MxMXo4XzhuRnBJZVZ4aDlzbw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-26",
+      "snippet": "CoinMarketCap AI Agent Hub Is Now Live CoinMarketCap"
+    },
+    {
+      "title": "What is an AI Factory? AI Infrastructure, Power, and Cooling Explained - ASUS Pressroom",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzFVbWViQkthbXdEMng0YzRkMl9iZHZPUFh1YUZBeDhjUmRDMHlDSVJrT3hBZzVTTWJKODVMdGJZSURUSkFObmZiRzd6c21FV25MU19oMUtEc0o0SGVOQ2Q5LUtnSUo4OEJrSmxWdFhncllVVnRoYzJrM1ZhckxZOUo4ME9DdkloTHVRUVJ5djJsdw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-26",
+      "snippet": "What is an AI Factory? AI Infrastructure, Power, and Cooling Explained ASUS Pressroom"
+    },
+    {
+      "title": "OpenAI says nearly all its employees have switched from chatbots to Codex agents, but every number comes from OpenAI itself",
+      "url": "https://thenextweb.com/news/openai-codex-agents-shift-employees-non-developers/",
+      "source": "NewsAPI:The Next Web",
+      "publishedAt": "2026-06-25",
+      "snippet": "Nearly 98 percent of OpenAI’s employees now use Codex, the company’s AI coding agent, up from roughly 40 percent in August 2025, according to a paper the company published on Wednesday titled “The Shi"
+    },
+    {
+      "title": "Patronus AI Raises $50 Million Series B and Unveils First Digital World Models for AI Agent Training and Simulation",
+      "url": "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html",
+      "source": "NewsAPI:PRNewswire",
+      "publishedAt": "2026-06-25",
+      "snippet": "New funding will accelerate development of Digital World Models and large-scale simulation environments for long-horizon AI agents SAN FRANCISCO, June 25, 2026 /PRNewswire/ -- Patronus AI today announ"
+    }
+  ],
+  "category2": [
+    {
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "source": "NewsAPI:The Verge",
+      "publishedAt": "2026-06-26",
+      "snippet": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limit"
+    },
+    {
+      "title": "Enterprises inch toward AI-powered payment automation - TechInformed",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaTU1RVdmWEJPcHRJWHAwd1hnSGc3d1JjS2NkY2NfTU56cDBfOFQ4a0ZQYk1hSXFTRmJWWGw2WGE5VGljMFdxQktnNlFGWHZpWkFQQ1loc253dTFtNWduZ1RaSTlhNGVvblY2OWZYNFlJaUhpVVl5azdxcUxXM2pBVVBhSzRkZw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-26",
+      "snippet": "Enterprises inch toward AI-powered payment automation TechInformed"
+    },
+    {
+      "title": "A Third Of Fintech Is Invisible To AI Agents via @sejournal, @slobodanmanic",
+      "url": "https://nohacks.co/blog/a-third-of-fintech-is-invisible-to-ai-agents",
+      "source": "NewsAPI:Nohacks.co",
+      "publishedAt": "2026-06-26",
+      "snippet": "Most AI visibility advice skips the rendering step. A study of 274 fintech homepages shows why that's the most expensive mistake to make. The post A Third Of Fintech Is Invisible To AI Agents appeared"
+    },
+    {
+      "title": "Google Gemini Can Now Control Your Computer. Hackers Are Already Targeting AI Agents via @sejournal, @martinibuster",
+      "url": "https://www.searchenginejournal.com/google-gemini-can-now-control-your-computer-hackers-are-already-targeting-ai-agents/580578/",
+      "source": "NewsAPI:Search Engine Journal",
+      "publishedAt": "2026-06-26",
+      "snippet": "Google warns that websites can expose AI agents to hidden traps for agentic AI navigating the open web. The post Google Gemini Can Now Control Your Computer. Hackers Are Already Targeting AI Agents ap"
+    },
+    {
+      "title": "How can compliance keep up with AI agents?",
+      "url": "https://www.retailbankerinternational.com/comment/how-can-compliance-keep-up-with-ai-agents/",
+      "source": "NewsAPI:Retailbankerinternational.com",
+      "publishedAt": "2026-06-26",
+      "snippet": "As traditional risk frameworks aren't built for agent-to-agent commerce, Nejc Korosec explains why the industry urgently needs to develop the equivalent of K..."
+    },
+    {
+      "title": "Airwallex Raises $320 Million as AI Finance Race Intensifies - finews.asia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcll0WHE1ZWpVQ2UyeWNvSC1FOTdwQUp3ZzVXMlFJVzdMc09OS013ajZxMl9oOVJpU0h0ZDBya0JHRHhjcmIyM0tXa25yR212QkktcjZITTU0OHFxUlFRUGl5b3BOMkFoRTJEdk5WWTROSHhEZXNOcVg4cVJKNm1yZnFjT2NYWTVaekotOFQtOVRpZldoaGlMekNzNnVnUQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-26",
+      "snippet": "Airwallex Raises $320 Million as AI Finance Race Intensifies finews.asia"
+    },
+    {
+      "title": "Airwallex hits $11 billion valuation with $320 million raise as fintech pushes into finance run by AI agents - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOVVvVG8zNGdHSzQ0Uk80ck9kenJ6THA2NFMzUk9oekwxR2I4eDEzV1dxd3d1djFMUHA0eEtHXzRQZjRaMndTM29QMW4xMU9kUXBSdmptcjVnMndLNDY5MmVtY1k5Z2hxaUZFUGh0NGlqbXpvb28tNVZzNWZFVm9pMXMxVFJKYWttT1J0bk5ad0VRdU1kV2hYWjRONNIBoAFBVV95cUxQdl9hbUxkTDg3d2Jibk12NHVwZXBsbXBuSnRzaWFYN3daZEYta1pkV1pDdmRKX3kwQl9tTXlzUzZBNGcyTno5UHRCRmtFblVQeEJHZURHc21hOC1sSGQ2dUhSQkRwc0d6Wk55ZDhlRi1vUmFsT2c3Sl90ZWhuTVhFNXhVZ0tYWWRjV0pBdzdMZXZXT3k1WUlsRUJuenRtUVJZ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-26",
+      "snippet": "Airwallex hits $11 billion valuation with $320 million raise as fintech pushes into finance run by AI agents CNBC"
+    },
+    {
+      "title": "Why Does a Bank Need a Chief Scientist?",
+      "url": "https://spectrum.ieee.org/capital-one-science-ai-finance-innovation",
+      "source": "NewsAPI:Ieee.org",
+      "publishedAt": "2026-06-25",
+      "snippet": "This article is brought to you by Capital One.After five years leading natural language understanding and eventually the entire Alexa AI organization at Amazon, Prem Natarajan made a nontraditional mo"
+    },
+    {
+      "title": "Draw the line: A governance framework for AI agents in insurance finance - The Actuary",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWlrV1Q5YjhycVh0OXJ5ZjYwX1hjVTZ6Sm11amtYdW9WZVItUThQOHA4andKam5PckFSOXdIVUZUbk01aUhoemhQb0VBZ1NTZjNaalF3UXBCSHZIalJWQzhXZGhncTlZRndOSVBHak9jRjNGaHF0ZDVrNkloYm1qc0tPSC1qVlJBX1hGaHU4SldTN3RncHdIOWRhTWE?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-25",
+      "snippet": "Draw the line: A governance framework for AI agents in insurance finance The Actuary"
+    },
+    {
+      "title": "Backbase acquires Kasisto to lead agentic banking - FinTech Global",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY3lMZUhkN1FqWHIwMlBzRFpmd1dING1ncURQajIybDQ4dnNiUzRpTFlpVXh3aWd3WGNhUDhaNFFMX25uOHRCRTdOWGNSYlgtdkVRdjhfWVhBblhPLTFhS2V6d1ZqRmZhWDVzWXhPNWZsSkxTVmRWNjJsbkVrcm83VXZNNzRoa0wyY09maQ?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-25",
+      "snippet": "Backbase acquires Kasisto to lead agentic banking FinTech Global"
+    }
+  ],
+  "category3": [
+    {
+      "title": "xAI unveils Grok 4.5, a significant upgrade powered by 1.5 trillion parameter V9 model - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1va1lHaG5wdVhfTlVhNWhhTTdHc1ZDeGN2SmJYdktEM2ZnTDBYSjRkRk54bXFHMjZ2QVZQX19MLXpsa1FRaHdNb3kzWVlzenZBeWt2S1g4UDR2TTNxSVNtNFRWRkpXRWxH?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "xAI unveils Grok 4.5, a significant upgrade powered by 1.5 trillion parameter V9 model Crypto Briefing"
+    },
+    {
+      "title": "Claude AI Beats Human Robotics Teams 20x: Anthropic Marks Physical AI Turn - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcUxvakgycUFLalBkN2RHZGdGWi11aFY4U1BmMzlOdjlvVWxNVENKVDFRWXpTNl9ZQjQ3N3hRTGNNOUZXUXpCelI2SGxoeU1sS1daeUFrSEdjWnNzUEVYSHZKXzdJU2lHVXY4MXZJVFVWLWtFUmlWUTdUaC1sMnVKRm9PaEhBRmFFMW5MOTZBZDFTbE54dGJOcmhxWC1sX3puVFJYTTNfMktkV193aXEwTE9oTjJxTDJKcDJmSFQ0NkxaRG1vbk80?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "Claude AI Beats Human Robotics Teams 20x: Anthropic Marks Physical AI Turn Tech Times"
+    },
+    {
+      "title": "US lifts ban on Anthropic’s AI model Claude Fable 5 after security concerns - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUHNTWS1OZERaMHZuNXlIMGNNNWt3RnlPNHdKM1dZeXVFSFBTR3E3ZGY2cFlQUVdHekFrSmNPSmp1MHBWTkJQVTdMbG9TZWpiWXVlYnFBWUxzNWxpdzFVdHZpUUl6LXNDVVo3TmROT01HQ3gzcWtKcDJRcnBmdGh0ZVZuS3hJU3pCb0M4SExfcGh2NVItbVNnZWxDSUMtZHhnQUlTSg?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "US lifts ban on Anthropic’s AI model Claude Fable 5 after security concerns Crypto Briefing"
+    },
+    {
+      "title": "Anthropic Could Become the Most Valuable Software Company in History. These Stocks Have Exposure to the AI Giant. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVXNMMkVBTmJzbVQ4RnUzLTQxUWduTFhibkJncHQ5TloxYkpXcVcyU2VBdFUyRDdDbXhMLWxfRmRkNHZMbjNuYm1SN0F6c1FQckhWb3pqWDVPZmRDVjR1czB3OVZlUVlEWmEzeXRJWS1pdnNNek9zT0FKVFo5TElzNG1HTWhmNXE5ZThyQW9SMA?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "Anthropic Could Become the Most Valuable Software Company in History. These Stocks Have Exposure to the AI Giant. The Motley Fool"
+    },
+    {
+      "title": "OpenAI unveils GPT-5.6 Sol, Terra and Luna - Let's Data Science",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdjNSdFRyUlJQamFGWEJmdVJWUmpyX3IwbkhvOEg5SExiV2ZPc2ZoNDl6LTVLYzUxZXV4UkRWVFVsM3ZjZGFSOTJxbldESzdPc2tyVmJjTGpaRlBITjAxUzJLMUZvZnNHMmZpbDdlRW9SaURTa0h6RERvUzNlVFgydURyMUlFcE5Bb3c?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "OpenAI unveils GPT-5.6 Sol, Terra and Luna Let's Data Science"
+    },
+    {
+      "title": "Why AI models like Claude Fable and Mythos defy traditional export control frameworks - Bulletin of the Atomic Scientists",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUE11SzZsM2UyY2xUQVpTRDNRcU5MeU8tVFRsZmh6eWY1V09vdHVyaDBwRmFpM0NzZVNnR1JXWElsaE82M05BUGNIYVljQVU4bkdCYXlTNl9MWExvX18wT05vQk56WEo0aGwyWnVTdkRPbEhxcmU5cmVCTkJaTDlIWWtCMFB4RXhhYUtIbG5jNThPYmppMkNLUkFqRkZHTXlMSzNmV0d2WEl2QzlDUUtBM05GeDNIUWprSkE?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "Why AI models like Claude Fable and Mythos defy traditional export control frameworks Bulletin of the Atomic Scientists"
+    },
+    {
+      "title": "Anthropic’s Claude Paid Consumer Base Climbs 75% in 2026 - Technology Org",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWTc0N090T0x0a3VaNmVoaEtsZXJuRjZxVEZ2UUhrNkMwMVBVN3FOblRvczZvZkhpTHlTc0h4TjAzSlREZWZsNGdNaTRabGU3M3Z3aTlYaW1iNmszVWhfTi1uRkg3TmtJc2lWajhSR3FaUV9Qbzd0ZjlfTVVqU3FwUm1oVXhmQXFaQmc?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "Anthropic’s Claude Paid Consumer Base Climbs 75% in 2026 Technology Org"
+    },
+    {
+      "title": "Why Anthropic held back Claude Mythos, its most powerful AI model yet? - Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeUlxVVZWWE9nTUlfazBCY1gyVjVxQU5sRDFmZXBOWlRNa0FCcXRkQWxYZ3g1N0MzZm9oTUJXU0hkWnFGRFFST1U4b0ktYnYwMkRWYzlray1XLVhJRHJ2YmlwazJfWUNyajdVdzNGbVRWQ05JV21iZ0Rkd3FqUWw1ZzVUbkhFOFRVOWZUbjBHSW12R0JrM21ETEVPc2lSQ1dVdkZxUzU3QWJwaHNuN3NGcFd4VXZja2fSAbwBQVVfeXFMTWs3U3dMWjQzcVEzVVBfYm5sZFBWaHJvbGpGQ09Ba2JOTjVxOG03bFdmWEJ4b011Z1hXeG1pOWkxRDQtYjdQM2plVExmQ1ZRWm4zWlFFQ2VuU21LZzN5V2NYVDZxX2dEc3c3WmdkTWQwUkRuTVAyNUFhVUxsMXdtcXlaT0hOREZGSVRxbDhBU3Jhb0NyZDlUNGpUVkI0dHBaQ2EyM3RCRjY5UWFBYlJ1aC1uaFZzYmVMWERRN28?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "Why Anthropic held back Claude Mythos, its most powerful AI model yet? Storyboard18"
+    },
+    {
+      "title": "OpenAI unveils GPT-5.6 Sol, Terra, and Luna but almost no one can use them yet: Here’s why - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZ21zMGFsRXdCTmZqUFpBMVI3ZEdXakpDWkI5NnNDR1k1dV81NkZUNmE0ZzR6aE1uWExHZU5zRmZrMjVIMVdMcXE1T09iZmp1bzZGVVI4c3dZcFNjUE0wajJTVWNCVnRKYmJEZFhIbGVTQjZHcmwzWFVFcFlCa0VUWWZiaTU1MDVOMWMzWDloYVBvOE51QnlsbTVfcjJoUDJWSXVrRHlYOGlTcXhGYlVEQzloVmdLbnk2RUdzNl80bmg0X0Rz0gHLAUFVX3lxTE1wcGl1SExGQVRaUG1ZLV9VVmdRcE9fZHY1ekNrdDJMc1BnamNmWXUxLUxKUDE2WGd0cmhKd0RPWHlpa0Z3T1ZjcTVtWi02Mi1pSHcwZjZhN3BZaHd1aEplSVJhaWoxWm9NVzdUUzl6aDM0RTZkMzJpN0d6RGsweHFsMEh1Y1NISTJJVjRZTEFCVnJfbmZfeDF3VXpjQU02d0JNWmw4dzVxeVVkWTlRTUJ5bHd2X1o2ZHlNREtKeHpMTmJkT1dMelNhaVo4?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "OpenAI unveils GPT-5.6 Sol, Terra, and Luna but almost no one can use them yet: Here’s why The Indian Express"
+    },
+    {
+      "title": "Document AI Pipeline Errors Start at OCR: Mistral OCR 4 Collapses Three Stages to One - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPd2dfUVFJYk5XdkczRGxmSk5USUpySXBTODJxam5fZHFaMllWdG1BMHdSNmMzVFFkNDB4ZTI5VzdVRHZyLThQbFhubjNPaEpJUTRQQ3duYzZhOHRPZTVkU0o3TjNGc2p3WFZMc3VkcEh6alE1bFpHclk2cDZJZk9JYmpjVUs1bTRHYmVMSHAtLXN6VERmNko2UjRQY1ByNVdxc3l3d2ZzckRhQ1VKVlpVNnVJRkdlQkQtOFNnTVZwWmc4Zk5ob2cySk53dFlYZw?oc=5",
+      "source": "Google News",
+      "publishedAt": "2026-06-28",
+      "snippet": "Document AI Pipeline Errors Start at OCR: Mistral OCR 4 Collapses Three Stages to One Tech Times"
+    }
+  ],
+  "weekStart": "2026-06-21",
+  "weekEnd": "2026-06-28"
 }
