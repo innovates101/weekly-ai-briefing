@@ -57,6 +57,13 @@
         "url": "https://fintech.global/2026/07/01/ncino-banks-are-running-three-ais-not-one/",
         "summary": "nCino's spring 2026 survey of 150 senior banking executives found 84% of US institutions run enterprise AI — 91% generative, 87% predictive, and 81% agentic — each needing distinct governance. Agentic AI is mainly used for autonomous multi-step workflows like document gathering and exception routing.",
         "keyPoint": "**Agentic AI adoption has outpaced its governance.** With 89% of executives expecting staff to work alongside AI agents within five years, oversight is now the binding constraint, not adoption."
+      },
+      {
+        "headline": "Anthropic Restores Global Access to Claude Fable 5 After Export Controls Lifted",
+        "source": "Anthropic",
+        "url": "https://www.anthropic.com/news/redeploying-fable-5",
+        "summary": "The US imposed export controls on Claude Fable 5 and Mythos on June 12 after Amazon researchers found a safeguard bypass; Anthropic suspended global access rather than build nationality checks. A new classifier blocking the bypass in 99%+ of cases let the US lift the controls June 30, restoring Fable 5 worldwide July 1.",
+        "keyPoint": "**A vendor availability risk just resolved itself.** Claude Fable 5 had a two-and-a-half-week outage — a reminder to keep model-agnostic fallbacks for export-control-sensitive AI vendors."
       }
     ]
   }
