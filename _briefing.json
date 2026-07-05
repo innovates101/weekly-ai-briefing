@@ -1,55 +1,62 @@
 {
   "deepDive": {
-    "title": "Banks' AI Agents Have No Compliance Rulebook Yet",
-    "html": "<h3>Overview</h3><p>Financial institutions are racing to deploy AI agents that transact directly with other agents — but as <a href=\"https://www.retailbankerinternational.com/comment/how-can-compliance-keep-up-with-ai-agents/\">Retail Banker International lays out</a>, compliance teams have no rulebook for it. <strong>Risk frameworks built for human decision-makers were never designed for autonomous, machine-to-machine commerce.</strong></p><h3>The Details</h3><ul><li>Agent-to-agent commerce is happening at scale already, but existing compliance and risk frameworks were built around human-initiated transactions, not autonomous agents negotiating and acting on each other's behalf.</li><li>Industry commentator Nejc Korosec argues there is no agreed way to verify which agent is acting for whom, or to audit an agent's decisions after the fact.</li><li>No regulator has published binding rules yet for agent identity, liability, or audit trails — leaving individual banks to improvise their own controls.</li><li>The piece frames this as urgent: agentic transaction volumes are growing faster than the oversight tooling needed to police them.</li></ul><h3>Why It Matters</h3><p>For banks, insurers, and payments firms already piloting agentic workflows, this is a regulatory gap they will own by default until someone fills it. Without agreed standards for agent identity and audit trails, even well-intentioned agent deployments carry outsized legal and reputational risk.</p><p>Expect compliance teams — not engineering — to become the real bottleneck on agentic AI rollout. Institutions that build governance and logging into agent deployments now will move faster later, while laggards risk scrutiny only after a high-profile agent failure forces the issue.</p>"
+    "title": "The Bank of England Wants an AI Trading Kill Switch",
+    "html": "<h3>Overview</h3><p>More than half of finance firms already run agentic AI trading systems, and the <a href=\"https://www.computerweekly.com/news/366645329/Bank-of-England-explores-trading-kill-switches-to-contain-AI-meltdowns\">Bank of England</a> is worried they'll all move the same way at once. Deputy Governor Sarah Breeden is weighing a market-wide 'kill switch' to halt AI-driven trading before a shared signal turns into a stampede.</p><h3>The Details</h3><ul><li>A Cambridge survey cited by Breeden found 52% of finance firms already run agentic AI systems — faster adoption than the Bank had expected at this stage.</li><li>The core worry is \"herding\": AI models trained on similar data can react identically to the same market signal, amplifying volatility beyond what human traders would produce.</li><li>Breeden said existing frameworks \"were not built to contemplate autonomous agents,\" and that a human in the loop for every agent action \"is unlikely to be realistic.\"</li><li>Regulators are examining market-wide \"kill switches\" — automatic trading suspensions extending today's circuit-breakers to detect AI-correlated behavior before it becomes destabilizing.</li><li>The Bank is running joint simulations with the Bank for International Settlements Innovation Hub and the Bundesbank to study which agent design choices drive herding.</li></ul><h3>Why It Matters</h3><p>For banks and asset managers running trading agents, this is a preview of the rulebook you'll be judged against. A blanket kill switch would treat every firm's agents as equally suspect regardless of how carefully yours are governed — raising the incentive to prove your own agents behave well.</p><p>Herding risk also cuts across institutions: agents trained on similar data and tuned to similar objectives can synchronize competitors into the same trade at once. Expect examiners to start asking not just whether your agents work, but how differently they behave from everyone else's.</p>"
   },
   "startups": {
     "items": [
       {
-        "company": "Patronus AI",
-        "tagline": "Builds evaluation and simulation tooling — including newly launched 'Digital World Models' — for testing AI agents before they go live.",
-        "summary": "Patronus AI raised a $50M Series B and unveiled its first Digital World Models, large-scale simulation environments for training and testing long-horizon AI agents.",
-        "analysis": "**What makes it stand out:** most agent vendors sell capability; Patronus sells failure-catching — directly relevant to banks that can't afford an unsupervised agent making a costly mistake in production.",
-        "url": "https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html"
+        "company": "KredosAI",
+        "tagline": "AI platform that automates overdue-bill collections before accounts reach write-off.",
+        "summary": "KredosAI raised a $7M Series A led by BMW i Ventures to expand into financial services and auto lending.",
+        "analysis": "**What stands out:** clients see an 11.5% drop in write-off rates and 13.6% higher customer lifetime value — collections economics banks and card issuers can't ignore.",
+        "url": "https://www.geekwire.com/2026/kredosai-raises-7m-led-by-bmws-venture-arm-using-ai-to-help-companies-collect-late-payments/"
+      },
+      {
+        "company": "1stProtect + Multiverse Computing",
+        "tagline": "Partnership pairing on-device AI model compression with real-time runtime security — no cloud required.",
+        "summary": "1stProtect and Multiverse Computing partnered to let enterprises run compressed AI models fully on-device, with 1stProtect enforcing what agents may do in real time.",
+        "analysis": "**What stands out:** a fully offline, SOC 2-compliant way to run agentic AI without sending data to the cloud — built for exactly the compliance constraints banks face.",
+        "url": "https://www.prnewswire.com/news-releases/1stprotect-and-multiverse-computing-partner-to-deliver-secure-ai-inference-at-the-edge--no-cloud-required-302817595.html"
       }
     ]
   },
   "thingsToKnow": {
     "items": [
       {
-        "headline": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
-        "source": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
-        "summary": "OpenAI released GPT-5.6 less than a day after reports it would stagger the launch at the request of the Trump administration, underscoring how tightly frontier model releases are now tangled up with US AI policy.",
-        "keyPoint": "**Policy risk is now a model-release risk.** Institutions building on frontier models should expect availability and rollout timing to be shaped by Washington, not just engineering readiness."
+        "headline": "MAS Unveils SAFR Framework to Secure AI Agents in Financial Services",
+        "source": "Monetary Authority of Singapore",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-partners-industry-to-develop-safeguards-for-ai-agents-in-finance",
+        "summary": "Singapore's MAS and industry partners published SAFR — Safeguards for Agentic Finance at Runtime — for AI agents acting autonomously in payments, treasury, and wealth management. It adds real-time validation checkpoints and audit trails before agents execute financial tasks.",
+        "keyPoint": "**A concrete blueprint just landed.** Institutions building agentic workflows now have a tested reference architecture for governance, not just principles-based guidance."
       },
       {
-        "headline": "A Third Of Fintech Is Invisible To AI Agents",
-        "source": "Nohacks.co",
-        "url": "https://nohacks.co/blog/a-third-of-fintech-is-invisible-to-ai-agents",
-        "summary": "A study of 274 fintech homepages found most AI-visibility advice skips the page-rendering step, meaning a third of fintech sites are effectively unreadable to AI agents doing research or comparison shopping.",
-        "keyPoint": "**Discoverability is becoming a distribution channel.** Fintechs ignoring how their sites render for AI agents risk losing a growing slice of agent-mediated customer research and referrals."
+        "headline": "Alibaba Bans Employees From Using Claude Code Amid Anthropic Feud",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "summary": "Alibaba ordered staff to stop using Anthropic's Claude Code by July 10, citing hidden code that flagged Chinese users' timezones. The ban follows Anthropic accusing Alibaba's Qwen lab of using 25,000 fraudulent accounts to extract Claude's model knowledge.",
+        "keyPoint": "**AI vendor relationships are now geopolitical.** Institutions with China exposure or cross-border AI tooling should expect vendor access to keep shifting with US-China tensions."
       },
       {
-        "headline": "Google Gemini Can Now Control Your Computer. Hackers Are Already Targeting AI Agents",
-        "source": "Search Engine Journal",
-        "url": "https://www.searchenginejournal.com/google-gemini-can-now-control-your-computer-hackers-are-already-targeting-ai-agents/580578/",
-        "summary": "Google warned that websites can expose computer-using AI agents like Gemini to hidden traps as they navigate the open web, with hackers already probing agentic browsing for exploits.",
-        "keyPoint": "**Agentic browsing widens the attack surface.** Banks piloting agents that browse or act on the open web should treat prompt-injection and hidden-trap defenses as a deployment prerequisite, not an afterthought."
+        "headline": "Mistral AI in Talks to Raise $3.5B at $23B Valuation",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mistral-seeks-3-billion-dollars-build-european-ai-infrastructure/",
+        "summary": "Paris-based Mistral is negotiating a roughly €3B raise that would nearly double its valuation to about $23B. The open-weights model maker says annual recurring revenue has grown from $20M to over $400M in a year.",
+        "keyPoint": "**Europe just got a stronger sovereign-AI option.** Banks facing data-residency rules or wary of US/China vendor concentration now have a well-funded, open-weights alternative in the EU."
       },
       {
-        "headline": "Why Does a Bank Need a Chief Scientist?",
-        "source": "IEEE Spectrum",
-        "url": "https://spectrum.ieee.org/capital-one-science-ai-finance-innovation",
-        "summary": "Capital One profiled its move to hire a Chief Scientist — Prem Natarajan, who previously led natural language understanding and the entire Alexa AI organization at Amazon — to drive AI strategy from inside the bank.",
-        "keyPoint": "**Top-tier AI talent is migrating from Big Tech into banking.** Capital One's hire signals that competing on agentic AI now means competing for the same research talent as Amazon, Google, and OpenAI."
+        "headline": "Practitioner Report: Newer Claude Models Show Tool-Calling Regression",
+        "source": "Let's Data Science",
+        "url": "https://letsdatascience.com/news/newer-claude-models-show-tool-calling-regression-6f029d5f",
+        "summary": "A developer reported Claude Opus 4.8 sometimes generates malformed arguments for coding tools, failing roughly 20% of multi-step edits in some sessions. Anthropic hasn't confirmed the regression — this is a single practitioner's finding, not a benchmark result.",
+        "keyPoint": "**Model upgrades can quietly break production agents.** Treat every model version bump on agentic workflows as a re-validation event, not a routine update."
       },
       {
-        "headline": "Backbase acquires Kasisto to lead agentic banking",
-        "source": "FinTech Global",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY3lMZUhkN1FqWHIwMlBzRFpmd1dING1ncURQajIybDQ4dnNiUzRpTFlpVXh3aWd3WGNhUDhaNFFMX25uOHRCRTdOWGNSYlgtdkVRdjhfWVhBblhPLTFhS2V6d1ZqRmZhWDVzWXhPNWZsSkxTVmRWNjJsbkVrcm83VXZNNzRoa0wyY09maQ?oc=5",
-        "summary": "Banking software vendor Backbase has acquired conversational banking AI firm Kasisto, consolidating two players in the agentic banking space under one roof.",
-        "keyPoint": "**Consolidation is starting in agentic banking tooling.** Banks evaluating vendors should expect more M&A among AI-agent and conversational-banking providers, which affects roadmap stability and integration risk."
+        "headline": "OpenAI Reportedly Floats Giving the US Government a Stake",
+        "source": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/07/03/openai-offers-feds-stake-anthropic-gets-ai-model-jail-meta-wants-neocloud/",
+        "summary": "OpenAI has reportedly floated giving the US government a 5% equity stake, potentially the first of similar arrangements across major AI companies, raising antitrust and governance questions.",
+        "keyPoint": "**Government equity in AI labs would reshape counterparty risk.** Watch whether state ownership changes vendor incentives, oversight, or export rules for the labs you depend on."
       }
     ]
   }
