@@ -6,8 +6,8 @@ const PUBLICATION = {
   name: 'AI Agents Weekly',
   tagline: 'AI developments impacting financial institutions',
   audience: 'Banking Strategy & Innovation Team',
-  // Cron schedule: every Monday at 08:00 local time
-  schedule: '0 8 * * 1',
+  // Cron schedule: every weekday (Mon–Fri) at 07:30 local time
+  schedule: '30 7 * * 1-5',
 };
 
 // ─── CATEGORIES ──────────────────────────────────────────────────────────────
