@@ -15,7 +15,17 @@ index.js (CLI entry)
   → news-fetcher.js    — fetch, deduplicate, categorize articles
   → content-generator.js — call Claude CLI for editorial analysis
   → email-builder.js   — inject content into HTML template
-  → email-sender.js    — send via Gmail SMTP (Nodemailer)
+  → email-sender.js    — send via Gmail SMTP (Nodemailer; local only)
+```
+
+**Automated cloud pipeline** (Claude Code scheduled run — no subprocess Claude CLI):
+```
+_fetch.js      → _articles.json   (fetch + cross-run dedup)
+_mark-seen.js  → _seen-urls.json  (mark fetched URLs as seen)
+[Claude generates _briefing.json directly — no subprocess]
+_build.js      → _email.html, _subject.txt
+_send.js       → _draft-params.json  (GMAIL_MCP_READY)
+[Claude calls mcp__Gmail__create_draft with _draft-params.json contents]
 ```
 
 **Three content sections (in order):**
@@ -134,9 +144,42 @@ Rules:
 - `snippet` = first 200 chars of the result description; empty string if none
 - `weekStart` = yesterday's date; `weekEnd` = today's date
 
-### Step 3 — Continue the pipeline normally from Step 3 (content generation)
+### Step 2b — Mark articles as seen (prevents repeats tomorrow)
 
-The rest of the pipeline (content generation → build → send) is unchanged.
+After writing `_articles.json`, run:
+
+```bash
+node _mark-seen.js
+```
+
+This records all article URLs into `_seen-urls.json` so tomorrow's run won't repeat them. Without this step, WebSearch-fallback articles bypass cross-run deduplication.
+
+### Step 3 — Continue the pipeline (content generation)
+
+Generate `_briefing.json` directly as Claude (no subprocess needed in cloud runs). See editorial guidelines above for section structure.
+
+### Step 4 — Build the email
+
+```bash
+node _build.js
+```
+
+Produces `_email.html` and `_subject.txt`.
+
+### Step 5 — Prepare Gmail draft parameters
+
+```bash
+node _send.js
+```
+
+Writes `_draft-params.json` and prints `GMAIL_MCP_READY:{recipients}`. No network calls — exits immediately.
+
+### Step 6 — Send via Gmail MCP
+
+Read `_draft-params.json`, then call `mcp__Gmail__create_draft` with:
+- `to` — array of recipient addresses from `_draft-params.json`
+- `subject` — subject string from `_draft-params.json`
+- `htmlBody` — full HTML from `_draft-params.json`
 
 ---
 

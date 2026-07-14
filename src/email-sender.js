@@ -1,6 +1,7 @@
 'use strict';
 
 const nodemailer = require('nodemailer');
+const { PUBLICATION } = require('../config');
 
 // ─── TRANSPORTER ─────────────────────────────────────────────────────────────
 
@@ -86,7 +87,7 @@ async function sendEmail(html, subject) {
   }
 
   const mailOptions = {
-    from:    `"${process.env.PUBLICATION_NAME || 'AI Agents Weekly'}" <${from}>`,
+    from:    `"${PUBLICATION.name}" <${from}>`,
     to,
     subject,
     html,
