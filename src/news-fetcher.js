@@ -622,7 +622,7 @@ function groupByCategory(articles) {
 // ─── MAIN EXPORT ─────────────────────────────────────────────────────────────
 
 /**
- * Fetch all articles from the last 7 days across all sources and categories.
+ * Fetch all articles from the last 24 hours across all sources and categories.
  *
  * @returns {{
  *   category1: Article[],
@@ -638,7 +638,7 @@ const FETCH_ALL_TIMEOUT_MS = 90_000; // hard ceiling on entire fetch operation
 
 async function fetchAll() {
   const weekEnd = new Date();
-  const weekStart = daysAgo(7);
+  const weekStart = daysAgo(1);
 
   console.log(`[news-fetcher] Fetching articles from ${weekStart.toDateString()} to ${weekEnd.toDateString()}`);
 

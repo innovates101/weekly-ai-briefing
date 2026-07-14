@@ -3,11 +3,11 @@
 // ─── PUBLICATION METADATA ────────────────────────────────────────────────────
 
 const PUBLICATION = {
-  name: 'AI Agents Weekly',
-  tagline: 'AI developments impacting financial institutions',
+  name: 'AI Agents Daily',
+  tagline: 'Daily AI developments for financial institutions',
   audience: 'Banking Strategy & Innovation Team',
-  // Cron schedule: every Monday at 08:00 local time
-  schedule: '0 8 * * 1',
+  // Cron schedule: every day at 08:00 local time
+  schedule: '0 8 * * *',
 };
 
 // ─── CATEGORIES ──────────────────────────────────────────────────────────────
