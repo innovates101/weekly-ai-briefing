@@ -71,5 +71,9 @@ fetchAll()
     if (total === 0) {
       console.log('FALLBACK_NEEDED: all sources returned 0 articles — activate WebSearch fallback (see CLAUDE.md)');
     }
+    // RSS/Google News requests raced against withTimeout() leave their underlying
+    // sockets open when the timeout wins — those dangling sockets keep the event
+    // loop alive indefinitely even though all work is done. Exit explicitly.
+    process.exit(0);
   })
   .catch(e => { console.error(e.message); process.exit(1); });
