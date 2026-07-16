@@ -31,17 +31,8 @@ const MONTHS = [
 ];
 
 function formatDate(weekStart, weekEnd) {
-  if (!weekStart || !weekEnd) {
-    const n = new Date();
-    return `${MONTHS[n.getMonth()]} ${n.getDate()}, ${n.getFullYear()}`;
-  }
-  if (weekStart.getMonth() === weekEnd.getMonth()) {
-    return `${weekStart.getDate()}–${weekEnd.getDate()} ${MONTHS[weekEnd.getMonth()]} ${weekEnd.getFullYear()}`;
-  }
-  return (
-    `${weekStart.getDate()} ${MONTHS[weekStart.getMonth()]} – ` +
-    `${weekEnd.getDate()} ${MONTHS[weekEnd.getMonth()]} ${weekEnd.getFullYear()}`
-  );
+  const d = weekEnd || weekStart || new Date();
+  return `${MONTHS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
 function archiveFilename(weekEnd) {
@@ -49,7 +40,7 @@ function archiveFilename(weekEnd) {
   const yyyy = d.getFullYear();
   const mm   = String(d.getMonth() + 1).padStart(2, '0');
   const dd   = String(d.getDate()).padStart(2, '0');
-  return `ai-agents-weekly-${yyyy}-${mm}-${dd}.html`;
+  return `ai-agents-daily-${yyyy}-${mm}-${dd}.html`;
 }
 
 // ─── HTML HELPERS ─────────────────────────────────────────────────────────────
@@ -278,7 +269,7 @@ function populateTemplate(template, vars) {
 function buildEmail(briefing, fetchMeta = {}) {
   const { weekStart, weekEnd } = fetchMeta;
   const dateStr      = formatDate(weekStart, weekEnd);
-  const deepDiveTitle = briefing.deepDive?.title || 'This Week in AI';
+  const deepDiveTitle = briefing.deepDive?.title || 'Today in AI';
   const subject       = `🤖 ${PUBLICATION.name} — ${deepDiveTitle} | ${dateStr}`;
 
   const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');

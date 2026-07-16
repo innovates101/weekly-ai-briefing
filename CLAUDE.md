@@ -1,8 +1,8 @@
-# AI Agents Weekly — Claude Code Guide
+# AI Agents Daily — Claude Code Guide
 
 ## What This Project Does
 
-Automated weekly email newsletter delivering AI news curated for financial institutions. The pipeline: fetch articles → Claude analyzes & editorializes → render HTML email → send via Gmail.
+Automated daily email newsletter delivering AI news curated for financial institutions. The pipeline: fetch articles → Claude analyzes & editorializes → render HTML email → send via Gmail.
 
 ## Editorial Philosophy
 
@@ -15,7 +15,17 @@ index.js (CLI entry)
   → news-fetcher.js    — fetch, deduplicate, categorize articles
   → content-generator.js — call Claude CLI for editorial analysis
   → email-builder.js   — inject content into HTML template
-  → email-sender.js    — send via Gmail SMTP (Nodemailer)
+  → email-sender.js    — send via Gmail SMTP (Nodemailer; local only)
+```
+
+**Automated cloud pipeline** (Claude Code scheduled run — no subprocess Claude CLI):
+```
+_fetch.js      → _articles.json   (fetch + cross-run dedup)
+_mark-seen.js  → _seen-urls.json  (mark fetched URLs as seen)
+[Claude generates _briefing.json directly — no subprocess]
+_build.js      → _email.html, _subject.txt
+_send.js       → _draft-params.json  (GMAIL_MCP_READY)
+[Claude calls mcp__Gmail__create_draft with _draft-params.json contents]
 ```
 
 **Three content sections (in order):**
@@ -36,19 +46,19 @@ node src/index.js --test-fetch      # Test news fetching only (no Claude, no ema
 node src/index.js --test-generate   # Fetch + Claude generation → briefing-test-output.json
 node src/index.js --test-email      # Full pipeline: fetch → generate → build → send
 node src/index.js --run-now         # Trigger scheduler immediately (single full run)
-npm start                           # Start weekly scheduler (⚠ scheduler.js not yet implemented)
+npm start                           # Start daily scheduler (runs every day at 08:00)
 ```
 
 ## Configuration
 
 All editorial config lives in `config.js`:
-- `PUBLICATION` — name, tagline, cron schedule (Mondays 7 AM)
+- `PUBLICATION` — name, tagline, cron schedule (daily at 08:00)
 - `CATEGORIES` — 3 categories with Claude prompts per section
 - `TRACKED_COMPANIES` — 50+ banks, fintechs, AI vendors, regulators
 - `KEYWORDS` — primary and secondary AI/finance signal terms
 - `RSS_FEEDS` — 12 static sources (VentureBeat, TechCrunch, fintech outlets, etc.)
 - `SEARCH_QUERIES` — per-category search queries used by Tavily and the WebSearch fallback
-- `OUTPUT` — max 4 articles/category, min relevance score 0.3
+- `OUTPUT` — max 10 articles/category, min relevance score 0.3
 - `CLAUDE` — path to Claude CLI executable (Windows UWP), 20 max context articles, 120s timeout
 
 ## Environment Variables (`.env`)
@@ -128,30 +138,64 @@ Map each search result to this shape and write the file:
 ```
 
 Rules:
-- Only include articles published within the current week window
+- Only include articles published within the past 24 hours (`weekStart` to today)
 - Keep up to 10 articles per category; aim for at least 3
 - `source` = publication name (e.g. `"TechCrunch"`, `"Bloomberg"`)
 - `snippet` = first 200 chars of the result description; empty string if none
-- `weekStart` / `weekEnd` = Monday–Monday of the current pipeline run
+- `weekStart` = yesterday's date; `weekEnd` = today's date
 
-### Step 3 — Continue the pipeline normally from Step 3 (content generation)
+### Step 2b — Mark articles as seen (prevents repeats tomorrow)
 
-The rest of the pipeline (content generation → build → send) is unchanged.
+After writing `_articles.json`, run:
+
+```bash
+node _mark-seen.js
+```
+
+This records all article URLs into `_seen-urls.json` so tomorrow's run won't repeat them. Without this step, WebSearch-fallback articles bypass cross-run deduplication.
+
+### Step 3 — Continue the pipeline (content generation)
+
+Generate `_briefing.json` directly as Claude (no subprocess needed in cloud runs). See editorial guidelines above for section structure.
+
+### Step 4 — Build the email
+
+```bash
+node _build.js
+```
+
+Produces `_email.html` and `_subject.txt`.
+
+### Step 5 — Prepare Gmail draft parameters
+
+```bash
+node _send.js
+```
+
+Writes `_draft-params.json` and prints `GMAIL_MCP_READY:{recipients}`. No network calls — exits immediately.
+
+### Step 6 — Send via Gmail MCP
+
+Read `_draft-params.json`, then call `mcp__Gmail__create_draft` with:
+- `to` — array of recipient addresses from `_draft-params.json`
+- `subject` — subject string from `_draft-params.json`
+- `htmlBody` — full HTML from `_draft-params.json`
 
 ---
 
 ## Known Issues / Incomplete Features
 
-- **`src/scheduler.js` is a stub** — `npm start` and `--run-now` won't work until implemented with `node-cron`
 - Claude CLI path is Windows-specific; not portable
 - No fallback if Claude times out or returns malformed JSON — full pipeline fails
 - `.env` should not be committed if the repo becomes public
 
 ## Key Implementation Notes
 
-- **Deduplication**: exact URL match first, then Jaccard title similarity (threshold 0.8)
+- **Within-run deduplication**: exact URL match first, then Jaccard title similarity (threshold 0.8)
+- **Cross-run deduplication**: `_fetch.js` maintains `_seen-urls.json` — a rolling 7-day log of fetched article URLs. Articles that appeared in any previous daily edition are automatically excluded, so the same story never runs twice. Entries older than 7 days are expired automatically.
 - **RSS timeouts**: uses `Promise.race()` to avoid Windows RSS parser hangs (15s per feed)
 - **Google News**: batched 5 queries at a time, concurrency-limited to avoid rate limits
 - **NewsAPI**: reuses `searchQueries` from `CATEGORY_DEFS`; 300ms delay between requests; runs in parallel with Tavily
 - **HTML sanitization**: only safe tags allowed in deep-dive section before inline-styling
 - **Email retry**: 3 attempts with exponential backoff (2s, 4s delays)
+- **Scheduler**: `src/scheduler.js` uses `node-cron` with the schedule in `config.js` (`0 8 * * *`). `npm start` runs the scheduler; `--run-now` triggers one immediate run.
