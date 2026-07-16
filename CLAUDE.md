@@ -188,12 +188,14 @@ Read `_draft-params.json`, then call `mcp__Gmail__create_draft` with:
 - Claude CLI path is Windows-specific; not portable
 - No fallback if Claude times out or returns malformed JSON — full pipeline fails
 - `.env` should not be committed if the repo becomes public
+- `withTimeout()` (used for RSS/Google News fetches) races a promise against a timer but does not cancel the underlying HTTP request when the timer wins — a slow/stalled request can leave a socket open past the "timeout." This previously caused `_fetch.js` to hang indefinitely *after* finishing all its work and writing `_articles.json`, silently killing the scheduled pipeline for several days before it was diagnosed (fixed by an explicit `process.exit(0)` — see below). The dangling-socket root cause itself is still present; only the symptom (process never exiting) is patched.
 
 ## Key Implementation Notes
 
 - **Within-run deduplication**: exact URL match first, then Jaccard title similarity (threshold 0.8)
 - **Cross-run deduplication**: `_fetch.js` maintains `_seen-urls.json` — a rolling 7-day log of fetched article URLs. Articles that appeared in any previous daily edition are automatically excluded, so the same story never runs twice. Entries older than 7 days are expired automatically.
-- **RSS timeouts**: uses `Promise.race()` to avoid Windows RSS parser hangs (15s per feed)
+- **RSS timeouts**: uses `Promise.race()` (`withTimeout()`) to avoid Windows RSS parser hangs (15s per feed) — this bounds how long `_fetch.js` *waits* on a given feed, but does not abort the underlying request (see Known Issues above)
+- **`_fetch.js` explicit exit**: calls `process.exit(0)` right after writing `_articles.json`/`_seen-urls.json` on success (and `process.exit(1)` on error). This is required, not cosmetic — dangling sockets from timed-out RSS/Google News requests otherwise keep the Node event loop alive forever and the script never returns control to the caller. If `_fetch.js` is ever rewritten, keep an explicit exit at the end of the success path.
 - **Google News**: batched 5 queries at a time, concurrency-limited to avoid rate limits
 - **NewsAPI**: reuses `searchQueries` from `CATEGORY_DEFS`; 300ms delay between requests; runs in parallel with Tavily
 - **HTML sanitization**: only safe tags allowed in deep-dive section before inline-styling
