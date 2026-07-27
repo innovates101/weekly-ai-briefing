@@ -1,220 +1,185 @@
 {
   "category1": [
     {
-      "title": "Pomerium's Nick Taylor Enhances OpenClaw Security and UX - StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRDgwaWRoNF9FdGVRd2Y0VF9wZWd1ZjhKN2x6T0htaXg0OURQdjg3OV9nOEZ6aXdVNkRnY3ZUY2lGTmFGbDA5UEdTWnZEbVVRVXFBbHZWWFc1MWNhMV9RbTFlYTZsLVgzWFlxSl9fMmZmbmxNTkY2dHgtNjBNMkx1OGYwekVkbEh6ZExjTk9zUU04dFhCTVFCQ3hXeWkyZEFoX1oyZ1BqV1pOUQ?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Pomerium's Nick Taylor Enhances OpenClaw Security and UX StartupHub.ai"
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-07-27",
+      "snippet": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform."
     },
     {
-      "title": "Who manages the agents?",
-      "url": "https://off-policy.com/dont-go-quietly-into-the-ai-night/",
-      "source": "NewsAPI:Off-policy.com",
-      "publishedAt": "2026-07-11",
-      "snippet": "There are two visions for the future: AI as a deity built and controlled by a small group of clergy, or humans at the center with AI as an amplifier. The future has not been decided."
+      "title": "Its AI agent spent days hacking a company, but sources say OpenAI did not notice for a week",
+      "url": "https://www.itnews.com.au/news/its-ai-agent-spent-days-hacking-a-company-but-sources-say-openai-did-not-notice-for-a-week-627679?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "source": "NewsAPI:iTnews",
+      "publishedAt": "2026-07-26",
+      "snippet": "Until &#8288;well after the threat was contained."
     },
     {
-      "title": "Snapchat's Jeffrey Lee-Chan on Developing at Idea Velocity - StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRTgyRWNtYmRMQndWVVU1WElSWUVfYmdPaEFOY0pKS2Z6TTJRNnRtb1c0bE84bHdoTUUzTFJ1NkJ4Nlp1STJqTWlYYTF6WU9hTTJ1bW5ad2tRaWxWOG1walMtdlpweDM0dFNhVlk3a1FtTUNXa3BWSnVTWC1lajV5LUxIb2ZVY0djM2oxQlpXcmNXZFlqNzZEeEhGMmFERTl0MUlJcTI1NlQwV05DcVBldzdCWk9KWVpyeGpXTkdB?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-11",
-      "snippet": "Snapchat's Jeffrey Lee-Chan on Developing at Idea Velocity StartupHub.ai"
+      "title": "James Cameron tried to warn us: ‘Skynet Day’ is now shorthand for OpenAI’s agent going rogue and hacking into a startup",
+      "url": "https://fortune.com/2026/07/26/james-cameron-terminator-skynet-day-openai-ai-agent-hack-hugging-face/",
+      "source": "NewsAPI:Fortune",
+      "publishedAt": "2026-07-26",
+      "snippet": "In what OpenAI said was the first-ever incident of its kind, an advanced AI model escaped its “sandbox” to the internet and used stolen credentials to break into the servers of Hugging Face."
     },
     {
-      "title": "Sierra's AI Agents Boost Productivity - StartupHub.ai",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMHVaVVpHa2tGdGJCN09zYTU4Q0FoSWpWWjFUNE5vSHptNWhRWWwxeXpHR01yZ3VKaU9BVWdaYmRNWVpFUUkydXZFTEFpcExnMC1rYUJ3OTRpc2xweVlIY2ZsWkpKbDVuNFV2Y3VTUlNkT05LUzJRMWNJSjdOR0tHc3Q2OXRQa2dkOVFoZE9LWnlnbFU?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-11",
-      "snippet": "Sierra's AI Agents Boost Productivity StartupHub.ai"
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-07-26",
+      "snippet": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\""
     },
     {
-      "title": "Agentic Commerce Is Here: What Does It Mean for Your Store?",
-      "url": "https://wordpress.com/blog/2026/07/10/what-is-agentic-commerce/",
-      "source": "NewsAPI:Wordpress.com",
-      "publishedAt": "2026-07-10",
-      "snippet": "AI assistants are starting to shop for people: finding, comparing, and buying products on their behalf. Whether they can buy from your store depends on whether they can reach and read it, and that par"
-    },
-    {
-      "title": "This Week in AI: Chips, Checks, and Changing Jobs",
-      "url": "https://www.oreilly.com/radar/this-week-in-ai-chips-checks-and-changing-jobs/#BlogPosting",
-      "source": "NewsAPI:Oreilly.com",
-      "publishedAt": "2026-07-10",
-      "snippet": "This week data and AI evangelist Christina Stathopoulos returned for a solo news briefing. Instead of exploring one or two topics in depth, Christina sorted the week’s headlines into a handful of thre"
-    },
-    {
-      "title": "Gradium Hits $100M Seed, Adds NVIDIA as Investor",
-      "url": "https://www.cmswire.com/digital-experience/gradium-hits-100m-seed-adds-nvidia-as-investor/",
-      "source": "NewsAPI:CMSWire",
-      "publishedAt": "2026-07-10",
-      "snippet": "The Paris-based voice AI startup extended its seed round seven months after launch and will open a San Francisco Bay Area office. Continue reading..."
-    },
-    {
-      "title": "AI model mania and the new chip gold rush",
-      "url": "https://siliconangle.com/2026/07/10/ai-model-mania-new-chip-gold-rush/",
-      "source": "NewsAPI:SiliconANGLE News",
-      "publishedAt": "2026-07-10",
-      "snippet": "Just when you thought the artificial intelligence model race might slow down, it starts up again double-time. This week alone brought new models and related services from OpenAI (twice), Meta (also tw"
-    },
-    {
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition - OpenAI",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1pWmhBYnBfLXg2OGhrbmlYM2FobFBJanp6RHFiZ1lIa1BSSE1CTnNYSExtRW1USTFWbDloOUxIS3FKY2hXbm5ULQ?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-10",
-      "snippet": "GPT-5.6: Frontier intelligence that scales with your ambition OpenAI"
-    },
-    {
-      "title": "Exclusive Jensen Huang Interview: Why AI Has Finally Become Truly Useful in the Past 6 Months | In-Depth Insights - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91SmNRckJmZEJVQXNYd2JPeVlDRW4xZGlEM25zX05wWmxrYzJsU2kybVFSVTAyd2ZkOGRYTG9kclpJS1BuT3Q3aUlJeVR5WHJOUHpF?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-10",
-      "snippet": "Exclusive Jensen Huang Interview: Why AI Has Finally Become Truly Useful in the Past 6 Months | In-Depth Insights 36 Kr"
+      "title": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cheaper-open-intelligent-chinese-ai-040459793.html",
+      "source": "NewsAPI:Yahoo Entertainment",
+      "publishedAt": "2026-07-26",
+      "snippet": "China has a hot new product in the United States: artificial intelligence. San Francisco-based Raffi Krikorian, the chief technology officer at Mozilla, whi..."
     }
   ],
   "category2": [
     {
-      "title": "JPMorgan Builds AI Investing Agents to Control Capital Allocation - Mjengo Hub",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTmF3WVpSQVBzcnFCNm51WDE1Wi02RVpYcmZPTHVta2hLT2c3Y24xQm43ajh4TWlmUUc2WWhPUVVIdUc2Yk9oTmxKS09ZMmJXbDBmR0F0R0RCLVEyYm1mVHNrbG8xRWlzR3Zzb1FYMVhXbGh2UThPT3VWUlJVTTRtQzRpVHA0clJpMktFcVhaRGdJalV3Y19wZjRib3J4U01QN1g1b0hZelVJQQ?oc=5",
+      "title": "Survey: More bank boards bringing in directors with M&A expertise",
+      "url": "https://bankingjournal.aba.com/2026/07/survey-more-bank-boards-bringing-in-directors-with-ma-expertise/",
+      "source": "ABA Banking Journal",
+      "publishedAt": "2026-07-27",
+      "snippet": "The percentage of bank boards with expertise in mergers and acquisitions has grown in the past year as the regulatory environment has become more favorable to such activity, according to a new survey "
+    },
+    {
+      "title": "Hackers used autonomous AI agent to spy on Thailand's finance ministry - The Record from Recorded Future News",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnekszUjVPVEswaHlVVDJOcEVKNEx2dmViUmctUW54d2hGbkxnVXA2TnBDMFZlQWM3MFNyR1FYM0JScGJ6T3dBSUo0bkxKbjl1X2w5ZE1rU0xDYVVwb0ctRUlVYTMwanNCSkRvZg?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-11",
-      "snippet": "JPMorgan Builds AI Investing Agents to Control Capital Allocation Mjengo Hub"
+      "publishedAt": "2026-07-27",
+      "snippet": "Hackers used autonomous AI agent to spy on Thailand's finance ministry The Record from Recorded Future News"
     },
     {
-      "title": "KlariVis Expands C-Suite with New Chief Data and AI Officers to Scale Bank Intelligence - FF News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeDJvZHR4eTFJeGk0Y0p5R3dqb0h4OEZFczZmVnZCRDY0cWVFR1MxdmQzZXUtS2YwRm1xV29kXzljZzVRQmdnQkhITFVLSzVycWtGTUZqQVQwZERWanp3VzFuNW5reHp1Tl9PNjBMN182bnBObjY4QV9xNGQxYnlzX0lCZVNEXzFSZGZWVmhrNFFCdlkwYkdaaTYzNHo4MTIzZG4xYktGcjRjTHB2emhuNA?oc=5",
+      "title": "The Missing Link in Insurance AI - - Insurance Edge",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UVWxjamFhb2g1a0kyQk40bGFKRlF4THI0Wng0U2hxWWZ4RndTemRMN0FvMEx1TUQ2THQydkZqazBQY0VsZnU3TFZZYllqVVF1ZU9XZTJnTm5JeW9lU2pYQmxRVlRvWTZxbER2aHJkYm9EYkRoMzE5cXNMYw?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-10",
-      "snippet": "KlariVis Expands C-Suite with New Chief Data and AI Officers to Scale Bank Intelligence FF News"
+      "publishedAt": "2026-07-27",
+      "snippet": "The Missing Link in Insurance AI - Insurance Edge"
     },
     {
-      "title": "Kraken Develops AI-Powered Autonomous Trading Service as Exchange Evolves into Financial Hub - Bitcoin World",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rZmN2UV9EbzJPODJtdHZzcXBCUFZ5a1h0cnp2WlFvZmR0eVR0LXhFdFJ1OHp5Q2NyZHFKVXFnWWR0ei1rSjN1eFVDUWFnTVJ1VXF1aXdOcm0xMzYyWk5lVE92WExTTFc0cUJiTXFxVDlPZw?oc=5",
+      "title": "How much authority should banks give AI agents? - The Asian Banker",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRHNEeHJOSGs4Zzd6dGlwOE5aZ19VaXN3N1I4Wkc3bGliLVNqQVJhaHM5Q01uSzFfbUZsdUJsTUdtZDJBeUY0TFJpM3JVYmxzQXlPSXhRdkttdGx3ZUVkd2huSFRqcGptLXdvdUE5R3JTTnBYQ3VWQjRfVDhNMlptNlpxSmJSWTNRVUlsYjVwU01CVEFybGUxc2pMcVMwNTQ?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-10",
-      "snippet": "Kraken Develops AI-Powered Autonomous Trading Service as Exchange Evolves into Financial Hub Bitcoin World"
+      "publishedAt": "2026-07-27",
+      "snippet": "How much authority should banks give AI agents? The Asian Banker"
     },
     {
-      "title": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready. - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
+      "title": "Klaimee Raises $5.5M for AI Agent Insurance - quasa.io",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE13VWpoUE91WmFZRmZyN1FjMHBmV0hQa1RFQ2thYUJiOHp6N3JGVUtKTzZqMERPSlQyclZ6ZmpEV1R3UDlZVDVKNjRGSTdadFZObTRIdklDZFlCRldweW9ETzMxWDNndDBCTmhaSldlNUZMOENBQVBWTXZlOW1JUQ?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-10",
-      "snippet": "An AI-Powered Flash Crash Is Coming. The Market Isn’t Ready. 24/7 Wall St."
+      "publishedAt": "2026-07-27",
+      "snippet": "Klaimee Raises $5.5M for AI Agent Insurance quasa.io"
     },
     {
-      "title": "NatWest: Agentic AI Wealth Hyper-Scaling Against Shadow Banking Risks - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcm9Hb0Z6RmNweUY4OF9xWGNmU2xDbmV0QXVsYm10Rzk2T05PM3RzWU9Dc3c4S3drZWhqV2ZQc0Ewc1EzajYxNFE3WTRXYzdtaFkwZEFtRkFDcTFVTTNjWXlfR3BTRlZ2cXdsQkxYRmFKaW1VLVZSUTBaYjVnMlZsRlY1S0UycmpGT3Q0RmdTeWNhdVowaHp1cW85QkZ5eWFTTUtfR2tZdzdmVlVGRFE?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-10",
-      "snippet": "NatWest: Agentic AI Wealth Hyper-Scaling Against Shadow Banking Risks Seeking Alpha"
+      "title": "Sam Altman says we are in the singularity: 'This is the moment'",
+      "url": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7#article",
+      "source": "NewsAPI:Business Insider",
+      "publishedAt": "2026-07-26",
+      "snippet": "OpenAI CEO Sam Altman said he believes the technological singularity, the moment when artificial intelligence surpasses humans intelligence, is here."
     },
     {
-      "title": "NH Nonghyup Bank Accelerates AI Agent Innovation with Agile Soda - 아시아경제",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52ZnJLYTREbXZjYVJZVTVoUnhqOGExT1dyN0dfRkJtWnVuc2VQbl9zNmduU3ZXM2JZSjhuakQwUFRzYThHZlJ3Y0NFZEtkdkRjWm4tQ2N4bW8wcG80azhQYkpjNkg?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-10",
-      "snippet": "NH Nonghyup Bank Accelerates AI Agent Innovation with Agile Soda 아시아경제"
+      "title": "Piper Sandler names 5 software stocks cutting AI token costs",
+      "url": "https://www.thestreet.com/investing/stocks/piper-sandler-software-stocks-ai-token-costs-mongodb-snowflake",
+      "source": "NewsAPI:TheStreet",
+      "publishedAt": "2026-07-26",
+      "snippet": "For most of the past two years, investors bought nearly every company tied to semiconductors, from chip designers to equipment makers, and those stocks rose..."
     },
     {
-      "title": "OpenAI’s CEO of AGI Deployment Fidji Simo Is Stepping Down",
-      "url": "https://www.wired.com/story/fidji-simo-ceo-agi-deployment-openai/",
-      "source": "NewsAPI:Wired",
-      "publishedAt": "2026-07-09",
-      "snippet": "The move comes after Simo took significant medical leave. Simo will stay on as a part-time advisor."
+      "title": "AWS EC2 adds short-term GPU reservations as AI workloads reshape compute",
+      "url": "https://4sysops.com/archives/aws-ec2-adds-short-term-gpu-reservations-as-ai-workloads-reshape-compute/",
+      "source": "NewsAPI:4sysops.com",
+      "publishedAt": "2026-07-26",
+      "snippet": "Amazon EC2 Capacity Blocks for machine learning are now generally available in the US East (Ohio) Region, allowing customers to reserve NVIDIA GPU clusters for short, defined periods. The option targe"
     },
     {
-      "title": "Meta Introduces a Big New AI Model for the Agentic Age",
-      "url": "https://www.cnet.com/tech/services-and-software/meta-muse-spark-new-ai-model-agentic/",
-      "source": "NewsAPI:CNET",
-      "publishedAt": "2026-07-09",
-      "snippet": "A public preview of Muse Spark 1.1 is now available to developers."
+      "title": "微軟 Fara1.5 開源電腦操作 Agent：27B 小模型打敗 OpenAI Operator 與 Gemini 2.5",
+      "url": "https://www.kocpc.com.tw/archives/660767",
+      "source": "NewsAPI:Kocpc.com.tw",
+      "publishedAt": "2026-07-26",
+      "snippet": "微軟 Research AI Frontiers 團隊在 2026 年 5 月發布了一個完全開源的電腦操作 A […] The post 微軟 Fara1.5 開源電腦操作 Agent：27B 小模型打敗 OpenAI Operator 與 Gemini 2.5 appeared first on 電腦王阿達."
     },
     {
-      "title": "OpenAI rolls out GPT-5.6 after government green light — and announces ‘ChatGPT Work’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-      "source": "NewsAPI:The Verge",
-      "publishedAt": "2026-07-09",
-      "snippet": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump a"
-    },
-    {
-      "title": "Agentic AI targets the friction automation can’t fix - FinTech Global",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdExabENackhEbmRuWlBqT0J1M3Q2aHNZd2FkSkVPMEl1azE0RFVYSnBDTjM0N0tmenc2U0tGY2lPY2xYVkpTOU02ODVmWktiY0V3UHZIbVFnSzZWNU43am9hSnhEbHlTNjB3STZ0c2duUW5FdExiTG5CTkluNGp0YTJPRTMwMnJZLXlkRW14MA?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-09",
-      "snippet": "Agentic AI targets the friction automation can’t fix FinTech Global"
+      "title": "UBS hurries to reset AMD stock target on key AI Day signals",
+      "url": "https://www.thestreet.com/investing/stocks/ubs-raises-amd-stock-price-target-730-advancing-ai-server-cpu",
+      "source": "NewsAPI:TheStreet",
+      "publishedAt": "2026-07-26",
+      "snippet": "Wall Street usually takes a few days to digest a product event. However, UBS took less than one. Advanced Micro Devices (AMD) concluded its Advancing AI 2026..."
     }
   ],
   "category3": [
     {
-      "title": "Robostral Navigate: single-camera AI navigation - mistral.ai",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuODdfOFZITFJmb0FyNW00TkZEdUtFYzVxWnV5bWxCY1dRc3hnVjdFUVpqNHRnWDBGVUMzYXViZ1ViVEVCR216YzNOZ0lDbXZHMGNnUW93?oc=5",
+      "title": "Creator of Anthropic's Claude Code wants you to stop micromanaging your AI - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWE9HZ3gzNnZRMTEyWkc5RXVRT0RWMjB4MHcxZDZzX0lzMHVGbi15cU5HQUFteFpwdXBGUGFDQ3JhbmhLbVZ6VkZPU1lHR01PVzJhV0RRVW52ODQ0R3JrOFFmMmVuRWpXNmJjaHNLV1Z1ckxqWU10LUxfbThhVFB6TFV4ZkN6N0t0SDZjSFZ5WVVoR0ZlYWRYZ0NiTXgxcnlvcHViNHFHalI?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Robostral Navigate: single-camera AI navigation mistral.ai"
+      "publishedAt": "2026-07-27",
+      "snippet": "Creator of Anthropic's Claude Code wants you to stop micromanaging your AI Business Insider"
     },
     {
-      "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time - BleepingComputer",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQc0lsel93dHhiN0d2bXEwZmpDTk50SDZYTGtiX2tYMUUtUHo4TnZOVW9EaWJDMkVmcHdZT1g4V2w1ZDdKcDJjYTdUYUt2aXVJTHNJY3NDQmFCRWpaaVNqbFZUaEczRUFVMWFDUEFWNE5hUF9uYy03em1ETlpTRDc1MFpnVU1xNl9ORE81WTdXT3Q3STJjeTA5NGNtSU1YSmNCNXc4Skt1SUhaR0EtVVBBd1llLS0xRXNGRlFQT0NCdWdTNUc5UXljS1k4X2o0R3JxTTRKdi1pY21TUEx3bEHSAeMBQVVfeXFMTWJiT3RadlJ4blVGTWhPMUc4T01EV3RENWUxZUFvd3lsdW5MbUlHQmNDR1Jrd20tejB3enZoZllUVnZVWmlkUVhCU3VLWTNSTU04SjZrOGNGanJfbjdYSGd2SE44X1dFUHJGaTJ5LXI2OGRzd2NVajhxQzRIMFVOc0YtOVNNMFdJODdidHQwY3VUaFRiQTN0dVJOYkJ1QjNseF9qZFVsbzFsSUludWhBNHg0V2hmSVQ2TUE5cTZGcnF4SGUycmltQ2RIYlJ5azZrS2IwUExqX1cyMWE2WVJNZWVCa3c?oc=5",
+      "title": "Impostor Chinese models pretend they're Claude - The Register",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbmFvcFg2VjlNTEFhQ1hiNVBNY0dCc0MxVHA1US1FT0ExVy1RZW1ONzU4S3A2M3RPVUZPdTNlRXl3eGFFbmU5bkF4RFVlTVZ5UnZReTBnaGQ1MUtWeUxQV3ZSUXZXSS1uMXZhbTJFSnRjd0wtRU93RjkyU0w1Q045VkRGWUE4VVl3ZEF0ek1QdlhMbW01R2hLWkNPQnNpSkRYU1lGMQ?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time BleepingComputer"
+      "publishedAt": "2026-07-27",
+      "snippet": "Impostor Chinese models pretend they're Claude The Register"
     },
     {
-      "title": "OpenAI Readies GPT-5.6 for Public Launch After Federal Testing - BankInfoSecurity",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ000VzlOQjdTM0xXY2RGaEJfWlRUb0F1NDJlbGxQSjJVN2dERF91eG1DQnN5LUxFVl9RSFpkZnFwdXctdktPNW5obGk3bnMyMEZleUs4MW9GUFJtRGIyNnVFcExwVmV1ak41M1FoU21fVjdsdkFINjFlanFiVTRFTHNrTVpNMTV4Qk45N3NNb2czcjJ2X0tNWmlQUWFLa0REU0ktXw?oc=5",
+      "title": "Anthropic Exec Shares How She Uses AI to Help Manage Her Team - Business Insider",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOEUyQS03Ry05NlF2Qll1VkJBVHRrOVlVbVE0UUVuREF5RFQ4ZjFpMm04cEZBcDRYT0ZGc1lBQlh2dGhwaEJreDVNSUllMGJqbnlwaXlXNS1xTk5rYlB5MVFkRUdMd3o2UVdrdFpjUUV5RDFyZERhY0hiWm5OQzBhb0V0YzROaU9Cbms5Mk1lX3ZrVzVJMWZ1VQ?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "OpenAI Readies GPT-5.6 for Public Launch After Federal Testing BankInfoSecurity"
+      "publishedAt": "2026-07-27",
+      "snippet": "Anthropic Exec Shares How She Uses AI to Help Manage Her Team Business Insider"
     },
     {
-      "title": "Anthropic extends Claude Fable 5 access through July 19 for paid subscribers - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSlluc2FzQnlQYjY1T0JLdnJ3MXFBQVhncy1kWEtoMkNmUkxMb19GTy1vd2thMGJROHBGRXEzaU84cGpKdDB4czQyblFTcnRmOEdDTGotN0l5RndUOElVdTQ1LW9wT05MODFhbTZtb0ZMQkEwSl81UWNRTEdFZFM1dDQtQ1RURFVwMXcxT3VERG5HZXRzLVVteWtWd0l2Ni1UX0M5d1I0dGlzLWM3X0F6VnNpbGNQc215Q2YzRlVB0gHDAUFVX3lxTE5MYXF1ZmYwdnA1c0hQeU5pSHlDY0pUTEVQTU1UWVdWb2tUY0daVkZRV2lrd05ZbTN4dEJPejBKQmZJbzJlYllBUWFkUmU1YTVrY01aczVObnhkS0hKYzZybkNFVHdabElTLWlwbk9PRmN6U2VyUDdpUkpSMTR0TTNlSkNMckJOc3B5d0ZhbVlCbTJKWmxZaHdmdkd6UXZvWkR2Wi1SamxBSmdTWEtvZkpPSGJjV0JXRzg3eGpMODFKNG9GTQ?oc=5",
+      "title": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run - Tom's Hardware",
+      "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQUXpwUEpYUTc0OHFCYVpwa182MWt5VFp1WTZfaVhGM2hnT1ctYTNuUDlYc2xqMGRmeElNRHJkWjBTNUNWUEQyR3l4WmN5dFc5ZjRSay03T2xVbDlGd1BDLVFCcUw1YUlWc3B1bE1TaGVxWnAxYUt6dXdlNGdaNkMxUnJmYzExdzBKbml5RElIcFlyQ29KOVVEdjcwYTRsakVBLTZ4c3oxdlZ6OWNieUt1ZExYekV1c2phWEk5SEpUWWVXekl0Q2ZwMGl2WTRfVkplSEx4YzFoZmlSemdHWFZ6bk9xNHhhTVVUd0hzQXRqeUM4cDFOQmZfSEd0NVduLVFiek5yVlJyVzN3SzQ2Z3B6eUR3UU9YbHFuQ2k4dDY1RDBoUTlzVHNWbjNmMkZ1UjBiUjlERWtpd3phN3NlUnFIME53Q1JzYW1CUU5FWDI5OW5OTnF2NFJJNHhFQkdHR0tmSGtrT1UtV01oMlcy?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Anthropic extends Claude Fable 5 access through July 19 for paid subscribers Firstpost"
+      "publishedAt": "2026-07-27",
+      "snippet": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run Tom's Hardw"
     },
     {
-      "title": "Musk and Altman Clash on X as Apple Sues OpenAI - The Tech Buzz",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORnA4OXNCSnl0d3JGSFcxVFVWazFKV2tROFVsekNIRWlrNk5pZXl4Q1A4RXEzYmJ3NUJNeVFucXpKc2h5eThOdkNmZ3NIbWgwTFRpZFJDLUgyajl6RmZvLVJwWmQwVVBnWEpOVnRfYnhLUjRWdVVQWUk0TzZ1Q3g3SUJzVWtJQTA?oc=5",
+      "title": "Cognizant Anthropic Partnership Advances Enterprise AI Integration - The Cryptonomist",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UQjhoVTczbTVSMVAxZ0FnRWw1aUlkNV9fQnVGRjQxUUp4OVp5OGNOZVRKTkRzWm1Lb1JPTkxRbUtGYVg5QzRCS0JoeUt5b01QSHRLaEhPWmEyUmczeS1YY2kxMTUzTGRaVF9qdUhGVkRDQVh2cG16Y3R3?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Musk and Altman Clash on X as Apple Sues OpenAI The Tech Buzz"
+      "publishedAt": "2026-07-27",
+      "snippet": "Cognizant Anthropic Partnership Advances Enterprise AI Integration The Cryptonomist"
     },
     {
-      "title": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWSXVOOHJfRzBkWDFFbTd1dFZrNXdtQ0RWSUQ2OHdKVk9wMEFkWkNYSTg1aVFoajAzYmtjQmdmd0p6NmVQd3dIMFhBRGNMdTlnVmx5eW9fN1FqZnhVQXpBRDBhdUpJSm05NElOaUNwUFNPSHI5Y3lTdlVXc9IBe0FVX3lxTFBWSXVOOHJfRzBkWDFFbTd1dFZrNXdtQ0RWSUQ2OHdKVk9wMEFkWkNYSTg1aVFoajAzYmtjQmdmd0p6NmVQd3dIMFhBRGNMdTlnVmx5eW9fN1FqZnhVQXpBRDBhdUpJSm05NElOaUNwUFNPSHI5Y3lTdlVXcw?oc=5",
+      "title": "Anthropic's Boris Cherny on Building Claude Code - StartupHub.ai",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONll5LXFwN2d1V3ptWVRZdjVvcGlPa2NycTFDYzYzLUEwTWdla1dMOWItSUx0Z3lRN2VSZXZySi1sYUpvWlZOUjJNT3NqTmF4Nm4xX0hmYmJZeWxPMDhMWmxiZHd5ZER0TlVobjN2RklFZzNNY3BhTlJBNUZBdVRpSVloZFdRcVFRNVRVWG9HbWg1WDhjN2FXY052SDY0TXRWVDBtTDlRczI0anBfOEF3eA?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit CNBC"
+      "publishedAt": "2026-07-27",
+      "snippet": "Anthropic's Boris Cherny on Building Claude Code StartupHub.ai"
     },
     {
-      "title": "Why AI models like Claude Fable and Mythos defy traditional export control frameworks - TyN Magazine",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRExPS1hzMnpLWDN0dnp2cEJZb0tqNDdKOHRNVkUtZk05eTR1Z0IyQk90ZzlIdjhxQUIwYkZtVHpIb1NYWEFJR1pjRWJaZGx6UGdHMG5oT0V0ekp5cjRqQXZXRzRlbzVJOThsNVRScHNuUnBaaERuT2Zoa1gzcGFfZmw4YnlwcmxqVlMtb3BvTTQtS1haUzdSeWhyWGV6NzhIaEJCamFHTjItaFE4RFZj?oc=5",
-      "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Why AI models like Claude Fable and Mythos defy traditional export control frameworks TyN Magazine"
+      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+      "source": "TechCrunch AI",
+      "publishedAt": "2026-07-27",
+      "snippet": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both."
     },
     {
-      "title": "Claude AI Performance Decline: User Complaints of Dumber Responses Addressed by Anthropic – It’s Not the Model That’s Underperforming - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WWF91REpXLUNPVUZfOXNISU81c0JYQW1pdG1lZ2hnVEVZOUpSMHI1TXlTUFl3OG1ySlNXTDM3V1hTZXlYeUlUS093czZmRVk4N2xZ?oc=5",
+      "title": "The AI giants’ new problem: open AI - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQX0t5UEZhbHNyTG84LW1obTh2VFFRNHlYRUNyQ0h4V3RFSnBzNTd4ZjFvYUIwenZKa0FnMER3ZVhWMGczdUwyTzk0VnMyMWxMcXo5anM5SC0wUktjNlBkNTZtb2JTcTI3dDRoamFqVWJIaG02NHpZeHNGdmtWZHc0VmdvNjRoRHIxWGxRTEhnZG9hdzYwTUdqX1E1MVJTdzNtV2ZDRDhxYTA5WkpETDJsMnFn?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Claude AI Performance Decline: User Complaints of Dumber Responses Addressed by Anthropic – It’s Not the Model That’s Underperforming 36 Kr"
+      "publishedAt": "2026-07-27",
+      "snippet": "The AI giants’ new problem: open AI The Verge"
     },
     {
-      "title": "US Ramps Up Frontier AI Security Controls: OpenAI and Anthropic Model Releases Now Subject to Government Review - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsYjdHSVIzdjIwaVZZREs4Y2lIME5GYlNSajgwVHVJbktXNktoSWlrdUZvd2twODI4dUVNTzI5SVZvRThGdnhRUXZ6dDY1dWNyVGtCNDc1ZlpuRl9rVGQyMUJXZ1lDbVBjTUw3YjFuRUJrencyaFE?oc=5",
+      "title": "Here’s How Microsoft’s Mistral Partnership Could Strengthen Azure’s AI Leadership - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdTFuWVM3V1hCNGw4eVIyYjVTcXBtODNhZVRqNUwyWl9Nb1dibXlHMzg3SW8xSG1yTkRJendUOFdmUnk5aEZ2LTlmWWdYOWV4YWNFZzdSc2xjVEZHZkZIbUZHWUtsVFp1cWhhRkt4Z25HNDJDRHItNGRQWVlSV29DSVU4ZlctV2hHd01PWnNXcGw4dVE3dmhYQ0E2QQ?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "US Ramps Up Frontier AI Security Controls: OpenAI and Anthropic Model Releases Now Subject to Government Review finance.biggo.com"
+      "publishedAt": "2026-07-27",
+      "snippet": "Here’s How Microsoft’s Mistral Partnership Could Strengthen Azure’s AI Leadership Yahoo Finance UK"
     },
     {
-      "title": "Mystery of Claude's \"Brain Fog\" Solved: Anthropic Admits It Accidentally Turned Down the Effort Dial, Not Model Degradation - finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwU1FrX2FEd1Y4OTAxbkJfWDZWTjdjeTJFMk9BV1c5U0g4RjF5a3dWbWJpY2NMVnJpVDZxNlduQXBsU0c3d21kMjIxV19KbU9QeW11UWlBamhnVzlxYUx6MmVqTjdRdFJpNGpCb2JNa2ZrZWVDTkE?oc=5",
+      "title": "Anthropic Updates Claude Voice Mode, Launches Opus 5 With Fewer Restrictions - AI Insider",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQjBrbmRfRFVhT3VuOUlpcXBaaFNORDQ2aWN1OHNmY1otdWlBcW5xRjEtdDBlaklQU1ozUmxoaVp0Zm1FbVpfSnFKaGxROTZ6UGhKRzFjdmR4VWJ3UXloenJKY182ODRMSUVMOTR3MExKM2c4b0ZhV1UtT3JRU3dncmsxeUtOVTBIckJwdEM2MUhzRkhISzZQeWJiTVc3Uk1fZXg1enZNV2p4M3BXVy1udGtqQQ?oc=5",
       "source": "Google News",
-      "publishedAt": "2026-07-12",
-      "snippet": "Mystery of Claude's \"Brain Fog\" Solved: Anthropic Admits It Accidentally Turned Down the Effort Dial, Not Model Degradation finance.biggo.com"
+      "publishedAt": "2026-07-27",
+      "snippet": "Anthropic Updates Claude Voice Mode, Launches Opus 5 With Fewer Restrictions AI Insider"
     }
   ],
-  "weekStart": "2026-07-05",
-  "weekEnd": "2026-07-12"
+  "weekStart": "2026-07-26",
+  "weekEnd": "2026-07-27"
 }
