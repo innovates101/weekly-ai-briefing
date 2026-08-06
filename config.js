@@ -61,8 +61,18 @@ const TRACKED_COMPANIES = [
   // AI vendors relevant to finance
   'OpenAI', 'Anthropic', 'Google DeepMind', 'Microsoft', 'Palantir',
   'Salesforce', 'ServiceNow', 'Bloomberg', 'Refinitiv', 'FactSet', 'amazon web services', 'huawei cloud', 'baidu cloud', 'mistral AI', 'Deepseek', 'Cohere', 'AI21 Labs', 'Hugging Face', 'qwen AI', 'xAI', 'liquid AI',
-  // Regulators
-  'FCA', 'SEC', 'OCC', 'Federal Reserve', 'Basel', 'EBA', 'CFPB',
+  // Regulators — US / EU / Global
+  'FCA', 'SEC', 'OCC', 'Federal Reserve', 'Basel', 'EBA', 'CFPB', 'ESMA', 'ECB',
+  'FSB', 'Financial Stability Board', 'Basel Committee',
+  // Regulators — APAC (priority region)
+  'MAS', 'Monetary Authority of Singapore',
+  'HKMA', 'Hong Kong Monetary Authority',
+  'APRA', 'Australian Prudential Regulation Authority',
+  'RBI', 'Reserve Bank of India',
+  'JFSA', 'Japan Financial Services Agency',
+  'OSFI', 'FSC Korea',
+  'RBNZ', 'Reserve Bank of New Zealand',
+  'Bank Negara', 'Bank Negara Malaysia',
 ];
 
 // ─── KEYWORDS ────────────────────────────────────────────────────────────────

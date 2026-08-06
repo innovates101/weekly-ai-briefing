@@ -105,6 +105,15 @@ const CATEGORY_DEFS = {
       '"AI agent" payments OR fintech',
       'autonomous AI finance regulator',
       'agentic AI "wealth management" OR "capital markets"',
+      // Regulatory — APAC
+      'MAS OR HKMA OR APRA AI regulation fintech 2026',
+      'site:mas.gov.sg AI',
+      'site:hkma.gov.hk AI',
+      'site:apra.gov.au AI',
+      // Regulatory — US / EU / Global
+      '"AI regulation" bank OCC OR "Federal Reserve" OR CFPB 2026',
+      '"AI regulation" EBA OR FCA OR "Basel Committee" 2026',
+      'FSB "artificial intelligence" financial stability 2026',
     ],
 
     googleNewsQueries: [
@@ -114,6 +123,14 @@ const CATEGORY_DEFS = {
       '"AI agent" insurance',
       '"AI agent" "asset management"',
       'financial institution AI agent automation',
+      // Regulatory — APAC
+      'MAS "artificial intelligence" fintech regulation',
+      'HKMA "artificial intelligence" banking guidance',
+      'APRA AI regulation financial services Australia',
+      // Regulatory — US / EU / Global
+      'OCC Federal Reserve AI banking regulation guidance',
+      'EBA FCA AI financial services regulation',
+      'FSB "financial stability board" AI report',
     ],
 
     scoreKeywords: [
@@ -121,6 +138,18 @@ const CATEGORY_DEFS = {
       'payments', 'regulator', 'asset management', 'wealth management',
       'capital markets', 'trading', 'compliance', 'kyc', 'aml',
       'jpmorgan', 'goldman', 'hsbc', 'barclays', 'morgan stanley',
+      // APAC regulatory bodies
+      'mas', 'monetary authority of singapore', 'hkma', 'hong kong monetary authority',
+      'apra', 'australian prudential', 'rbi', 'reserve bank of india',
+      'jfsa', 'financial services agency', 'fsc', 'osfi', 'hk monetary',
+      // US / EU / Global regulatory bodies
+      'occ', 'office of the comptroller', 'federal reserve', 'cfpb',
+      'eba', 'european banking authority', 'esma', 'ecb', 'fsb',
+      'financial stability board', 'basel committee', 'bcbs',
+      // Regulatory action types
+      'guidance', 'consultation', 'consultation paper', 'circular',
+      'policy', 'framework', 'regulatory', 'supervisory', 'suptech', 'regtech',
+      'monograph', 'information paper', 'thematic review',
     ],
   },
 
@@ -169,6 +198,23 @@ const STATIC_RSS_FEEDS = [
   { url: 'https://www.americanbanker.com/feed', label: 'American Banker' },
   // Note: FT and Bloomberg require subscriptions; their headlines are covered via
   // Google News RSS queries above.
+
+  // ── Regulatory feeds — APAC ──────────────────────────────────────────────────
+  // Priority region; include publications, circulars, and information papers.
+  { url: 'https://www.mas.gov.sg/rss/news.xml', label: 'MAS News' },
+  { url: 'https://www.mas.gov.sg/rss/publications.xml', label: 'MAS Publications' },
+  { url: 'https://www.hkma.gov.hk/rss/rss_en.xml', label: 'HKMA News' },
+  { url: 'https://www.apra.gov.au/sites/default/files/apra-media-releases.xml', label: 'APRA News' },
+
+  // ── Regulatory feeds — US ────────────────────────────────────────────────────
+  { url: 'https://www.occ.treas.gov/news-issuances/news-releases/rss-news.xml', label: 'OCC News' },
+  { url: 'https://www.federalreserve.gov/feeds/press_all.xml', label: 'Federal Reserve' },
+  { url: 'https://www.consumerfinance.gov/about-us/newsroom/feed/', label: 'CFPB News' },
+
+  // ── Regulatory feeds — EU / Global ───────────────────────────────────────────
+  { url: 'https://www.eba.europa.eu/eba-rss', label: 'EBA News' },
+  { url: 'https://www.fsb.org/feed/', label: 'FSB News' },
+  { url: 'https://www.bis.org/rss/index.xml', label: 'BIS' },
 ];
 
 // ─── TIMEOUT HELPERS ─────────────────────────────────────────────────────────
