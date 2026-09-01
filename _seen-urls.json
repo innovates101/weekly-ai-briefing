@@ -1,0 +1,536 @@
+{
+  "entries": [
+    {
+      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TOERFOFRjRzhoS2RTMjNfdlRPVUxhT2FDS19NdG91SnhRUzJsQXRlMXRXcklnV0g0ZUV0dHlxZmZGS1IzOUZVLU9LdjcwdDhPSHhOaXhPZXRwWU53eUpKd29idXFnZHR1?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lb2NUdUFWd2lvbFBPT0lSbmdzbkprZDZ5QWdQQ19uejZQUnlTc19JYnI2SGFsWHQ1MmUzaHRHd0RNbFo2UTMtdmFQQm4zeS1Pb3A3RlVNSzcxdEVERG9yQzV3?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUElRWlFZUFBwY2pTa1ppd2I2dEEzenpZREhjNEY2OE03YUh3MXB0UDVicEJqUmE1TndyeEhaTEFJZzZ5THQ0d0MtOVp4SkNKUF96LURpT3R5S1liMFQxX04tbXB4TEl3cVdoWTlSa2JQdElqNWpVYUM4Wk12ZWFsVDl5QUhTNkE0dWRqdjBVNmNuZ0x6OFFVbDByVm5QaFlPdlpxT3pRUGtqalE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUE9memkxLVZNLXVRWjUtdG1GQ0I1d0tGbExSU3lSWTJMclhWUktILXlLcGJuSmdlWm9oRHZJRkRheTBGMk9XeG0yVjNkYjY2LTB5aG1KRDI0X1RuVUxQaGtTRmxOX1h3T1p3ZjlVT204VWU0Q05ieWQtSVRLZzdCNVdiSmFBYXRndFk0MEtOQzhqN0xSb2c?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFdIc29JeGtKbmZBMmJBZzNLeVFqVUVOemV6NVAzeEdCY3dGSW41czZpaWNXTUlZampXclgxY1ZwRTBaUno4ZVNCSlZVQllKbUdwVXA3c0FuOWIyY2R5eEN0OGJwSlJpbm1pcHpGenVUR2xCenBvOENVV3UzUXN5T1o0SEN4WFNTaUhfb3FYWUV6TG8wTEN5aVJUWUxVbzFaYzB4QzItNzdhQTF2dTl4WHlSUQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkN0pvQ2JzVFpkakNSMDQ3dHZFT1FNTU80TVdYLUU0NHVITzFtYWM3OURQbWlHeUYwVG1lRUJSTDNib3ZFWWVWbHdXNGxaT2k2eEFR?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wdnM1OXh5UGx4VW15MnFGa1ItQ2NzWGw5Wm5FbDhoNGFDZ0hKTGpqVWxIQXJicVh4LTRZTHdYU2xhOXN6ejEwWmNwZVdUVFRI?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb0FKcGRiMF9HalR4a05LSklxaEtYMnVWNmVNdFh2eDhwZ2pST1U5VGpJenFpNnVxMUhBbjRYZkpUUmwxZmJnZ0ZzdU5fcERRVmljOUNQUWVsSm9PbU9UQTk4dE5DQTNiX0RsZnNJSWxXZklyQ3hSNWIxSkdjcXRBTkV1VlBZcnR1Mm1JSQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORHhGZTA3Nno1ZElNQzl6WnpENmhjOHVxZmtXTGNUUTRGS0h6aDREMmE0UHJjQkVULWpDU3hBdlp4RG5CTk9wVENiaWhvZzladUZ1MDQ0YTMwcjNITzdLM25EQVpEMDFsdnFfZjVzbnQ0OXJCc2xQRGNxNXBZNWhoVU5Xa2I?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMjZma1l3OWgwRi11VW5uTUVYdTVVd2JiWkt4UXRtM2FRVXRrdTBYN29mU05LaXkxR2tkNFZmX2xVZ29Mb3FVWjVWYlNEOTNIT2xla3dIaFNfa2NyY0xQYkJacTF2VkRSR0dmTzVMNk1JVEljbGp2SUZjWTZqRHhLTzEycmFBVHp3OUFGNjB3?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LZTNBVmlYMkZHcnk5RmNmcDhOSXpQNDVfdGJNQlpMUm4xWnIzZ0tjT09WTHdKb09jZVRtM3luWmNSZVZfZE1TNlFLZG45anJmUGFmaW1KUnFYMFpXdUR1N0stTQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNlVqU2JkbmJBcHJsamFnQzkwQUttZS1vWWJvWWVUT05uRFU1ZzZzdWg4bVpaY3o3R1NtRkxVT01KdDUtQUNIN2o5LWJGdnVzMXRnUV9tNzZFUkpLTXBQZnVyaFNRSnNGX2VEQmdxMkZMTEZHcjNtZWFBUWl6WDVFbERobkU1ajdySWRZQWNxbFZZVklKVXJKeVZsei16SDhxel8tRjJGVVdLTDJjUmxCQU9LdlEtSU16NFhpUG9qYw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/intuit-and-perplexity-team-on-ai-integrations/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.cmswire.com/customer-experience/cx-providers-set-the-pace-for-agentic-cx-this-fall/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qU1NxR01NZm4xVmNjZVB6T1NnZVlIYUk0YVhJYjIzOS1GM0czMmNObmRPZkdybHR0YXlJb0dON1VtNGY2NFo4WVF4R19xVXRKQy11MWFJYkVhS2VTZml2QVdXX2RWdzdOMFE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc0xKRVRfUllmbUY5X2Y3N0NhX3hxZUdZTUNrV0hPM2hjcG5JcmxOSEZzNF84WHNpQmlWYncyTFMtRmdMSl83ckVLNW4wRmFydnV6cWlxaFltS1hSUUhhdGZyenpLcWwzYWxGNFJZVzJVY1N3SVhfZi1vTlVjMS1fT0g1VnIzVkFsTHo4OA?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.cmswire.com/digital-experience/optimizely-debuts-rolebased-ai-teammates-for-marketers/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ZOUg5RjNXVHU0M19YX1pzX3NUclZVOE0wUF9jNHVxOFFsZ3lOUS0yTWN4bGplb2loeTg1RC11XzJHNDNMamJuWlBTTzR5eXhmS3JUSmIxb9IBXEFVX3lxTFAyR0g2emNDV3JUek96eXFGREdiZThwUllpMDZDdUE2dlJwU0JfODZ5bWk3akdpaEp6STBWckxSTWhoelg5YlpsbEJ4dDd2aEdXemtoOElCaU5ISXdx?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tTG1pa0k4SkhUY01QYXZoUVY0UnNlOVlwbTBzUERMbkN3eWpIUWZ1UkJIRHFVRUQzNXkzVHJCaDVJLWZHcTFWQVliTmV3bEtlTGUwSEdmVGRQVUcwS0tuM1N30gFnQVVfeXFMT3JEVmVfbTE1cThfMVphSWJaMVZQN3IzYmhjb19yeU1UckEwWkdQMEJJbC1wM2hDdmJpOUNfZjIyWmlEMEhGWEg5TjItUC1kOXNDcERJUkhkNnRZS0htMHRVRWVnaWIwdw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYTB0cTF2VzFndmV6LWEyZklWZy10RVN2dWRYZU5HcUh4NVI3YmxkME1mNkxpMmNzWWg2VXFqTGU3MmZpZV82a0oyRU15VUpoclhKRV9QemFUMU94T2ZjNTl5T1JvVXVYUXk4aXZjVkVsRWMwQUxSellBdXpRQ0pkVzF5MzNyc1pjOE1OTGpaX1RIbUw3dzBzeE5zT0Yxd21kVWpGZUlXLXRiaUswTWfSAbMBQVVfeXFMTkJkVlRHeXdMY2hlczhUcUFPdkV5dnhoc3B0dXdBX0RNTjBhVDdmeG1MQjJ1T05Fb1dsREdLVXc4eTRpY3N1LVg1d1NTUzBEN1ExeURvWDRPdmphWmRyWDBNblIxSHFQZXhMQVROLVp6MllOdlBPUFRfUWstNHp0VDAxUWFYc0doTXctY3hJWGhqb1lOeDZILU40Vkd1TjhqTklxa3JGZ3JpVDdtb1hTdnZuSFU?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdHNWX2pZcWl0TGNWV0JxRGtfR1c5ZU5rS3BBOGZ0WWpSeWdFd3dNTHdtTnRCdzN0MGYtU21QR3lvWlpxU3huS1ZyaFlzbmF3M2VvN3lreE9BUGJIV19keUhPRXMxb0RWQkdMU1JQRWVXYTd0Y2YyQ2ZGdDlQblVMN3FrY9IBgwFBVV95cUxNdHNWX2pZcWl0TGNWV0JxRGtfR1c5ZU5rS3BBOGZ0WWpSeWdFd3dNTHdtTnRCdzN0MGYtU21QR3lvWlpxU3huS1ZyaFlzbmF3M2VvN3lreE9BUGJIV19keUhPRXMxb0RWQkdMU1JQRWVXYTd0Y2YyQ2ZGdDlQblVMN3FrYw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://bankingjournal.aba.com/2026/09/survey-finds-many-bank-customers-use-gen-ai-but-dont-trust-it/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM1R2bHRZN2VTbFNnbUJNN3RFTTAyM3d5bUNRT211UFlfNVlNdGZrOFpqYXlDajNiRFE1UHM0cklON1laZDdBZVNBQnlVUHBFN2Q3bnVNTXpSelZZZkNjUG1tM1FSQmZDN3ZiVV94UlZjdVpwYWtPYXJ1Q0pmR0lZUnQwX3NXeDRvZGVxOFpraGIzUEU?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMnhEdkNwLVgtY21zUmNXOGJENDM5bXEzc3VUVFZjbkpjb3N3SDRkcTdMOTR1SzI0Y0pZZFB3cTJQTHlOY0hBQzFPS0tmb2NraFNIb2paUTdmVkxsNFkxSmw5bVlvSWhYOFZlZTB4dm9YVF9hd2hzc3lZZEJzQUdJNngzZXg0VlZ0ZmxKTnprSk5nX2k2TDRoRG5xVlNBemVMV2ZHUlBfUFRpU2JHS1l3VFlaTzJDWlBCZS1udkJUeDBQTzAxUGgzTFV4U296RUMxM1lXU1hITQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMm5FY25LbVB1SjJ0Y2RWZEpZcTVYQWF4YVNlcC1kOVBXMnVPa1hPeldmXzBDN2VzSWQwNkswQm9HVkE1czMxZ3o4RV9EMGQ1eU9vaHE0Mlp0TnBzRlJPYkoyMTctbE10QVZLWkVoRV9sb2RfRU1OQzNpWXB3azFlS1BEa3ZLeVYzNGtqbGxZOUQ4cUxwZ3l5c092ZTVjMEw2cFE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPai1KYXBLUUxEUkh6LWN4MHJIS0hmdjBQVnU4XzlqRnhXSWNacUU3ZjNCb213TXhSaThLcnJCQnNndjUyV2lVMmROanh3LVVCYkRmX3RtQ3VtLVRWMGQ4eTE5WE81Y2FBRUlHeXp0eDB3Zi1sRHBDVzdCTVlvVG9YX0p4ZEM2SDRzV2s2UEhfVk92aHJ1?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZTRFNDZBX0RtemMwR0JPX1NKdVhzVm8zNWJhSllrblhBNnpCQjhYRWtrTlZTS0ozWFRyaGxmZ2VvX1RnNTVpMkVXcDh3c2V5OEVzME1YQU9zbF9YQklfeVUxOXBxMWF3eE02cE5nTTFLTjZfaUZGdmhxMzAtZXJLOGpVT2lRbzZNVnBudXYxbHBicHRDTDFRQ0ZnUTVSMEtlNGVqTjJJSEdoYzNzTTkyUS1sYmwzaml1S0tFVjhiODd4cHlCLWRtYTJsOVNnbVJWMUVlLW45dFREOUFpNDI1MjlqZDNFeVNIcy1ZSmZR?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcjh1a1NYN2RJcUVBQWFBSE1oYlRrbjl0TE9sSFBXQ19LV2lFZGtUOTNXSFZhYWdZN0Z1OEFZTDYtVl9tZ3Y5RHVDQWRQcmR4d2V1N1JfdnpYZVU3RlN1bGZOTFVZLWN3c0Z3VmRONXpjQzVkY1RKdUp5SjJueVd5X0xVMHNhMU55RTRsaGpLV2UycnFBMUVzSFJxbm1WUl9idG1qY1QxNHFOTEMyN3JneHZCQm1xWVVXTVE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaHludnN1OUhuTC1aV0I5RFJwbnlrWVZOYWU5aHh6dnQ4QXI3Nnk1bFdMNlpTbjRLempFVy1CLTZCSmU4MnB5c1NhRFBKNnRCTzZHZmw5MHZkMkk0N2VsbUxJOElUaHcwUUZRcXpubW85bTgtb2xTTThnR28xcl82c0NvdDgyaDZiZGlsQXhLZnhmcXZBNnY5ag?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONk1OVWhuaHBpUUJqZ2xUWF8yTjFfZF80VnpYOGVkNklOQnowZVA0RGd0X043R09XcVZyeVdvTi02bG11eU1TQ3RUWTlZVUpqMkVOMGpXVFU0cU5Hck0yNVEydlQ0aEREWThmcXVYTlNPZWFMTUxyN1kzY3pBS0RzRWV5WEl5cTFDb2lfWmV0bEFFQzAtOWV3SkpCWmpLTXN4R0MtR09FV3I5S1FMVzBhSDVwX0s5UWxnd1dGQnBWRzN2SWZyU05RX3hKb3hxZFFndlVMeFhqS2xyMHctQnp3TjRTT1hlZDhVcnpLTg?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZ1VmSmlHZnVuV080RTZHZ2kzWnRxZC1BSXVvdHFMSHhGV21sSlVkbTBOQWZsZ0xaQ0FvOXBVUDhCc01OWXYwMEU3NFdFTTB6ZmY1emlzNmZjQjhvbEtlbWE5RXQ1ZkcyVVRaWC0xV09WcDRzelRNTGJ2MzdFeEVKQVpQUQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1NVpXWUFBbmhZVkhfdFlvYU96X0F6d3Z6QzB3aGRDb0thUHJaU25IanJuckJrUVBBd0pzMmRwaHRMZTNtcUlZQzdHZkFIM0lVckpHa1JNYmFaMTZpMFlySXQtN3A0dVpmX0I1RjZRVWRPV3NHcWFz?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://9to5mac.com/2026/08/31/codex-report-four-months-of-building-joy-on-my-mac-with-chatgpt/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.macrumors.com/2026/08/31/apple-openai-lawsuit-trade-secret-theft-evidence/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://9to5mac.com/2026/08/31/apple-openai-forensic-macbook-evidence/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.cnet.com/tech/services-and-software/the-year-of-the-claw-openclaw-rolls-out-new-version-of-its-viral-ai-agent/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://calnewport.com/are-we-at-war-with-ai-agent-civilizations/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.entrepreneur.com/leadership/ai-is-rewriting-every-job-5-steps-to-design-a-workforce/504673",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.lukew.com/ff/entry.asp?2159",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://thenextweb.com/news/meta-project-ot-ai-native-layoffs-cancelled",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93SEpCdUxYV3ktd1BlTGRsR3dSNENKaGVzY1JVVjZEVURTd29JREtiVlFEQ3Y4U1p6d0pJdFUtV2dXMVVNRDEtazlscWFESUd3QnBROFZacVlpcktYSlk0aElic2p1NEVy?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.searchenginejournal.com/googles-mueller-shares-their-experience-with-markdown-for-ai-seo/587671/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.techradar.com/pro/the-three-forces-reshaping-the-future-of-enterprise-saas",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOFptbnNyUWowWC1YbERYb2w0WERJaVVSSzcxTktGV1VrNHhXTGtKdGlnTE9hZ2FMT3lvTkVBSU5XX0ZCOVZIbC16akc3aXhpQjdWREZnZ1dsTFdKWkk0cE9xZk9Rbk80bDlRMnRabjlhQ1RpaUEwSVkwWG80S3ZLVHRCMlpQVlZYcnZKR2lFSnpjNGlhV2pmdGpiZWlvTjJHSmRUaVoxV1RMZnBucWhKUnp2WlZ5dW9PR041ZVEtU2s1UF96SXQzS1BoRQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://thenextweb.com/news/openai-outcome-based-pricing-enterprise",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdHduUFdXTHRfUnh6N2I5X2pFTVhhTG1HMWVmMVRUZHg2Y0V4X096YXhXWnAtTkpNX3Vvd2VtYncxcGJFaWFjTmZPQlFlMTJITWtjbEtTY3NaUUF0SThpQ1ZHMGc3cTlvSFk0Mlhrd045RjF1bEo2dVc1TEhOOGNlU2JJVEdta25JWTUwVUhZQ2JQODRodW9nNWhQMUp3aHN6?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa19nWU84SzVJS2c3bnJhdkxRR3FyTmhWUjF5blBYWnFEdGg2WnFWcUlRM2xscG1ycXYzNkJidF9xQ2VCbjJIWDZGa3hiVkp0cVlUcDV3VTlJel8xcjI3d1pmendXVlV4UGFiZzY5R3p1NVNUY2hkemNDX0FmM2I2MGFQR2xiVlBFaFpjbnA3amhKeTFqdGRNQUdTSQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://thenextweb.com/news/fsb-ai-cyber-risk-financial-stability",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XdmhaMjZ2UUJjWlNyd3R3elJELUhkS1lVd2RQREp1VUU1cHN5X2Q2TVFGNGYwZTY4RnEtekJJS1lXaHNjbFQwUUR0cENkNm82TGdiZHdXcHhmdXVpa0lUalp2Zms3Y2wwM1R2UHZpbTlDbGxaVThCY0VtcF9UMnc?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.businessinsider.com/vibe-coding-ai-helped-revive-singapore-tech-scene-2026-8#article",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JTml1SlhlMjFwQVRRTUpTc0lOWnJzTEhySUw3SjR0YkY5ZEhKemxQUHMzeHBBMFRpc0hYSzNSb0dtdnA4aEQxWk12T2pKaVdJd0RzaTFRQnVzNXhxNGpFSWxuVEVnV0dhM00zdFFB?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZR3hSMUpGMEhFSG1RSDAwZ01FclFzdEdtMHFCS1VEX0RNOUY4VFc3RG0wMUV0cGF5OXZtSU9GVVR6QWFtWE4wMGZ4T1FtOS1mNVNRWHlrNzdld25Zd2laZ095Q1hNaFVwVVU0bnZ0SUszRVdYaGc?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQnoxUWMxNVdwMzBabExaM3o2UkRpdUhQQTdWVnBIM2dGQlNCQUdFMkZGWlhmZnQ5YlVRc1AtMkYtb3A2cEU2TF90dW9sZGhHaDFqS2RCWk02SWV6bjJOa3NUaFFiRkd5TDJjYm9sTm1BYndQRFl1Zkc3eFNYMVRwdkh5Y1VIam1mUUZZ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY2gza0ljNlNZTjl4aXJwWmUwWUtRX2FPOW1WbThPejlKRGJQWVI2eUI2dE13YzlGTm5BYnZqaXdjWkRLMFZOd3ZtbHdDNmZaQlZCdkV6R25MejdiY0prYmkzUnN0bWpzcDdJbl96ZWVDNkVoek5BZGktdzM1U2FGVXZZS1VPUnYtNVlhcWtucUFsUlA3TDBDS3NlUmg2czktNWc?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM213c0QwNUlMQzYzWWFmYWdia0s0WmxxaDNrYzJDRlhiVHZVOFhlaUtvZ1EwY3ZZcldsXzZfcUtGU0ZKTk9hRFhJRTg1ZHpPNC1LdVpKNWJCYVg3TXdxZjNHQkpuTEJRLWZ5ckNvNkNFa1VsS2hZdm5yLUpUVU1zSkN4MS0yVzA4?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVWRzbDFPazc1OFAwc3M0MzVjMmx6cV9QcjZTTjNpSks3VzQ1Uld1V2hxOGJNZHRaVGd5SUdPek84U0JEWlQ1bDl5U2NiUWg5elRYcDdQT0N2YlRVbGl6RTF0TzBEeFdXNmpWQk53UzMzc3lBclRERVRNcUtCclJJUE13LUU5Q1lkZ29iOXN0TUFsR0pJY0ZF?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbDhqRUYtNnkwX0xZd0VOX21ScmREeEVPNkY5YllkbG01NmtoNlkwQS05QmxVdUtvVGxUVEU0bTdoVEZkMDMzWHZMN0UyTmh2TVc2YlRfMW9rM1Z5Q2cyNTZBVVNZZXlsams0dTViZ0ViRFNzWmpHU05iQWFfSTdqTGtrNUxISE04ZU54T3dacF9IdkpZclNTWnQwMTkyMnBQZFFfY3JMTTg1Nm5nMnM0SmNDby00Q080N1dnSlRYaUN6UjQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQVlJN3JnU2dXWnhsVHF6REg2X2xVblJOZ2tNT2NTSVFMUXpRM3IyWGtaUG14SlpDdDZOOWhoQmY4SlJhWG5ndW5TT2RjNGs5Q3U1MGRwWVpKV1BERkZrRXEtNnF4dkpwZEJSRk8zSjZ5dXdtY3NnSEZGRE11cWlLRmFvN3BaeDJTWDZsX2hxcHlkalpYTU9iVk9fTFdqUG5VbzVqVEgwUUNyNWk4SEx6OTdXZlo4U2ttRDVtbWJLVEZVRHFZa3ExUnFySQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTEJMNThLbnRBLWRoRlBnUnI0bmZ1WlVLLS0ydzhpUUVWYUZQbUtYM3I2eGRRWXhwM2kyNVdTREFQeHpxWjNJR2ZUYk5mQkFMOG5idkt3VDVvUC03bFE2UjhlRENaNTRBMnc5M0xQUHA3c0RfV2lMSTk3bzBKbDNGdHZ0MUJZSk1WODllLTBiRTdYZndGbTJ3?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUFYyVldJRVcySmZYdG8zTml4V1RRS0p4bWp6SkE3V1I4dVFUMlg1LWVPWjJ4SFdQUFNtZUc5LU5yaDFUVjJEWEFJVnNGWnZTYjNqa3pVNGdFci1QVDh2V0pieVlTaWI5emxBa1BzNGk1MHAyNHFMckNHdVg1dDNjVFB2QXhmZzl3ZnZQQ09ZRU1YX2hlLUhUM2VDckFrMTB6d2RfREFiT3FUcnFaVGVnb2pmbFFrM18yRDBfbVpzOVZFcDRRWlNTaEJxZjloR2tf?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnJxNnk3UEFUS1BwdWxsSkQ1MnhpSmZ1UkdscEJERVEwN3VnbGtWaFM5VGozcFNRWUN4TzJzQ0toTkRtLXRUaFlpSzdXcnlSNzY1emI5NGVoamh4d0dZR2RJZHNaVjBKZ284QkN1ZV9zcS1nbHM5aDhtQ3loVlFvVTJuV1V2WFo4em04RTNlRkdwQTR3ZDNwLWpsV1g3Y29RcWNONnlKNA?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVpGSE5BbjNsX0dYRXhJVVQ0dTZRTG1wYWh6TkEyNDZHaGFLQXJCblRjRmRjdkVYZGhieVVSVzZlZzFDR2F1cnBESG8tZXZ3NlROU05Zd2xySmJrTWFXZWNzMmI2aTVDQU9JejFlck5IXzk1cXZ5TkhmSU16LVRsWWZDSENLTlpiNXpmRVhZOF8wT1VXZTJySGFoOUdJMVljeExqbHp0LXBudw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUVJpYWFWTkhVY2tocjVHMlRmbzlJT2U0NWJGOGtmOGJmc0x5LUdNbERFdUhONDNVc0NjcHZZMjdiOVlzNVNLT1dXRlctMUk1Y3FOQ01FUmhCbWFlWWJmV2ktZG5KNUQwRkplQ3FUY1dfS2RaSHhycXBjTDZMbVVNZjQtU01MdnJxaDFaRkJJcWN5NWZxQ3pYMGZmd2Ita2E1enZrUnFSNm9VQXRaemc5MUlvS2JWelFOUTJ1Q19xSVhFTjZzZUd4Z3B4X0xDbnBEV29QR3lDXzd2N19Eb2gzSmVrVVNLdlBhUnhnQ9IB8gFBVV95cUxORWRpa1VqQkVGWWsyYzMwWWhSdUF6Zm9rdWpEb28yU2JSQklrSGR3SXNhbEtyak56Tm9UVU5oY2xRYXBMUnZjU2xIcG11VUdQN1R0UUwwX3dDWkJ1Y19jT2k0T05SWjl4bjRoM0UtV0J3ZXBEVGhnS0pJelhZTmpMQ1pzbnJidDN5MTV6aDNzVUhuV3pzbXJvRnB1TTZkZXgtVG5iT3J5OURZUF9tcmpvYUV6cHlrekZIb3VLdFJuYVdGcFdoZkFkc0RJUzZ4RVYtdzg4bzJJRmo1MDREYU9sVElMOVVzN1A4bFdGV2ZEbU90QQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOGE0ODdCbUgwUDZPZFBicTFVUFUyRTVCZEtSWi0zRDdtMzFadW9HOTc4THdVRndrX19Ec01CR0xER3pTSkdHSV9kcGNvMEcwWllpcTBqdzZjTGc3NmZWTExDU2tEejBKaWlLbVNUYl8zZ0h6a2R6VE5RYVBXM2FpeG9ObHRTdW9GZUcyZHlkZy1RNjNVaTVtMEY3blE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XVkhISmZOMUx2VV9iblFmYlJERjA5c3RQNzNhUjFvZFl4V1J2S1RDdkdpTG5UNEN3WkNJYV9rWDJjaVpmbzBTbEFST1FjeVVE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRnp1eXc3c2lFVmFzbDZLb3p6aU5JN0lqS2F6SDROdGhyVWV4VU1zOHotLXNmQkhxUUNvbHFicUZxcnBYTzBETkdKZ0ViMUlUS2paTkY5TmZZSzcwM29KRE44UWRIcU5CMldPRUR6U3o1R3RxSlRhQW95VHNqYnYyMjNoY2RuZDV3VjV6NmVEQzg0N1B6bEhvSDM4d0ZOUmxjV2owcmZRdm5mUEVNMG9WT0xxYw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVDd4bFMzMm1oeFc0Slp0S1ZKMVZEd2Z6azJMTFRqTFl0S056WE51dWk5OTRUYWFsWE5nZVVORXprR2pub3JiRmRUQ3hlc1l2SFVpVlprdGFDX2JpV1RBZGJlLTZ4NEhITTJIU1M1bTJubWhYVV8wWURteG5sejU3OXkzYkVjLUs0aEFwR1NUbFZHbjhhN3FrcF9UbE5Gb3hCRkNLek96NWE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbWRGZ3NRQTlaVXU0UkZvam1GWHV5NG5YT1VKMHNkc1RvUUF2cW5pbXVDVFdDWmdpaU1VeVVHQXRlVkU3LXM3M1pndHhZMDRkYXdpTTZfSDA2bEFhSkxiTmFKc3VkdzV5QVlFZUlLTFg0dlUyOHdRUkdreU1IcXI2OFdYS1dfVzM3RFcyeTBKRTQ4aHlWZXNjODFoM3J1aHEwVHliX25QbzBVNENQalFkZ1dDMlVzZ29yM2JWcTBSTlZZYlNPdVFLVGlMYWRBeUxh0gHQAUFVX3lxTE1tZEZnc1FBOVpVdTRSRm9qbUZYdXk0blhPVUowc2RzVG9RQXZxbmltdUNUV0NaZ2lpTVV5VUdBdGVWRTctczczWmd0eFkwNGRhd2lNNl9IMDZsQWFKTGJOYUpzdWR3NXlBWUVlSUtMWDR2VTI4d1FSR2t5TUhxcjY4V1hLV19XMzdEVzJ5MEpFNDhoeVZlc2M4MWgzcnVocTBUeWJfblBvMFU0Q1BqUWRnV0MyVXNnb3IzYlZxMFJOVlliU091UUtUaUxhZEF5TGE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1Y5WkRlZmp3V0V5d2FoNlBYS3dMRC00cG8xay1Bck1sb3NTTk0waDNCRUJCWDhFWkMxRmVzenJfcnJNZW9pRlltNWdZeFNicExVcjhvQ3p4ZFpfeXJjaTRUVXNuaGI5S3R2SDdhMzBqeVI1SURzYmpJZndJTnhHaEhCZzBTakxCRkllRkl1ZVc3dEFweFo3MzQ5bHVJaE1NUnBBQ19BSQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdV9CRjZaSzlsTi1rYmdhQzJ1S0F4ejFOLVhvajZBbjh2VDc3NTFCazh5ci1ESW1iTGJXbzRGZzVLdmtOM1FIazNJNlVLVUdZd1lKZmsyTVprR1d3ZEJ0YWNYQndYeGVGclZxZEFzVWxXR3dyOGh6dG9RWWFDUzBKTDR6UTdJSGZmNE84N2tQSGxENU9vN1MxbXFjbkcyVEpIVEUwY011elNUVUFzVm5yMGZxbF9xVWla?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43bmJ1em1mUk9FdkRMWnJfR1Z3aVJxMG55dUhxUFdkZ2N1d2V6S2dDTm03ZFJoc0N3VTNRc1Qxc0xsaEFPQ3R6c3g1ZGpQNTFyTlRnXzNIQlVpOGdrUUhza1dR0gFqQVVfeXFMTWIyNlU4Y0JxcEdxUVhfR0s5S053Y2RWR1p4eWUtNmg3WDNpc3N5c1hkaFR4aVZCOGRhY0lPM2EtZEhSbDVDNDF3MUhkdVplTF85TkltSFZrYUN4Vy1UMUVHcEQ0dnBSQVdwUQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT1FxdTl5aGl0YVA4YlQ2ekR4c1djUXh0cDRjYXZScTE0Q2tQNjNWbXB2T0pvam9YMzZxUnE0Z1NZRUFlMm4zMGpVNUFKbllkeGxmcUJLUDNtcnNzckVWVWNZcmJCVHZoRVdGTkYxQU5GRFgxejJnaHR3aTlkcVJ5ankyWHlaUlhGa3NPVjJsYzkzSHBiUFNxcWs4Q1J6NkstcldySU1icVoxal9fQ3pKb3lOWTVUM1pnSkNrYlNjcDhjOUR3QjU0RUR0ak1CcmJYRjJyT3FlV24zUQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQkNtc0lTSnpCdDB6Vy1ZWWFya0pLZl9raE9FQ0h4OXhvVkxET0YzTEdieGVhbmtWUnZxTWlPYUQ0YXl5ZFBEaktrdklmcUZFTnRZZ01KSWp5V2l4NWJGTi11QkVSLXdrVWZHNnVhYUZOSGJYV1FYbEhvb1ExNktJZUlCdFREdU4tSDlIUGFPLU1xVjQxSHRpOWZ0RHhicGU4ZGlYcTd4OV85Nm94a18zWFFGbmN6OXBEUkEwNHRSYXhRSS1oNkJwV3hsZzdyVk81OWRaaEVIMVRCUmQ4Wkh0U2RhOTdwSk54ZGJaRXlSRkZBSDB1RTJtQ3FqVU1PdjltUk80?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43b1NrRXdQblJQVXRXUE9wb1VmejFybTRmTEJObDdoX0FoMXB4WHZIYnBsclU2dWxtd2tOUmJTVVR4M01pSEJ6MmtqLW1Ga1YyNHVMMHRhdWw0a3FDNzhMWEFBZkxwYkhSWUVv?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zWVpsbEM4NFFQdXhMRS1FUzhqQjdQZ1M1bmtFd1Nac0JjN2ZQbHFVTVRENGxkS0hUazBEN3dUbTRTdm5BdWRrbXVQaUtsZ1lULU10QzhUNWVLNVhJSE1xWkN3OElrVjNDZkhfOFRvTEpxZw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNWVBelhGemJPT1RDQVRpbFA3MEV5ZXJLTXlJUTNMWGtKOWZvMlNRM1lfM2d2SjJwWTFSSFdoU1RmaVNHaTFtU3o1NC1NMS1ENkdocnQwOEtTXzBmUTh1OTV4X3hwRVcwSkZOWXU3WnNxODFLZjZ0S29takMxaGRiemhhRHZ5QVVFcmlpSUkzUF9mR2ZDQjhFYThn?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXE2RUI1aDVMdnhNc2NhWl9kRDJrMFpRd0lFVGtpbThvMlJ6T3Myc3hacmE4eFhDRUVZazh5RkFMdWJMcV9sUlAtTjVoZkZPcHpsOGlCV1NoZE9DdEEzOXBwSVY1X1Itb3IzMUlMVFFObTZlUnV1bTdVTC12NWJVUVZvV3ZTdHp3VVJGX0tHSnUyUWpG?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUQwdFFySGIxY0F3aFFFX0RVaG5lS09UeDZ6WkpiZ0NIOUE1RzFZczlrQS0xalY3bFBXRVZhQy15SjVUdWNqeHBMT2dZOXR0dWJPTzhqT0hXSkhCcXRZMnhhNDFtRjNWV0pBeXBmdzdfNjZqM284WlBkNjFZenJnT0xZcTY2cXFUR2FmLUt0cmJZTzdsSVVueGJBUQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkcVVPMGQtbVV6Mm9JNGxwN0RVR2VLMEZOcC1pN0tPZEdpekYzR1B0ZWpvWEpPUC1LY1pYamxsclZwTko0TTFpenBNQVZoWmJ6MnhLclVpYmxVY05HQm9ya0hQcWlRN0YyVWxNakFB0gFzQVVfeXFMT1VZRkJMTFhpYUZQVGVVdHdHTlRrbzVMQ09ETmpVUFh0MGY0bzBKdlBWU19Ral9wdFZkalowamlqenVuaHcwREpSQ2NDWWVjbS1jT2tJdzlLUmpYSFlCMkJWMkhjdGZsR0REMzdCOUxQdkh0QQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU3g1eFNCNGd1ZlFka19DSDl3Y0pfdDJudFFfaTZzdHkySlB6WDhvMTlPbkVCLXVWMDdqYjNCWGk5UGEwTGZ4MTBNUkFBdTFfVndrbzY0bHN3VzhzWEV2N1RPYml2ZnAyOE5mQ3JPSWdhb0NFWFg3WGdoVnNEZmRlMEEtTTdtWlpuaHdGVk9tUGhoTEx6V2NsUnRlazFkZE1idlBCMmRyam9MWS05aTJDUTdhWUZINVE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVGFjc2FGWHhOeE9TaEJnVXhGYTl4cEZQVzNKTTNWcmVueTB4eWNTVTI1X0luZnd5cFRiQThjRk9nYXh2TmRybTFNb2o1SjhBWnJlN3dOQTFLZkJNeVowUkFNQWdGMWJ0aExWSWhaUFdHa19sa3dLSmIyc2dkdDZ5Vl9zWUtFYjl4dlotUUpYOHRXSUt4RWc?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX2NkZ0xuNmRleEQ3blIzcGk0V1RMVWZpalNXWEdfTWJEVzVzTXpNM0txcG96S0xsX0U5d3pYbndYYldJQ0JMX2lvQ29OUjRra0xYalBGek1iT2p3ekFLUThGYkduV0J6RDhWZlpjbUFabUcxZVAyaHFwWW82UWFBaVBxMl83WkdSeVJuSVpqUnMxLXJtWE5LQkxlS3dGQmJzVWpxcEpYWE5WRkxyRGtTMGVzbXVhVkpMZ3A1U2k1bURoSXJVdy10X1pwbFhidGk0UEhV?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNWdPTmsyNk0wT0x5UlBwajdfT1M5eDNBTTMwcEhQakJBSGpseTRVMm1fSnVKQWZ0eGJhUEFFcTczelB4aWlpWDlzeGtKU3J3M1lCUlFKdTloZWYxeXNpZXlwZXBtS3lZeml6WDFPZXVzYmdMVllGYVNaYWRFa00tdEdnZ20yaTZqVWJPWklNeWlUOUVPVzVlWVR4Y1RuZmk4Z3lwd0tUQmxSa290STY1MtIBvgFBVV95cUxOSUd3U0JwUXV5VGU4dXg1QzJFai1GMHc2dUxONXpLaG5HNDhzOTh0MnYyVkd1QnZCY3VHNGNLQ0FFTVpqVjMyWWN5c0o5am5IY1dneW84Q0ZSNWJEQlltTWh6M2JfdmF5ZEstOFNSdGV3LXVodGdGaE1faEpOMnJRMmdia0xoaGR5WDFTa0tndWFZMkgxY3JYMWZYV0MyRmk4THpLcmh1bExYemZCNFZMMDkxUTVCSW5nREpzWDR3?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX1N2T2V4NHVtVC1nS1pwV29SU1lxQ1l0eVNzNVhHYndCR3VtM09hMlJsQW1nSHQ3aHV4MURNVzFHeGhnMHNjdm9wNUFsWTM0c3BFcDBCR0NFcVpUd0o2R2MxbXBIc1J6cU13N0wxSjhZdGVVMU5UOVhUNkNiRXl5aUY3T1hTN0JlNmEtMF9RX3gyS2tH?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtVDFZelZ0Skh6d1VCaFpLdHUtZE1mWUxSOW5oRWpaSjV4MWZZd3BJRVA3V0xhNmctSGNzYTJxNzNnOFgteFVjZ09SVEVaSkVxNVZvbndiMk4zZ1E?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sV01tRm5FMHVMTGZmWEJmUnpTTVVJTFY2WFVDZVVzend5S2ppQjQ4bm9SbWNkTzd5V3c2dGZNdHo3Z2k2UzUzNnMxdUNYZXppS2dOZmdma3RCelVmTVpPdnlESVB1R0w2dEpDV2tmWWx2R09qZWpSVjMtTFFvZw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9xNHJJS0xib0FURnMySm15UEQ5SXJsOGNmbUZIOU1RYWlXWU9PTy14TDdxODltdGpubXduVnJJRnhjcU1ZYlNMZEl0dG8zbFFORVJqR0JxWDFNRVgxVFBvcjByRnRKcVV1TUZrNE9PdEplNkpv?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQc3k5WFBVWUpCaHBGNjFjLWNXNFptQTRCdkROZ3VMUWNMaTA2c19LWmRha3hzTWFsd0ZHT2F0cWowTlN2SWZ4d0dlOXAzRkFYYjQ4N05YS1pvNEsxcENBRlk2Y25lblNTRGl5UWN4SjlLWjltbERUZ0NpUnBNdlVjcXBid19UUmJBWTA2ZnVROFdWWkQtYnNIOU5YLTM1cmpuMVVzSDh4akt0NlpIZkZNeWpDMlRZbmhXNkhOQnNaR0JDYkNVa2M4ODlNV1pWeDNNN3JkZmVweWZyR2E2cXZNbtIB5gFBVV95cUxPS3Zpb0x5Mmgzc21aNzZjNUJXX2lraHh6S1RDakdkempYMk41dEdsZjBZclNqT2dFUGloZzAxR0RmXzdHay01OEI5WTI5MFI3MFBNNTdCRUxXbFhLcVlDX2hvcG1xNlZJV1R6Q2ZNUlFjc1ktclFWa2JzYjNkc1ZyQ0Fkb1dHcEdjSlVmWFlNU2t4RlVKcmhGdWIwYWM1c1pxenZpeWhwNGlrM1prYTdnM09hRnlXbkRVX1lRX3M1N25ScmdQMHBfWWhBaWNYZkhxNkxqUDBmLVp0QThKTGVPWDZmZlFOdw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1EN0p2OVdwbWUwalZIVzZRS1hsQVdsWU1mTUZiUGNSRmR6b1ZyM2JJamdZN292UUl5TWM0TG51V1JhRXhsVmZNWGNwcFVCX1M0VUlmSW0tcTIwSDVaVGVsc0owTUhyX1dHeWtsZF9rZW04UdIBd0FVX3lxTFBCdmxDU0s4TFcta1V2dnY0bS1LWkJSSzVYVGJSeGh3bUxsNWFpWm1FcG95QUhMT1pvYlJWRDZMMk9aS2xnQ1pzbVdoLTV6M2FQTXZSMU53YUx1VTVGdTJGVE1qTGljSGhIWGloNnE3SWlJUlRCa1FB?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUHJMTElxVkhwS21kSTJQMmM5TGVmekNsOUNUVFd5RU5mcGd2aWw3M3dqbzJCMzh2cTE3NndBckttcWZ0aVh4cmtTZHpVUktEMU53bjJBUkIzQXBPSGNkWENlNTlZMmNtYW1zUWNOV0QxR1poaUF3NU9zMHViMF9NR0FKc0Fqc2RtSnBpNzFKMXdTcHlJSzBUeWRGVTloU2YtZmxKUEtOLTFrdGc?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMkRZOXBrYnZLRUEwZ21hTkQ5UVhZdEtrMFN4RDdRZGtSSjhTZW5Pb3Q4dlNjNFhhU2xzS2FlUGVYVGF0QWhmckxXcFpRb19IVlBlQnFlRTBicXVUVHkzS1FoRGJjX3Y2VkJiQ3NFdnZGNkI4b2NlY3Z3VXJfVllQeU43am5qVmNoY0JyQ1ZBano?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9idHRHUy1WUXA5bDVUWkdFbUd1RWtTdktwMm40UHRjRnZneFA3SW5fUmdEdm04d3hIQ3FCR09iR25za2dxZXJtdTg0RzJ6SnoyVWJQaXFaMTVaM3ZnQmJXNjhaWmlIUm5MUTZwMExPNFc0M056UmZUaGJNZVRmbEk?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE45M3E1d3NTYVBvcklJMDViXzVNamt2LWlLUENZeGVFTUNoeFlwZWJmMTZHOEN2WjhESnlqMUcwem4xQ3VkZ21qN3FMZHZZR3VVOFBlUUFidVVQaE1GSnkzWWtjMlJPamV1Y05MOU9HSXZTZw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1FjSV9WRm9pZkxPcEVpSmZqZHBmYTZZOXYxd3JKVnprcm85Qjk3THdKWUJKcWtWeXVQcEotNkQ3NVo4c0x4UG9JV3ItNDgxVS1PalFTbjFnZG5qS2Z2bnI4am1jX2hjdEhxclQzczBTdHlFM0NWVS1zazN0TkZMdGZrQ282U0RHOTA0ZjNvc1ktNmVOX2F3UDYxWmFmQmlqTnRDbTBERXJwdw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM29vWkp0TnUzSHhSZENaZW9zanNmdV8waTdYRl84QjFPcXFoN0swM1JRNjMwaHRhSnd3NjFmcjVBekloNFduVE9pU0Rpb09WMkc5Qm9XcDkyX1dRMnlwR1FpV0lLSDJWWXR6aUNaaDM3SVNBZ3o0OWZ3WlBReXJVZDhoek9JYTJYNHpiWG14U1AyWWVKTXQyUXhKZkczY3hRVzdSVFFuZHY?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRci02TmFla1dvUmtNS1pCU3BkVmNzN1lUN2FBcExJNG5hYjhEMjU1VmhzTDFuTkkyLUlIVFd2MzRXb1d4bk94dkprMnQtT3FqQXdISXVqamtRSGtXeDN5X1hvc1JGeHNUcFBRd1JxLS0xbW80Rmc?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMnR1OWJjWk40WUQ0bzBUTDlZc0pjcW1NME9uNDRYRE1lWHIyOXlBbjhfZWNTelFUZktRblNZZlIzM3VTR0JyMVZkSEVJM0tNeGdzSnE4N0gyVkRWV0JjZDF0ek5ZSmZyUktxRmZHTWx1cTc2YWdiVVJwU3dzX21FYXN0YktpSi1BZEZxQ0NrM09SUnlSRDRYWkxfZmM1YnppNm5OZmd5LXJCdTBrdFE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tamFUdnR2TEJQUFA1ZFBBeWpyWkxJbzZ0OWt5bkZ3b0hvcEF1aXpLbVZmdkQxSVJlNFAxS25yRm5NVDIteHhRTkYza2NETWFCRGhlTDdNajZhcWt2RkgxRUxZZkN1TDNYTC1NSmdXM3hrVTZSYjA4?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LWY0NEplRlIyRFlGZENXb0VQc0ZNb3BuSjlZeTB3OWdqWEh5eEFxbzJMa0hFTkhrYy03NjZ5MGdsMnNKbHJsXzVpVENSb014eXdXaEkzOXFHWUVRa1U3TXhpVWZCb0FJaHFqWTJhLW9JbGtYWGc?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://pypi.org/project/benchtrace/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSEEwZ0hFRUd1TmY1QkxIYWQyT3VnbGFmWWducmU2cXY5WjJLdG5GYVF2TFQ4QnlMVFlwUS15cU1oZG5YcVRXZVNUNEd6aUhuTzg0Y1lJcl9qcUxybWpobUtRUFh2X2NsQzhGMHVoX3lBS0ZNLVItQ1pOMzdoRnV3N3hwd0Jya0VteVHSAY8BQVVfeXFMTllvNG1UTlRkZldHNFRTWGJabTNxZTQ5dVNWSlAtazFLbDZDY2dpbDh3ZmV3eWpzZ2tZYTBGaGFuNVI1bUNvTnFJVVBGbGtrVzVHMlF3bVE3ckllbERpWk9zRW1yREpRMlVHX2FKa09GNzdYVXRzcHRxdW9UWjdLVGU3NFk1R2MwdkVzTnZWTnM?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://cryptobriefing.com/chatgpt-suicidal-thoughts-stanford-study/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV3RFb04ybUZPVEQzbVM5M0ZjMHozb2NLV21VTHR0dktuMkw1R0xGVExuOU9iR3QxY0pzZFRsTm15NmxERnZ0NTdyamE1dDVXaTlVRkp4NlhTUndlYzhTQ2JRcTZaRmliaUtSX0dIekY2NHhudlQybnF0anNsa3ZCbU1SclVrTzFMd0FMc09sejVjRTA1MVhOZw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://github.com/laconiq-ai/tekmyra",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://gizmodo.com/meet-the-google-exec-trying-to-convince-a-skeptical-gaming-industry-to-love-ai-2000804493",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c99dym3prl1o",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://dailycaller.com/2026/08/31/andrew-bailey-advanced-ai-models-hacking-finance",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://4sysops.com/archives/claude-code-compliance-api-exposes-local-agent-sessions-to-enterprise-security-teams/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSU5sZmdGcnZpMzc1MWk4cUhrcmRqRGFVajk4UHZ4QkZUVElEUjVjTVNvZ2dLNHFhVEhSSGJQQ0J1WmlldVJ6eU5jMXhFLVZTWmxZd1l1MFh0Q1NxQ0NnY3dQOTlqUE92Z214SVhVM3BYSlBtd01HQ1hfT19lbHk4cEVzQjRYcnlZSGNibTZHRjNJUGli?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM29UQlpGaGxuX1lzY3RLWkV0R3NRSVZtd0ZFNy12T1MxQTFHUk8zUllIaVVnVWp6d0hFU3djVjhPT3VzUEpzQnlST0RUbDNlTkJfdFhUX0FTQ045RkgzdGdhb1Q3YWZfNFMyZVRvRGt1MGNUNEYyWDlNR1dNWkNodllxWE5nQUdL?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fsb-warns-frontier-ai-could-threaten-global-financial-stability/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://github.com/Hebbian-Robotics/hflow",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.defenseone.com/technology/2026/08/us-military-chatgpt/415719/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQld2RWtFcDZKTFdOekJMY2NCclRFeWJnN1I0NUVrZHBzUXY4Z2t5Z2FZdEZmTmQtTkg2REtlWVZhcVhYSTViNG4zZzlzOVlPa09vVXVkV1g4ZWNScWNwdzllVm5ndUgzQzBjcUdJdTFGWndWcUp1aFY3MTNzVWY2YVN5M1dYRFpQbG9hLWZINlo1bHVqamxLN1VYWHJPREJQMEE?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://drive.starcio.com/2026/08/ai-bubble-bursting-cios-should-prepare/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/08/foundry-model-router-regions/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1laUFUUktoNDdGODFiM29LdUJLZjNiWWVneGhfQ3hqYWNwQWFXNzROM2hDRUgtZ0pxaktlME9zMXZYZTZWb2t1UkZRd3REQUFnYjdnN0wzTTBIejI4UFFGZ1NWcW15SGFiUDVQUnloS1hkRDgwTkE3MnNUeWQ?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://forkast.news/cisa-adds-linux-kernel-jfrog-artifactory-cves-to-kev-after-openai-agent-exploitation/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://thenextweb.com/news/meta-anthropic-10bn-spending-projection",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://pypi.org/project/soul-engine-mcp/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://github.com/777genius/agent-teams-ai#installation",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdGJ2SkhMQnE2ZzIwckUyUERLS21YaFNVMS02LUt5ZUFjSllhdmRUZVVBN0daWGFmc01nS21EZTdFa2NiWVJId1BEY3BWZ3lxbU5TSDlMQlB3NDNlSGppNDlfcHZfRlI5SkJUS3FmNkVZUzFzSkJYdHoyMGNrY0ZWcm9mVUwtSHlmMi1WLUJ6TnNhSXRnZm5RSF9yaw?oc=5",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://researchbuzz.me/2026/08/30/lux-claridge-water-usage-noise-pollution-more-researchbuzz-ai-update-august-30-2026/",
+      "seenAt": "2026-09-01"
+    },
+    {
+      "url": "https://freesystems.substack.com/p/the-political-economy-of-agent-swarms",
+      "seenAt": "2026-09-01"
+    }
+  ]
+}
