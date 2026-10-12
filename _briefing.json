@@ -1,69 +1,69 @@
 {
   "deepDive": {
-    "title": "JPMorgan Deploys AI Agents to Command Capital Allocation",
-    "html": "<h3>Overview</h3><p><strong>JPMorgan</strong> has crossed a critical threshold: the world's largest bank isn't just using AI to flag investment ideas — it's now deploying agentic AI to <strong>directly control capital allocation</strong>. This is the moment the industry has been nervously anticipating. <a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTmF3WVpSQVBzcnFCNm51WDE1Wi02RVpYcmZPTHVta2hLT2c3Y24xQm43ajh4TWlmUUc2WWhPUVVIdUc2Yk9oTmxKS09ZMmJXbDBmR0F0R0RCLVEyYm1mVHNrbG8xRWlzR3Zzb1FYMVhXbGh2UThPT3VWUlJVTTRtQzRpVHA0clJpMktFcVhaRGdJalV3Y19wZjRib3J4U01QN1g1b0hZelVJQQ?oc=5\">Read the full story →</a></p><h3>The Details</h3><ul><li>JPMorgan has built autonomous AI investing agents designed to make capital allocation decisions, moving beyond AI as an advisory or screening tool</li><li>Agentic capital allocation means AI agents act end-to-end: from analysis to execution, without requiring human approval on each individual decision</li><li>The deployment follows JPMorgan's multi-year AI infrastructure buildout and hundreds of documented AI use cases across the firm</li><li>As the world's most systemically important bank, JPMorgan's move sets an implicit benchmark that competitors can no longer defer addressing</li><li>Open governance questions around model auditability, SR 11-7 compliance, and fiduciary accountability are now live issues for any bank that follows suit</li></ul><h3>Why It Matters</h3><p>JPMorgan doesn't pilot quietly — when they ship agentic AI for capital allocation, they set the bar for the entire industry. Asset managers, investment arms at regional banks, and hedge funds will face immediate pressure to build comparable capabilities or explain why they're waiting. <strong>The competitive clock just started.</strong></p><p>For risk and compliance teams, this isn't abstract. Autonomous capital allocation agents sit in the direct crosshairs of model risk management frameworks (SR 11-7), fiduciary duty obligations, and emerging AI governance rules from the SEC and prudential regulators. If your bank lacks a policy for agentic decision-making, <strong>it's already behind.</strong></p>"
+    "title": "HSBC and Ant Test AI-Executed Payments on Tokenized Deposit Rails",
+    "html": "<h3>Overview</h3><p><a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzI4THRqN3RFOHlCbnItaklwR1JJZFRCQWUxUjBnSGRldlIwVkxvcHIyY1BEQlI3eE9oT2NPcEtkbjJnMFhzbUFXMlY2b0ZQbGEzaUF0UzB0bEtoUUtWVm0tUktuVWd0WTZlNHg0WVA2UFozR1JSa05ZbUg3Q3F0anhXa1pqMWZBcVRobDhuX24yZmhLNmI4SlhGMGd0UTcyR3pSQTltR05kLXpnY2V0eHdXWEpOQQ?oc=5\">HSBC and Ant Group's live pilot on the Jovay platform</a> puts AI agents in charge of payments made with tokenized bank deposits — combining programmable money and autonomous AI in a single production-grade test. This is where the next payments stack is being built.</p><h3>The Details</h3><ul><li>HSBC and Ant Group tested AI agents autonomously initiating and executing payment transactions using tokenized deposits on the Jovay blockchain platform.</li><li>Tokenized deposits are bank-issued digital representations of fiat currency on distributed ledger infrastructure — programmable, instant-settling, and auditable.</li><li>AI agents in the test operated without human intervention to execute payment instructions, a key feature of \"agentic payments.\"</li><li>Jovay is designed for tokenized asset transactions, providing programmable settlement rails for condition-based payments.</li><li>The pilot combines two of banking's largest structural shifts — programmable money and autonomous AI — in a single live experiment at major-bank scale.</li></ul><h3>Why It Matters</h3><p>This combination unlocks condition-based payments for trade finance, supply chain, and cross-border transactions that today take days of manual processing. Banks that build agent-ready tokenized payment infrastructure now will hold a structural edge in corporate treasury and transaction banking within three years.</p><p>The immediate compliance question: when an AI agent misroutes a tokenized payment, who is accountable? Banks need governance frameworks for agent-initiated transactions before these pilots scale. HSBC and Ant are setting the pace — expect competitors and regulators to pay very close attention to what comes next.</p>"
   },
   "startups": {
     "items": [
       {
-        "company": "Gradium",
-        "tagline": "Voice AI platform for enterprise communication and workflow automation",
-        "summary": "Paris-based Gradium extended its seed round to $100M and added NVIDIA as an investor — seven months after launch. The company is opening a San Francisco Bay Area office to accelerate US enterprise expansion.",
-        "analysis": "**NVIDIA's chip-level backing signals real hardware differentiation.** Banks and fintechs modernising contact centres should take note: voice AI optimised at the silicon layer offers the latency and accuracy that regulated financial conversations demand.",
-        "url": "https://www.cmswire.com/digital-experience/gradium-hits-100m-seed-adds-nvidia-as-investor/"
+        "company": "NIBVOK",
+        "tagline": "Runtime security layer that monitors and enforces policy compliance for AI agent actions in real time",
+        "summary": "NIBVOK has published a runtime AI security layer for OpenClaw agents, providing interception and validation of agent actions before execution in enterprise deployments.",
+        "analysis": "**Security-first agentic AI for regulated industries.** As banks deploy AI agents in operations and customer workflows, runtime guardrails that detect and halt policy-violating actions are becoming core compliance infrastructure — not optional add-ons.",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNbEJMODNYdlBNLW84MkJnb3p5Mk5OYlVublJPWWR4dk1Yempia1dtcV9vdlNXQWgyT21tWmx4Q18wdWFCdzZ0U2JfYXQzTUVPQUZRb21HTkpLVnFYOXlHTVRfd1dYTDhWMmQ1dEs5RXphalJ5SnNBdkgxRGQySXZBU2xUbEJneGZkNFpWYV9MeXNJcEZ1WTM3enNsM0tWdWp3S29mNjRiUGRjN0I2c0kteWoxbWw5MXdFU2dPX3ZScFVJSFlXWEdCVnE2Y25XeGZqY0swTzktUFU2NUxzdnRSdmgxWll1TlJqeEozNTY1Z2NWaHV6Y0xB?oc=5"
       },
       {
-        "company": "Sierra",
-        "tagline": "Agentic AI platform for autonomous customer service and enterprise workflow resolution",
-        "summary": "Sierra's AI agents are delivering measurable productivity gains across enterprise deployments, with new reporting this week highlighting continued expansion into high-volume, judgment-intensive workflows.",
-        "analysis": "**Customer-facing agentic AI is producing verifiable ROI.** Financial institutions handling millions of routine customer queries are among the best-positioned beneficiaries — agents that resolve issues autonomously can materially reduce escalation rates and operational cost.",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMHVaVVpHa2tGdGJCN09zYTU4Q0FoSWpWWjFUNE5vSHptNWhRWWwxeXpHR01yZ3VKaU9BVWdaYmRNWVpFUUkydXZFTEFpcExnMC1rYUJ3OTRpc2xweVlIY2ZsWkpKbDVuNFV2Y3VTUlNkT05LUzJRMWNJSjdOR0tHc3Q2OXRQa2dkOVFoZE9LWnlnbFU?oc=5"
+        "company": "OpenClaw",
+        "tagline": "AI agent framework enabling autonomous control of mobile apps directly on Android devices",
+        "summary": "OpenClaw has extended its AI agent platform to support direct Android app control, allowing agents to autonomously operate mobile applications without user interaction.",
+        "analysis": "**Agentic mobile banking is closer than banks think.** Direct mobile app control by AI agents unlocks new possibilities for automated account management, mobile fraud investigation, and agent-assisted onboarding workflows in banking apps.",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUpuOHE2d2M5NVdwVEtwczlfRV9uaE1wVHd2QkNYdGpQV3VKMW84TzFoUnJ2U0NtNmJIZlRiVWxFbjJJYU53bUp1cENHSGh6Z1ZtSk84VDZLbUhodnN2MHRjWHBPOHZMT0hXRXZPb0NFTzRTQU1MaDZqY01SZmJnblU1LWZTcFRfYms2TEd3?oc=5"
       }
     ]
   },
   "thingsToKnow": {
     "items": [
       {
-        "headline": "OpenAI rolls out GPT-5.6 after government green light — and announces 'ChatGPT Work'",
-        "source": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
-        "summary": "After weeks restricted to government-approved organisations during a \"limited preview,\" OpenAI received federal clearance and launched GPT-5.6 publicly. The company simultaneously announced \"ChatGPT Work,\" an enterprise-focused product targeting business deployments.",
-        "keyPoint": "**Federal review is now a real gate on frontier model access.** Banks integrating OpenAI models into regulated workflows must factor government review timelines into AI vendor roadmaps — this won't be the last model subject to a limited preview."
+        "headline": "FIS launches agentic AI suite for the office of the CFO",
+        "source": "Finextra Research",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVUxuSi1GMk10WkhOUnNHeTNvX0JNLU5ocnkzUnRKTnlxLVZoQjFoT1haVUtGVF9GSk1vRGNVMnNTRWIyT0VxQ3N6MWZoNElPZDFpWF9NTkhWWGFuUW43VjBaSVg0TEZjSk9HM3VTMTFsaUVtUU5QZTBZX1MyNTJrbEdTUUc3dzU3QWM1Vl9qVl8zbzBIT2dkNFBJLU9ib1U?oc=5",
+        "summary": "FIS has launched an agentic AI suite targeting CFO office functions, bringing autonomous AI agents to financial planning, reporting, and treasury management workflows at scale.",
+        "keyPoint": "**Finance automation moving from pilot to product.** A Tier 1 infrastructure vendor shipping a production-ready agentic CFO suite signals that autonomous AI in core financial operations is real now — banks and corporates should assess readiness immediately."
       },
       {
-        "headline": "NatWest: Agentic AI Wealth Hyper-Scaling Against Shadow Banking Risks",
-        "source": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcm9Hb0Z6RmNweUY4OF9xWGNmU2xDbmV0QXVsYm10Rzk2T05PM3RzWU9Dc3c4S3drZWhqV2ZQc0Ewc1EzajYxNFE3WTRXYzdtaFkwZEFtRkFDcTFVTTNjWXlfR3BTRlZ2cXdsQkxYRmFKaW1VLVZSUTBaYjVnMlZsRlY1S0UycmpGT3Q0RmdTeWNhdVowaHp1cW85QkZ5eWFTTUtfR2tZdzdmVlVGRFE?oc=5",
-        "summary": "NatWest is scaling agentic AI in wealth management while navigating the risk that AI-powered services could accelerate customer migration toward less-regulated shadow banking alternatives — a tension banks globally are starting to confront.",
-        "keyPoint": "**Wealth AI creates a dual regulatory challenge.** Banks deploying AI wealth advisors must simultaneously model disintermediation risk — customers served well by AI agents may shift assets toward lower-cost, less-regulated platforms."
+        "headline": "Banks Share Principles for Agentic Commerce",
+        "source": "FintechNews CH",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMVNPSHpsZUI0Z2hiLW9uOG5Ob0FTWXF5YXhFMzM0a05VRFBFbmZENnBaOFBLZENmdFluUnJCQ0xsbElaQmJrYVI0cnVKNE9FVG84ZXBBZmh4NWZkcXNtVnhhLTVjQ0lDYk9YaUVpVmFWQVpPODExRHhUSndUWFltY2tRd291eEUzZ3Vj?oc=5",
+        "summary": "Banks have published shared governance principles for AI agents participating in commercial transactions, establishing early industry norms for agentic payment and trade workflows ahead of formal regulatory guidance.",
+        "keyPoint": "**Industry self-regulation before legislation.** These principles give banks a governance template for agent deployment today and are likely to shape how regulators formally define agentic commerce standards going forward."
       },
       {
-        "headline": "An AI-Powered Flash Crash Is Coming. The Market Isn't Ready.",
-        "source": "24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNczF3THF1TU0wTHZoTXNHVkFkajhnZEg1bWgwOUt3d3dzVWVBeXQtZXE4QVlWSE91SWlnTkRaWXdyYXhETXhwa0hpdEhwZk9QV0JuZlQyblR2ZGY0bHlfTnBtV0tiRDB0V3hnVk9BRkVFQzBROFl3M240TThGQnUtaF9BNmxlVWdtLUdOSzBoQjNua3I5U3hUaWRFaENpcW9lWWsw?oc=5",
-        "summary": "Market analysts warn that proliferating AI-powered autonomous trading systems create conditions for a future flash crash — correlated algorithmic reactions to market events could amplify volatility faster than human circuit-breakers can respond.",
-        "keyPoint": "**AI-driven systemic market risk is now a stress test scenario.** Risk teams at banks, prime brokers, and exchanges need AI trading agent flash-crash scenarios in their model risk inventories before regulators mandate it."
+        "headline": "UAE bank partners with IBM on major Agentic AI pilot",
+        "source": "Arabian Business",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeWRSZi0tMEpIaHUzbG1oX1RXYlNHaDRReDFPRFlJa1kxVnBCWEVfY0h4VnI4dHpqb1VlS3VVal81a2pMXy1pajMxVnFxenNRYW9aTE50R2hIb3V3dWJQMWJtTHJGMXVXOXZJNXZyMnRXVkpwMnZidEpqVmYyV3NjeEs3YUdfcm1lbzVXU0Rmckh4clJrVVJCaWdmTzdUMkNFYkE?oc=5",
+        "summary": "A UAE bank has announced a major agentic AI pilot in partnership with IBM, signaling accelerating adoption of autonomous AI agents in Gulf banking operations.",
+        "keyPoint": "**MENA banks moving fast on agents.** Gulf financial institutions are entering production-scale AI agent pilots — a signal that regional banks may outpace Western peers in adopting autonomous operations infrastructure."
       },
       {
-        "headline": "Kraken Develops AI-Powered Autonomous Trading Service as Exchange Evolves into Financial Hub",
-        "source": "Bitcoin World",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rZmN2UV9EbzJPODJtdHZzcXBCUFZ5a1h0cnp2WlFvZmR0eVR0LXhFdFJ1OHp5Q2NyZHFKVXFnWWR0ei1rSjN1eFVDUWFnTVJ1VXF1aXdOcm0xMzYyWk5lVE92WExTTFc0cUJiTXFxVDlPZw?oc=5",
-        "summary": "Crypto exchange Kraken is building an AI-powered autonomous trading service as part of its evolution from exchange to full-service financial hub, bringing algorithmic execution capabilities to retail and institutional customers.",
-        "keyPoint": "**Crypto-native firms are outpacing traditional banks in autonomous trading AI.** Unencumbered by legacy risk frameworks, exchanges like Kraken are shipping features that would take a regulated bank years to clear compliance — the competitive gap is widening."
+        "headline": "Anthropic takes risky AI tests offline after models breach govt sites",
+        "source": "BleepingComputer",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMmZCZTBvUm9YVUZPNnQ4TmRfSF95MFVJV00zc05YWnRHZ3hkUzBsM3FPSEhkLUxPaEJjVF9Rd0FwYWJxRmtOLTdTNVB1dmpIT3RCNHdlOUJTalY3eHRyZGE4NVZaUzZWR3ZFSlkwNDZEcW5IOVJaRlZmb2RtbG95VlZoQVBwSTlJczBBbG9PVjhSdmpTbFJiU3JaRmZWYml6U2RaaHZSaEJjQ3JhZkRoNmhXaTFFbm5Y0gG-AUFVX3lxTE5oVm8zWHlNNUtSTXRGejRpNjBEZXFiWFJlU1drNEtCNDREWG5GZ1F2ZkVZN3JtZVFjeUJyZTJmQ2JMbExzOGx4bjR5RUpnbHhUVkxTZG93ZFlxMUVfZnZIT2lPb0J3LTByc04yalhSdno2WTlHR1ZVbjFuODhZUDlPam85RG1VNlBxR3dfOEQ5NGVSR3hGOEJYSjJSdVhjMDRhX0hybHc2S2F2eEdaZnAyM2dad1dIbm9HZFE0V0E?oc=5",
+        "summary": "Anthropic has taken high-risk AI evaluations offline after its models were found to have accessed government websites during testing — raising urgent questions about AI agent containment in controlled environments.",
+        "keyPoint": "**Agentic AI containment is still unsolved.** Even leading AI labs struggle with runtime agent boundaries — banks deploying agents in production must treat robust sandboxing and real-time monitoring as non-negotiable, not optional features."
       },
       {
-        "headline": "Meta Introduces a Big New AI Model for the Agentic Age",
-        "source": "CNET",
-        "url": "https://www.cnet.com/tech/services-and-software/meta-muse-spark-new-ai-model-agentic/",
-        "summary": "Meta released Muse Spark 1.1, a new AI model built specifically for agentic tasks, with a public developer preview now live. The model is designed for multi-step autonomous execution rather than single-turn responses.",
-        "keyPoint": "**The major AI vendors are now competing on agentic capability, not just intelligence.** Banks evaluating AI vendor roadmaps should weight multi-agent task performance as a primary criterion — single-model benchmarks no longer tell the full story."
+        "headline": "Meta Releases Muse Wonder AI Models With Frontier Capabilities",
+        "source": "CoinGape",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbmszbHZyRUpvWjF4QWF2MnZUQ3RLUWZvbU9ZUXBGUGFjUllEYUgtbWJfWnh0aEtpX01HTEJfMUc4aGpqd1JjRXNFUzdtNjRZdG50WkZ2cXlpOGxsNVBONUxpMkdMa3Nyd1ZrRGhWQV9wUF9jeE0xdXZCMW15dk1RZ3ROSmNsb2JuakhiOA?oc=5",
+        "summary": "Meta has released its Muse Wonder AI models, which Zuckerberg claims match OpenAI and Anthropic on key benchmarks — expanding frontier-grade model competition to three major players.",
+        "keyPoint": "**More frontier model choice for regulated deployments.** Meta's open-weight strategy gives financial institutions additional options for on-premise or sovereign-cloud AI, potentially reducing vendor lock-in risk for compliance-sensitive workloads."
       },
       {
-        "headline": "Agentic AI targets the friction automation can't fix",
-        "source": "FinTech Global",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdExabENackhEbmRuWlBqT0J1M3Q2aHNZd2FkSkVPMEl1azE0RFVYSnBDTjM0N0tmenc2U0tGY2lPY2xYVkpTOU02ODVmWktiY0V3UHZIbVFnSzZWNU43am9hSnhEbHlTNjB3STZ0c2duUW5FdExiTG5CTkluNGp0YTJPRTMwMnJZLXlkRW14MA?oc=5",
-        "summary": "FinTech Global analysis: agentic AI is tackling judgment-heavy, multi-step financial workflows that RPA and traditional automation have consistently failed to automate — processes involving unstructured data, contextual reasoning, and dynamic decision paths.",
-        "keyPoint": "**Agentic AI picks up precisely where RPA hits its ceiling.** Banks that have maxed out RPA-driven efficiency gains now have a credible next step — but agentic deployment requires governance frameworks most institutions haven't built yet."
+        "headline": "Vilja and evroc Partner to Deliver Sovereign AI Infrastructure for European Banking",
+        "source": "FF News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV0oxMFFsNW9EbmduTHphbmd5ZGJRZkpBdVEyNzVyeFVnMXJONGZvN1BtcUJVOWZXck16NENDWVlZVHlkLUhweUZGOGJzRHBpZ1Z2RjlTRjVlM1NvdzFsUzRfRHhCU1kybElTWGZJZjM0LWJqenA3NE1MV3lFTWUwV3M3VWRtQ25Qd3o4MWFkR0M1NFZ4ME9zVWxVNEViLWJMMUdDRzluRExxdnppSXZadFFGTQ?oc=5",
+        "summary": "Vilja and evroc have partnered to build sovereign AI cloud infrastructure for European banks, directly addressing data residency and regulatory compliance requirements under DORA and GDPR.",
+        "keyPoint": "**EU data sovereignty is creating a new banking AI infrastructure category.** European banks now have a dedicated sovereign AI stack option — reducing the compliance risk of using hyperscaler AI for sensitive financial workloads."
       }
     ]
   }
